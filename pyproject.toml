@@ -8,7 +8,9 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "termcolor (>=3.1.0,<4.0.0)"
+    "termcolor (>=3.1.0,<4.0.0)",
+    "gdown (>=5.2.0,<6.0.0)",
+    "discord-py (>=2.6.0,<3.0.0)"
 ]
 
 
