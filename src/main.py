@@ -44,7 +44,7 @@ discord_process.join()
 
 
 # Debug output
-i = 30
+i = 50
 while i > 0:
     log(clr("  !!!!!!    All processes have stopped    !!!!!!  ", 'red', attrs=["reverse", "blink"]))
     i = i - 1
