@@ -1,5 +1,6 @@
 import web_validation.web_installer as installer
 import java_management.run_jar as jar
+import discord_bot.bot_initialization as bot
 import multiprocessing
 
 import os
@@ -30,15 +31,16 @@ installer.installAllResources()
 log("Initializing Server Process")
 server_process = multiprocessing.Process(target=jar.runJar, args=("/server", "/server.jar"))
 log("Initializing Discord Process")
-log(clr("DISCORD NOT YET IMPLEMENTED", 'red'))
+discord_process = multiprocessing.Process(target=bot.initializeBot)
 
 # Start up processes
 log("Starting Server Process")
 server_process.start()
+discord_process.start()
 
 # Check if processes have finished
 server_process.join()
-
+discord_process.join()
 
 
 # Debug output
