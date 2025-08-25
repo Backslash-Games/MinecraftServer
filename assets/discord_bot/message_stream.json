@@ -1,0 +1,7 @@
+{
+    "queued": false,
+    "message": "# Command Help\n## Command Updating\n```Used to update commands on the backend.```\n### Arguments\n- [>0] **update**: Reloads '/assets/discord_bot/commands.json'\n## Command Modifications Help Page\n```Used to create and modify commands. Arguments with '>' are required... Arguments with '~' are optional```\n### Arguments\n- [>0] **-m**: Enables modify mode\n- [>1] **\\<name\\>**: Command name\n- [~2] **\\<target\\>**: Command aspect to be modified. Options include... **-d [dir] | -f [file (default)]**\n- [~3] **\\<source\\>**: Command type to be modified. Options include... **-j [json (default)] | -m [manual] | -s [script]**\n- [~4] **\\<modify-mode\\>**: Method of modification. Options include... **~~-c [create]~~ | -v [view (default)] | ~~-e [edit]~~ | ~~-r [replace]~~ | ~~-d [destroy]~~**\n",
+    "args": [
+        "command"
+    ]
+}

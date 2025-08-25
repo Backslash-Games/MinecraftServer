@@ -1,0 +1,6 @@
+{
+  "keyword": "event",
+  "args": "[0]",
+  "directory": "/assets/scripts/commands/event.py",
+  "manual_directory": "/assets/discord_bot/manuals/event.md"
+}

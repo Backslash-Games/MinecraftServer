@@ -1,0 +1,20 @@
+{
+    "command": {
+        "keyword": "command",
+        "args": "[1, 2, 3, 4, 5]",
+        "directory": "/assets/scripts/commands/command_modification.py",
+        "manual_directory": "/assets/discord_bot/manuals/command.md"
+    },
+    "event": {
+        "keyword": "event",
+        "args": "[0]",
+        "directory": "/assets/scripts/commands/event.py",
+        "manual_directory": "/assets/discord_bot/manuals/event.md"
+    },
+    "help": {
+        "keyword": "help",
+        "args": "[0, 1]",
+        "directory": "/assets/scripts/commands/help.py",
+        "manual_directory": "/assets/discord_bot/manuals/help.md"
+    }
+}
