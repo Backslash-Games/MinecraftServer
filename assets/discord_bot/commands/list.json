@@ -1,0 +1,6 @@
+{
+  "keyword": "list",
+  "args": "[0]",
+  "directory": "/assets/scripts/commands/list.py",
+  "manual_directory": "/assets/discord_bot/manuals/list.md"
+}
