@@ -18,7 +18,7 @@ def getJsonList(path):
     for file in os.listdir(path):
         if '.json' in file:
             files.append(file)
-
+    files.sort()
     source.log(f"Found json list {clr(files, 'yellow')}")
     return files
 
