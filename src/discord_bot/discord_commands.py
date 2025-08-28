@@ -116,7 +116,8 @@ def processMessage(icon, content):
     source.start_divide("PROCESSING MESSAGE")
     # Split up message content
     source.log(f"Processing message with icon {clr(icon, 'green')} and content {clr(content, 'yellow')}")
-    content_data = content.split()
+    content_data = split(content)
+
     if len(content_data) <= 0:
         source.log(f"Could not process content_data... {content_data}")
         return False
@@ -126,3 +127,35 @@ def processMessage(icon, content):
 
     # Run command
     return runCommand(content_data)
+
+def split(content):
+    source.log(f"Splitting Content {content}")
+    default_data = content.split()
+
+    content_data = []
+
+    check_token = "||"
+    inside_token = False
+    temp_value = ""
+    # run hi ||tp 0 0 0|| hi
+    # Check for pipes
+    for value in default_data:
+        # If we find the check token in value, and we are outside, move inside the token
+        if check_token in value and not inside_token:
+            inside_token = True
+        # If we find the check token in value, and we are inside, move outside the token
+        elif check_token in value and inside_token:
+            inside_token = False
+            value = temp_value + value
+            temp_value = ""
+
+        # Add value to content data
+        if not inside_token:
+            value = value.replace("||", "")
+            content_data.append(value)
+        else:
+            temp_value += value + " "
+
+
+    source.log(f"Split content {content_data}")
+    return content_data

@@ -49,6 +49,7 @@ def runJar(dir, file_name):
 
 
     source.log(f"Stopping jar '{clr(jar_file, 'yellow')}'")
+    source.log_error("!!!!! JAVA FILE STOPPED !!!!!")
     return
 
 # Check if a jar exists

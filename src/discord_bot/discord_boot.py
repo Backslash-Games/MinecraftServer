@@ -95,6 +95,7 @@ def runBot():
     token = getToken()
     client.run(token)
     source.log("Client has logged out")
+    source.log_error("!!!!! BOT STOPPED !!!!!")
 
 
 

@@ -1,5 +1,7 @@
 {
     "queued": false,
     "message": "\u001b[31mkill process\u001b[0m",
-    "args": []
+    "args": [
+        "tp 0 0 0"
+    ]
 }

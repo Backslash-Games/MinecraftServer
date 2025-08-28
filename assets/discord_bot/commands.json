@@ -28,5 +28,11 @@
         "args": "[0]",
         "directory": "/assets/scripts/commands/list.py",
         "manual_directory": "/assets/discord_bot/manuals/list.md"
+    },
+    "run": {
+        "keyword": "run",
+        "args": "[1]",
+        "directory": "/assets/scripts/commands/run_command.py",
+        "manual_directory": "/assets/discord_bot/manuals/run.md"
     }
 }

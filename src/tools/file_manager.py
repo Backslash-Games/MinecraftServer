@@ -34,13 +34,23 @@ class FileManager:
     # If file exists return all information contained
     def readFile(self, path):
         if not self.exists(path):
-            self.source.log(clr(f"Could not complete readFile({path})", 'red'))
+            self.source.log_error(f"Could not complete readFile({path})")
             return ''
         with open(path, 'r') as file:
             return file.read()
 
     def writeFile(self, path, content):
         return
+
+    # Appends content to a file
+    def appendFile(self, path, content):
+        # Check if file exists
+        if not self.exists(path):
+            self.source.log(f"File at path '{clr(path, 'yellow')}' {clr("does not exist", 'red')}... Creating now")
+
+        # Open file
+        with open(path, 'a') as file:
+            file.write(content + "\n")
 
     # Check if file at path exists
     def exists(self, path):

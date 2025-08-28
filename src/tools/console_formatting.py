@@ -9,6 +9,7 @@ class Console:
     SOURCE_KEY = clr("[NO SOURCE]", "red")
     ASSET_PATH = os.getcwd() + "/assets"
     RUNTIME_LOG_FILEPATH = ASSET_PATH + "/runtime.log"
+    SUPPRESSED = False
 
     def __init__(self, key, color):
         self.setSourceKey(key, color)
@@ -17,12 +18,20 @@ class Console:
     # Prints information to the console
     # -> Also writes to a log file in assets
     def log(self, content):
+        # Check suppression
+        if self.SUPPRESSED:
+            return "Suppressed"
+
         out_content = f"{self.getSystemTime()} {self.SOURCE_KEY} {content}"
         print(out_content)
         self.writeRuntimeLogs(out_content)
         return out_content
     # -> Also writes to a log file in assets
     def log_error(self, content):
+        # Check suppression
+        if self.SUPPRESSED:
+            return "Suppressed"
+
         out_content = f"{self.getSystemTime()} {self.SOURCE_KEY} {clr(content, 'red', attrs=["reverse", "blink"])}"
         print(out_content)
         self.writeRuntimeLogs(out_content)
@@ -68,3 +77,6 @@ class Console:
     def error_divide(self, title):
         self.log(clr(f"{self.FORMAT_DIVIDER} {title} {self.FORMAT_DIVIDER}", 'red', attrs=["reverse", "blink"]))
         self.log(" ")
+
+    def set_suppression(self, state):
+        self.SUPPRESSED = state
