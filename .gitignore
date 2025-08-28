@@ -1,4 +1,5 @@
 .depreciated/
 assets/discord_bot/config/token.txt
+assets/web-resources/config/install_config.json
 mc-server/
 server/

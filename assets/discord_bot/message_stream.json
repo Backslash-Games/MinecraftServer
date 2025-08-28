@@ -1,5 +1,5 @@
 {
     "queued": false,
-    "message": "\n- command\n- event\n- help\n- list",
+    "message": "\u001b[31mkill process\u001b[0m",
     "args": []
 }

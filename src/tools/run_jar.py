@@ -39,7 +39,7 @@ def runJar(dir, file_name):
         # response = subprocess.check_output(["java", "-Duser.dir=" + jar_path, "-jar", jar_file], text=True)
         java_process = subprocess.check_output(["java", "-jar", jar_file], text=True)
 
-        source.log(f"Popen data\n{clr(java_process, 'light_blue')}")
+        # source.log(f"Popen data\n{clr(java_process, 'light_blue')}")
 
     # Error if the server cannot be installed due to the sub process
     except subprocess.CalledProcessError as e:

@@ -1,43 +1,189 @@
-[37m[11:41:00] [0m [32m [MAIN] [0m Installing all resources
-[37m[11:41:00] [0m [33m [JSON_MANAGER] [0m Found json list [33m['01_server.json', '02_eula.json', '03_mod_test.json'][0m
-[37m[11:41:00] [0m [36m [WEB_INSTALLER] [0m  
-[37m[11:41:00] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 01_server.json ====================[0m
-[37m[11:41:00] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://piston-data.mojang.com/v1/objects/6bce4ef400e4efaa63a13d5e6f6b500be969ef81/server.jar[0m]
-[37m[11:41:00] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mminecraft[0m]
-[37m[11:41:00] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server[0m]
-[37m[11:41:00] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/server.jar[0m]
-[37m[11:41:00] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server[0m [32mdoes[0m exist... Checking file [33m/server.jar[0m
-[37m[11:41:00] [0m [36m [WEB_INSTALLER] [0m File [33m/home/halfhand870/MinecraftServer/server/server.jar[0m [32mdoes[0m exist... Returning [32mtrue[0m
-[37m[11:41:00] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 01_server.json ====================[0m
-[37m[11:41:00] [0m [36m [WEB_INSTALLER] [0m  
-[37m[11:41:00] [0m [36m [WEB_INSTALLER] [0m  
-[37m[11:41:00] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 02_eula.json ====================[0m
-[37m[11:41:00] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://drive.google.com/file/d/1q_QVK86GXZQZgy5hcpzGRX4TbDCHW2vK/view?usp=drive_link[0m]
-[37m[11:41:00] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mdrive[0m]
-[37m[11:41:00] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server[0m]
-[37m[11:41:00] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/eula.txt[0m]
-[37m[11:41:00] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server[0m [32mdoes[0m exist... Checking file [33m/eula.txt[0m
-[37m[11:41:00] [0m [36m [WEB_INSTALLER] [0m File [33m/home/halfhand870/MinecraftServer/server/eula.txt[0m [32mdoes[0m exist... Returning [32mtrue[0m
-[37m[11:41:00] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 02_eula.json ====================[0m
-[37m[11:41:00] [0m [36m [WEB_INSTALLER] [0m  
-[37m[11:41:00] [0m [36m [WEB_INSTALLER] [0m  
-[37m[11:41:00] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 03_mod_test.json ====================[0m
-[37m[11:41:00] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://drive.google.com/file/d/1MiTL_a5Mk9bqHypyA0vHLp5CQ-98RAHM/view?usp=drive_link[0m]
-[37m[11:41:00] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mdrive[0m]
-[37m[11:41:00] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server/mods[0m]
-[37m[11:41:00] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/NEC_Dark_GUI_Ultimate_1.20.1_[FORGE]_v0.1.0.zip[0m]
-[37m[11:41:00] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server/mods[0m [32mdoes[0m exist... Checking file [33m/NEC_Dark_GUI_Ultimate_1.20.1_[FORGE]_v0.1.0.zip[0m
-[37m[11:41:00] [0m [36m [WEB_INSTALLER] [0m File [33m/home/halfhand870/MinecraftServer/server/mods/NEC_Dark_GUI_Ultimate_1.20.1_[FORGE]_v0.1.0.zip[0m [32mdoes[0m exist... Returning [32mtrue[0m
-[37m[11:41:00] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 03_mod_test.json ====================[0m
-[37m[11:41:00] [0m [36m [WEB_INSTALLER] [0m  
-[37m[11:41:00] [0m [32m [MAIN] [0m Initializing Server Process
-[37m[11:41:00] [0m [32m [MAIN] [0m Initializing Discord Process
-[37m[11:41:00] [0m [32m [MAIN] [0m Starting Server Process
-[37m[11:41:00] [0m [35m [RUN_JAR] [0m Checking if jar '/home/halfhand870/MinecraftServer/server/server.jar' exists
-[37m[11:41:00] [0m [35m [RUN_JAR] [0m Jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m' [32mdoes[0m exist
-[37m[11:41:00] [0m [35m [RUN_JAR] [0m Running jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m'
-[37m[11:41:00] [0m [37m [FILE_MANAGEMENT/[33mDISCORD_BOOT[0m[0m[37m] [0m File at path '[33m/home/halfhand870/MinecraftServer/assets/discord_bot/config/token.txt[0m' [32mexists[0m
-[37m[11:41:03] [0m [37m [FILE_MANAGEMENT/[33mDISCORD_BOOT[0m[0m[37m] [0m File at path '[33m/home/halfhand870/MinecraftServer/assets/discord_bot/config/command_icon.txt[0m' [32mexists[0m
-[37m[11:41:03] [0m [34m [DISCORD_BOT] [0m Setting command icon to !
-[37m[11:41:03] [0m [34m [DISCORD_BOT] [0m Bot is ready
-[37m[11:41:15] [0m [34m [DISCORD_BOT] [0m Client has logged out
+[37m[20:12:05] [0m [95m [MAIN] [0m Installing all resources
+[37m[20:12:05] [0m [33m [JSON_MANAGER] [0m Key '[33mreverse_sort[0m' found [[32mTrue[0m]
+[37m[20:12:05] [0m [33m [JSON_MANAGER] [0m Found json list [33m['02_eula.json', '01_server.json'][0m
+[37m[20:12:05] [0m [36m [WEB_INSTALLER] [0m  
+[37m[20:12:05] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 02_eula.json ====================[0m
+[37m[20:12:05] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://drive.google.com/file/d/1q_QVK86GXZQZgy5hcpzGRX4TbDCHW2vK/view?usp=drive_link[0m]
+[37m[20:12:05] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mdrive[0m]
+[37m[20:12:05] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server[0m]
+[37m[20:12:05] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/eula.txt[0m]
+[37m[20:12:05] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server[0m [32mdoes[0m exist... Checking file [33m/eula.txt[0m
+[37m[20:12:05] [0m [36m [WEB_INSTALLER] [0m File [33m/home/halfhand870/MinecraftServer/server/eula.txt[0m [32mdoes[0m exist... Returning [32mtrue[0m
+[37m[20:12:05] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 02_eula.json ====================[0m
+[37m[20:12:05] [0m [36m [WEB_INSTALLER] [0m  
+[37m[20:12:05] [0m [36m [WEB_INSTALLER] [0m  
+[37m[20:12:05] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 01_server.json ====================[0m
+[37m[20:12:05] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://piston-data.mojang.com/v1/objects/6bce4ef400e4efaa63a13d5e6f6b500be969ef81/server.jar[0m]
+[37m[20:12:05] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mminecraft[0m]
+[37m[20:12:05] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server[0m]
+[37m[20:12:05] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/server.jar[0m]
+[37m[20:12:05] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server[0m [32mdoes[0m exist... Checking file [33m/server.jar[0m
+[37m[20:12:05] [0m [36m [WEB_INSTALLER] [0m File [33m/home/halfhand870/MinecraftServer/server/server.jar[0m [32mdoes[0m exist... Returning [32mtrue[0m
+[37m[20:12:05] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 01_server.json ====================[0m
+[37m[20:12:05] [0m [36m [WEB_INSTALLER] [0m  
+[37m[20:12:05] [0m [95m [MAIN] [0m Initializing Server Process
+[37m[20:12:05] [0m [95m [MAIN] [0m Initializing Server Print Process
+[37m[20:12:05] [0m [95m [MAIN] [0m Initializing Discord Process
+[37m[20:12:05] [0m [95m [MAIN] [0m Starting Server Process
+[37m[20:12:05] [0m [95m [MAIN] [0m Starting Server Print Process
+[37m[20:12:05] [0m [35m [RUN_JAR] [0m Checking if jar '/home/halfhand870/MinecraftServer/server/server.jar' exists
+[37m[20:12:05] [0m [35m [RUN_JAR] [0m Jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m' [32mdoes[0m exist
+[37m[20:12:05] [0m [35m [RUN_JAR] [0m Running jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m'
+[37m[20:12:05] [0m [95m [MAIN] [0m Starting Discord Bot Process
+[37m[20:12:05] [0m [95m [MAIN] [0m Joining Server Process
+[37m[20:12:05] [0m [37m [FILE_MANAGEMENT/[33mDISCORD_BOOT[0m[0m[37m] [0m File at path '[33m/home/halfhand870/MinecraftServer/assets/discord_bot/config/token.txt[0m' [32mexists[0m
+[37m[20:12:08] [0m [37m [FILE_MANAGEMENT/[33mDISCORD_BOOT[0m[0m[37m] [0m File at path '[33m/home/halfhand870/MinecraftServer/assets/discord_bot/config/command_icon.txt[0m' [32mexists[0m
+[37m[20:12:08] [0m [32m [DISCORD_BOT] [0m Setting command icon to !
+[37m[20:12:08] [0m [32m [DISCORD_BOT] [0m Bot is ready
+[37m[20:12:11] [0m [34m [SERVER] [0m [20:12:11] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[37m[20:12:13] [0m [34m [SERVER] [0m [20:12:12] [ServerMain/INFO]: Loaded 1407 recipes
+[37m[20:12:13] [0m [34m [SERVER] [0m [20:12:12] [ServerMain/INFO]: Loaded 1520 advancements
+[37m[20:12:13] [0m [34m [SERVER] [0m [20:12:12] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[37m[20:12:13] [0m [34m [SERVER] [0m [20:12:12] [Server thread/INFO]: Loading properties
+[37m[20:12:13] [0m [34m [SERVER] [0m [20:12:12] [Server thread/INFO]: Default game type: SURVIVAL
+[37m[20:12:13] [0m [34m [SERVER] [0m [20:12:12] [Server thread/INFO]: Generating keypair
+[37m[20:12:13] [0m [34m [SERVER] [0m [20:12:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[37m[20:12:13] [0m [34m [SERVER] [0m [20:12:12] [Server thread/INFO]: Using epoll channel type
+[37m[20:12:13] [0m [34m [SERVER] [0m [20:12:12] [Server thread/INFO]: Preparing level "world"
+[37m[20:12:13] [0m [34m [SERVER] [0m [20:12:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[37m[20:12:15] [0m [34m [SERVER] [0m [20:12:13] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[37m[20:12:15] [0m [34m [SERVER] [0m [20:12:13] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[37m[20:12:15] [0m [34m [SERVER] [0m [20:12:13] [Server thread/INFO]: Time elapsed: 840 ms
+[37m[20:12:15] [0m [34m [SERVER] [0m [20:12:13] [Server thread/INFO]: Done (1.106s)! For help, type "help"
+[37m[20:12:17] [0m [34m [SERVER] [0m [20:12:17] [User Authenticator #1/INFO]: UUID of player halfhand870 is a98a0668-d13c-41a1-afe0-cbe0eda89de7
+[37m[20:12:19] [0m [34m [SERVER] [0m [20:12:17] [Server thread/INFO]: halfhand870[/127.0.0.1:52045] logged in with entity id 82 at (133.12306288244372, 64.0, -93.52728237647129)
+[37m[20:12:19] [0m [34m [SERVER] [0m [20:12:17] [Server thread/INFO]: halfhand870 joined the game
+[37m[20:12:22] [0m [35m [RUN_JAR] [0m Stopping jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m'
+[37m[20:12:22] [0m [95m [MAIN] [0m Joining Server Print Process
+[37m[20:12:23] [0m [34m [SERVER] [0m [20:12:21] [Server thread/INFO]: [halfhand870: Stopping the server]
+[37m[20:12:23] [0m [34m [SERVER] [0m [20:12:21] [Server thread/INFO]: Stopping server
+[37m[20:12:23] [0m [34m [SERVER] [0m [5m[7m[31m!!!!! KILLING LOGGER !!!!![0m
+[37m[20:12:23] [0m [34m [SERVER] [0m [20:12:21] [Server thread/INFO]: Saving players
+[37m[20:12:23] [0m [34m [SERVER] [0m [20:12:21] [Server thread/INFO]: Saving worlds
+[37m[20:12:23] [0m [34m [SERVER] [0m [20:12:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[37m[20:12:23] [0m [34m [SERVER] [0m [20:12:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[37m[20:12:23] [0m [34m [SERVER] [0m [20:12:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[37m[20:12:23] [0m [34m [SERVER] [0m [20:12:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[37m[20:12:23] [0m [34m [SERVER] [0m [20:12:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[37m[20:12:23] [0m [34m [SERVER] [0m [20:12:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[37m[20:12:23] [0m [34m [SERVER] [0m [20:12:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[37m[20:12:25] [0m [95m [MAIN] [0m Joining Discord Bot Process
+[37m[20:12:31] [0m [32m [DISCORD_BOT] [0m Bot is has received message [36m<Message id=1410416720627110019 channel=<TextChannel id=784187804326428746 name='general' position=0 nsfw=False news=False category_id=784187804326428744> type=<MessageType.default: 0> author=<Member id=178237794638888960 name='halfhand870' global_name='halfhand870' bot=False nick=None guild=<Guild id=784187804326428743 name='bot dev area' shard_id=0 chunked=False member_count=4>> flags=<MessageFlags value=0>>[0m
+[37m[20:12:31] [0m [32m [DISCORD_BOT] [0m  
+[37m[20:12:31] [0m [32m [DISCORD_BOT] [0m [32m==================== !kill ====================[0m
+[37m[20:12:31] [0m [32m [DISCORD_BOT] [0m Found message with icon, !
+[37m[20:12:31] [0m [32m [DISCORD_BOT] [0m Message sent with content: !kill
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Found json list [33m['command.json', 'event.json', 'help.json', 'kill.json', 'list.json'][0m
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== LOADING COMMANDS ====================[0m
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mcommand[0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1, 2, 3, 4, 5][0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/assets/scripts/commands/command_modification.py[0m]
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mcommand[0m
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mevent[0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/assets/scripts/commands/event.py[0m]
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mevent[0m
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mhelp[0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0, 1][0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/assets/scripts/commands/help.py[0m]
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mhelp[0m
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mkill[0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/assets/scripts/commands/kill.py[0m]
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mkill[0m
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mlist[0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/assets/scripts/commands/list.py[0m]
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mlist[0m
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m 5 commands loaded
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== LOADED COMMANDS ====================[0m
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== PROCESSING MESSAGE ====================[0m
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m Processing message with icon [32m![0m and content [33m!kill[0m
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m Split and processing message. Using content data... ['kill']
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== PROCESSED MESSAGE ====================[0m
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== RUNNING COMMAND ====================[0m
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m Key '[33mkill[0m' found
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m Keyword [33mkill[0m found with associated json file [32mkill[0m
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m Pushing args []
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mFalse[0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32m[31mkill process[0m[0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m Running command [32mkill[0m
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mFalse[0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32m[31mkill process[0m[0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mFalse[0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32m[31mkill process[0m[0m]
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== COMMAND RUN ====================[0m
+[37m[20:12:31] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[20:12:31] [0m [32m [DISCORD_BOT] [0m Checking if the message is queued
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[20:12:31] [0m [32m [DISCORD_BOT] [0m Getting stored data
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32m[31mkill process[0m[0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32m[31mkill process[0m[0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[20:12:31] [0m [32m [DISCORD_BOT] [0m Checking if [33mmessage[0m is a valid json key
+[37m[20:12:31] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32m[31mkill process[0m[0m]
+[37m[20:12:31] [0m [32m [DISCORD_BOT] [0m Sending message to channel
+[37m[20:12:31] [0m [32m [DISCORD_BOT] [0m [31m==================== !kill ====================[0m
+[37m[20:12:31] [0m [32m [DISCORD_BOT] [0m  
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m
+[37m[20:12:31] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped    !!!!!!  [0m

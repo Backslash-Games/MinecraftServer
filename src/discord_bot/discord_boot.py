@@ -15,7 +15,7 @@ import discord_bot.discord_commands as commands
 import discord_bot.message_stream as stream
 
 # Set source.source.log
-source = cf.Console("DISCORD_BOT", "blue")
+source = cf.Console("DISCORD_BOT", "green")
 # File management
 file_man = fm.FileManager("DISCORD_BOOT")
 
@@ -61,6 +61,9 @@ def runBot():
     async def on_message(message):
         # Return early if its the bots own message
         if message.author == client.user:
+            if message.content.startswith(clr("kill process", 'red')):
+                await message.delete()
+                sys.exit(0)
             return
 
         # Display message
@@ -73,10 +76,15 @@ def runBot():
             source.log(f"Message sent with content: {message.content}")
             commands.processMessage(COMMAND_ICON, message.content)
 
+            # Try to send out a message
+            source.log("Checking if the message is queued")
             if stream.isQueued():
                 # Reply to the message
+                source.log("Getting stored data")
                 data = stream.getStoredData()
+                source.log(f"Checking if {clr("message", 'yellow')} is a valid json key")
                 if jm.isJsonKey("message", data):
+                    source.log("Sending message to channel")
                     await message.channel.send(data["message"])
                 else:
                     source.log(clr(f"CHECK TO MAKE SURE MESSAGE_STREAM.JSON IS SET PROPERLY", 'red'))

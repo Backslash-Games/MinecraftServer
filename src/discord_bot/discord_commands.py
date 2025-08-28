@@ -29,7 +29,7 @@ check_keys = ['keyword', 'args', 'directory']
 def loadAllCommands():
     global commands
     # Get all command json files
-    json_list = jm.getJsonList(COMMAND_PATH)
+    json_list = jm.getJsonList(COMMAND_PATH, False)
 
     source.start_divide("LOADING COMMANDS")
     # Check if commands need to be updated
@@ -47,7 +47,7 @@ def loadAllCommands():
 
     # Commands load output
     source.log(f"{len(commands)} commands loaded")
-    source.log(f"Commands: {commands}")
+    # source.log(f"Commands: {commands}")
 
     # Write command information to a json file
     jm.writeJsonData(COMMAND_LOG, jm.toJson(commands))
@@ -58,7 +58,7 @@ def loadAllCommands():
 def loadCommand(data):
     global commands
     # Write out the json data
-    source.log(f"Loading json into commands with data {data}")
+    source.log(f"Loading json into commands with data keyword {clr(data['keyword'], 'green')}")
     commands[data['keyword']] = data
 
 # Runs a command
@@ -99,7 +99,7 @@ def runCommand(message_data):
 # Validates command key
 def isCommand(key):
     if key in commands:
-        source.log(f"Key '{clr(key, 'yellow')}' found [{clr(commands[key], 'green')}]")
+        source.log(f"Key '{clr(key, 'yellow')}' found")
         return True
     source.log(f"Key '{clr(key, 'yellow')}' does not exist")
     return False

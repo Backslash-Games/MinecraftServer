@@ -27,7 +27,7 @@ WEB_RESOURCE_DIRECTORY = CWD + "/assets/web-resources"
 # Downloads all queued resources
 def installAllResources():
     # Get a list of all json files
-    json_list = jm.getJsonList(WEB_RESOURCE_DIRECTORY)
+    json_list = jm.getJsonList(WEB_RESOURCE_DIRECTORY, True)
 
     # Run through the list of json files and check if it needs to be installed
     for json in json_list:

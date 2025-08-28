@@ -21,6 +21,12 @@ class Console:
         print(out_content)
         self.writeRuntimeLogs(out_content)
         return out_content
+    # -> Also writes to a log file in assets
+    def log_error(self, content):
+        out_content = f"{self.getSystemTime()} {self.SOURCE_KEY} {clr(content, 'red', attrs=["reverse", "blink"])}"
+        print(out_content)
+        self.writeRuntimeLogs(out_content)
+        return out_content
 
     # Sets the source key
     def setSourceKey(self, key, color):
