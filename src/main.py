@@ -7,7 +7,7 @@ import tools.console_formatting as cf
 import web_validation.web_installer as installer
 
 import tools.run_jar as jar
-import server.server_manager as server_man
+import server_tools.server_manager as server_man
 import discord_bot.discord_boot as bot
 
 # Define local format
