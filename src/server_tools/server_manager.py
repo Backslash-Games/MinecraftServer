@@ -1,21 +1,17 @@
 # Handles management for processes tied to the server
 # -> Running Minecraft Commands
 # -> Console Printing
-
 import os
-import sys
 import time
 
-CWD = os.getcwd()
-sys.path.append(CWD + "/src")
-
-import tools.console_formatting as cf
-source = cf.Console("SERVER_MANAGER", 'red')
+import src.tools.console_formatting as cf
 
 # Import files to manage
-sys.path.append(CWD + "/src/server_tools")
-import log.console_print as console_print
-import bridge.minecraft_command as mc_command
+import src.server_tools.log.console_print as console_print
+import src.server_tools.bridge.bridge_communication_manager as mc_command
+
+CWD = os.getcwd()
+source = cf.Console("SERVER_MANAGER", 'red')
 
 # Run start methods
 def run_start():
@@ -23,15 +19,13 @@ def run_start():
 
 # Run update methods
 def run_update():
-    mc_command.on_update()
+    # mc_command.on_update()
     console_print.on_update()
 
 SLEEP_TIME = 1
 RUNNING = True
 # Run the manager loop
 def run_manager_loop():
-    source.log_error("!!!!! MANAGER THREAD NOT IMPLEMENTED !!!!!")
-    return
     # Start
     run_start()
     # Update Loop

@@ -1,5 +1,5 @@
 {
     "queued": false,
-    "message": "Invalid permissions, please contact an admin and try again...",
+    "message": "\n- edit\n- help\n- kill\n- list",
     "args": []
 }

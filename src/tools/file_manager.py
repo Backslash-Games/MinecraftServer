@@ -1,13 +1,10 @@
 import os
-import sys
 from termcolor import colored as clr
 
-
 # ========== TOOL SETUP ==========
-CWD = os.getcwd()
-sys.path.append(CWD + "/src/tools")
-import console_formatting as cf
+from . import console_formatting as cf
 
+CWD = os.getcwd()
 # MAIN GOAL - Quickly pull and push information to files stored in /assets
 class FileManager:
     # define root source

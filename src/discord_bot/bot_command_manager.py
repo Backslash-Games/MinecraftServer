@@ -1,18 +1,15 @@
 import os
-import sys
 import runpy
-import discord
 from termcolor import colored as clr
+
+from src.tools import console_formatting as cf
+from src.tools import file_manager as fm
+from src.tools import json_manager as jm
+
+from src.discord_bot import message_stream as stream
 
 # Pull working directory
 CWD = os.getcwd()
-sys.path.append(CWD + "/src")
-
-import tools.console_formatting as cf
-import tools.file_manager as fm
-import tools.json_manager as jm
-
-import discord_bot.message_stream as stream
 
 # Setup source
 source = cf.Console("DISCORD_COMMANDS", "light_blue")

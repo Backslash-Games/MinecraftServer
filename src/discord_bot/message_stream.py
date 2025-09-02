@@ -1,13 +1,9 @@
 import os
-import sys
+
+from src.tools import console_formatting as cf
+from src.tools import json_manager as jm
 
 CWD = os.getcwd()
-sys.path.append(CWD + "/src")
-
-from termcolor import colored as clr
-
-import tools.json_manager as jm
-import tools.console_formatting as cf
 
 source = cf.Console("MESSAGE_STREAM", "green")
 

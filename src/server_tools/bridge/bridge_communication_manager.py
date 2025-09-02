@@ -2,12 +2,11 @@ import os
 import sys
 import time
 
-CWD = os.getcwd()
-sys.path.append(CWD + "/src")
+import src.tools.console_formatting as cf
+import src.tools.file_manager as file_manager
+import src.server_tools.local_packet.local_packet_manager as lpm
 
-import tools.console_formatting as cf
-import tools.file_manager as file_manager
-import server_tools.local_packet.local_packet_manager as lpm
+CWD = os.getcwd()
 
 QUEUE_FILEPATH = CWD + "/assets/server/cmd_queue.txt"
 PACKET_PATH = CWD + "/server/sh"

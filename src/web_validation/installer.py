@@ -2,20 +2,17 @@
 import subprocess
 import os
 import sys
-import json
 import gdown
+
 from termcolor import colored as clr
+from src.tools import console_formatting as cf
+from src.tools import json_manager as jm
 
 # Pull working directory
 CWD = os.getcwd()
-sys.path.append(CWD + "/src")
-
-import tools.console_formatting as cf
-import tools.json_manager as jm
 
 # Set source
 source = cf.Console("WEB_INSTALLER", "cyan")
-
 
 
 

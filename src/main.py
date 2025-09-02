@@ -3,12 +3,13 @@ import multiprocessing
 
 from termcolor import colored as clr
 
-import tools.console_formatting as cf
-import web_validation.web_installer as installer
+from src.discord_bot import bot_start as bot
+from src.server_tools import server_manager as server_man
 
-import tools.run_jar as jar
-import server_tools.server_manager as server_man
-import discord_bot.discord_boot as bot
+from src.tools import console_formatting as cf
+from src.tools import jar_manager as jar
+
+from src.web_validation import installer
 
 # Define local format
 source = cf.Console("MAIN", "light_magenta")

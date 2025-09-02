@@ -4,12 +4,12 @@ import os
 import sys
 from termcolor import colored as clr
 
+from src.tools import console_formatting as cf
+
+
+
 # Pull working directory
 CWD = os.getcwd()
-sys.path.append(CWD + "/src")
-
-# Add console formatting
-import tools.console_formatting as cf
 # Set source
 source = cf.Console("RUN_JAR", "magenta")
 

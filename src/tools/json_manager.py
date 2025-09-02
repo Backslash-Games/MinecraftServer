@@ -1,13 +1,13 @@
 import os
 import sys
 import json
+
 from termcolor import colored as clr
+from src.tools import console_formatting as cf
 
 # Pull working directory
 CWD = os.getcwd()
-sys.path.append(CWD + "/src")
 
-import tools.console_formatting as cf
 # Set source
 source = cf.Console("JSON_MANAGER", "yellow")
 

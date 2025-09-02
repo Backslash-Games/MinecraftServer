@@ -1,10 +1,8 @@
 import os
-import sys
+
+import src.tools.console_formatting as cf
 
 CWD = os.getcwd()
-sys.path.append(CWD + "/src")
-
-import tools.console_formatting as cf
 source = cf.Console("SERVER", 'blue')
 
 SERVER_LOGS_PATH = CWD + "/server/logs"

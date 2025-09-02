@@ -2,8 +2,7 @@ import os
 import sys
 from termcolor import colored as clr
 
-sys.path.append(os.getcwd() + "/src/tools")
-import console_formatting as cf
+import src.tools.console_formatting as cf
 
 class PacketManager:
     CWD = os.getcwd()
