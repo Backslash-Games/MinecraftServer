@@ -21,18 +21,21 @@ source = cf.Console("WEB_INSTALLER", "cyan")
 
 # Hold a constant for the web resource path
 WEB_RESOURCE_DIRECTORY = CWD + "/assets/web-resources"
+WEB_RESOURCE_CONFIG = CWD + "/assets/web-resources/config/install_config.json"
 
 
 # ========== Main Methods ==========
 # Downloads all queued resources
 def installAllResources():
     # Get a list of all json files
-    json_list = jm.getJsonList(WEB_RESOURCE_DIRECTORY, True)
+    reverse_sort = jm.getJsonValue(WEB_RESOURCE_CONFIG, "reverse_sort")
+    json_list = jm.getJsonList(WEB_RESOURCE_DIRECTORY, True, reverse_sort)
 
     # Run through the list of json files and check if it needs to be installed
+    reinstall_all = jm.getJsonValue(WEB_RESOURCE_CONFIG, "reinstall_all")
     for json in json_list:
         # Try to install
-        installResource(json)
+        installResource(json, reinstall_all)
 
     return
 
@@ -53,7 +56,7 @@ def createDirectory(path):
 
 # ========== Install Methods ==========
 # Downloads one resource
-def installResource(json):
+def installResource(json, reinstall):
     # Notify that the installation process has started
     source.start_divide(f"Started install of {json}")
 
@@ -62,17 +65,23 @@ def installResource(json):
     file_path = WEB_RESOURCE_DIRECTORY + "/" + json
     check_keys = ['url', 'source', 'dir', 'file']
     data = jm.getJsonData(file_path, check_keys)
-    # Check if the data is installed
-    if isInstalled(data):
-        source.end_divide(f"Canceled install of {json}")
-        return
+    installed = isInstalled(data)
 
 
-    # Install data
+    # Hold constant data
     install_url = data['url']
     install_source = data['source']
     install_directory = CWD + data['dir']
     install_file_path = install_directory + data['file']
+
+
+    # Check if the data is installed
+    if installed and not reinstall:
+        source.end_divide(f"Canceled install of {json}")
+        return
+    elif installed and reinstall:
+        uninstall(install_file_path)
+        source.log(f"Reinstalling {json}")
 
 
     # Run install
@@ -126,6 +135,23 @@ def installGDown(url, file_path):
     source.log(f"Using {clr('gdown', 'light_blue')} to download... This may take a moment")
     gdown.download(url, file_path, fuzzy=True)
     return True
+
+def uninstall(file_path):
+    # Uninstall log
+    source.log(f"Uninstalling file at path {clr(file_path, 'yellow')}")
+
+    # Uninstall the file
+    try:
+        # Run the download
+        install_response = subprocess.check_output(["rm", file_path], text=True)
+        source.log(install_response)
+
+    # Error if the server cannot be installed due to the sub process
+    except subprocess.CalledProcessError as e:
+        source.log({clr(f"rm failed with exception {e.returncode}", 'red')})
+        return False
+
+    return
 
 # ========== Checks ==========
 # Checks if the data is already installed

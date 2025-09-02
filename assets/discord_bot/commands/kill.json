@@ -2,5 +2,7 @@
   "keyword": "kill",
   "args": "[0]",
   "directory": "/assets/scripts/commands/kill.py",
-  "manual_directory": "/assets/discord_bot/manuals/kill.md"
+  "manual_directory": "/assets/discord_bot/manuals/kill.md",
+  "compile": true,
+  "require_admin": true
 }

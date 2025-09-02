@@ -1,38 +1,34 @@
 {
-    "command": {
-        "keyword": "command",
+    "edit": {
+        "keyword": "edit",
         "args": "[1, 2, 3, 4, 5]",
         "directory": "/assets/scripts/commands/command_modification.py",
-        "manual_directory": "/assets/discord_bot/manuals/command.md"
-    },
-    "event": {
-        "keyword": "event",
-        "args": "[0]",
-        "directory": "/assets/scripts/commands/event.py",
-        "manual_directory": "/assets/discord_bot/manuals/event.md"
+        "manual_directory": "/assets/discord_bot/manuals/command.md",
+        "compile": true,
+        "require_admin": true
     },
     "help": {
         "keyword": "help",
         "args": "[0, 1]",
         "directory": "/assets/scripts/commands/help.py",
-        "manual_directory": "/assets/discord_bot/manuals/help.md"
+        "manual_directory": "/assets/discord_bot/manuals/help.md",
+        "compile": true,
+        "require_admin": false
     },
     "kill": {
         "keyword": "kill",
         "args": "[0]",
         "directory": "/assets/scripts/commands/kill.py",
-        "manual_directory": "/assets/discord_bot/manuals/kill.md"
+        "manual_directory": "/assets/discord_bot/manuals/kill.md",
+        "compile": true,
+        "require_admin": true
     },
     "list": {
         "keyword": "list",
         "args": "[0]",
         "directory": "/assets/scripts/commands/list.py",
-        "manual_directory": "/assets/discord_bot/manuals/list.md"
-    },
-    "run": {
-        "keyword": "run",
-        "args": "[1]",
-        "directory": "/assets/scripts/commands/run_command.py",
-        "manual_directory": "/assets/discord_bot/manuals/run.md"
+        "manual_directory": "/assets/discord_bot/manuals/list.md",
+        "compile": true,
+        "require_admin": false
     }
 }

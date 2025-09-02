@@ -30,7 +30,7 @@ class Console:
     def log_error(self, content):
         # Check suppression
         if self.SUPPRESSED:
-            return "Suppressed"
+            content = "! PASSING SUPPRESSED ! -> " + content
 
         out_content = f"{self.getSystemTime()} {self.SOURCE_KEY} {clr(content, 'red', attrs=["reverse", "blink"])}"
         print(out_content)

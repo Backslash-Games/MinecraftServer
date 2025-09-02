@@ -59,7 +59,7 @@ def runBot():
 
     @client.event
     async def on_message(message):
-        # Return early if its the bots own message
+        # Return early if it's the bots own message
         if message.author == client.user:
             if message.content.startswith(clr("kill process", 'red')):
                 await message.delete()
@@ -69,12 +69,16 @@ def runBot():
         # Display message
         displayMessage(message)
 
+        # Ensure the message starts with the command icon
         if message.content.startswith(COMMAND_ICON):
             source.start_divide(message.content)
 
             source.log(f"Found message with icon, {COMMAND_ICON}")
             source.log(f"Message sent with content: {message.content}")
-            commands.processMessage(COMMAND_ICON, message.content)
+            commands.processMessage(COMMAND_ICON, message)
+
+            # Delete the command message
+            # await message.delete()
 
             # Try to send out a message
             source.log("Checking if the message is queued")

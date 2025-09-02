@@ -30,6 +30,8 @@ SLEEP_TIME = 1
 RUNNING = True
 # Run the manager loop
 def run_manager_loop():
+    source.log_error("!!!!! MANAGER THREAD NOT IMPLEMENTED !!!!!")
+    return
     # Start
     run_start()
     # Update Loop

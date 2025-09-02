@@ -11,9 +11,8 @@ import tools.console_formatting as cf
 # Set source
 source = cf.Console("JSON_MANAGER", "yellow")
 
-INSTALL_CONFIG_FILE = CWD + "/assets/web-resources/config/install_config.json"
 # Gets a list of all jsons in web resources
-def getJsonList(path, check_sort):
+def getJsonList(path, check_sort, reverse_sort):
     # Holds proper files
     files = []
     for file in os.listdir(path):
@@ -22,12 +21,7 @@ def getJsonList(path, check_sort):
 
     # Check if reverse key is set up
     if check_sort:
-        reverse_config = getJsonValue(INSTALL_CONFIG_FILE, "reverse_sort")
-        if reverse_config != "":
-            try:
-                files.sort(reverse=reverse_config)
-            except Exception as e:
-                source.log(f"Could not reverse sort json list")
+        files.sort(reverse=reverse_sort)
 
     source.log(f"Found json list {clr(files, 'yellow')}")
     return files

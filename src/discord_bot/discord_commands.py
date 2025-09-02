@@ -20,16 +20,17 @@ file_man = fm.FileManager("DISCORD_COMMANDS")
 # Setup paths
 COMMAND_PATH = CWD + "/assets/discord_bot/commands"
 COMMAND_LOG = CWD + "/assets/discord_bot/commands.json"
+ADMIN_WHITELIST = CWD + "/assets/discord_bot/config/admin_whitelist.txt"
 
 global commands
 commands = {}
-check_keys = ['keyword', 'args', 'directory']
+check_keys = ['keyword', 'args', 'directory', 'compile', 'require_admin']
 
 # Loads all commands from assets
 def loadAllCommands():
     global commands
     # Get all command json files
-    json_list = jm.getJsonList(COMMAND_PATH, False)
+    json_list = jm.getJsonList(COMMAND_PATH, False, False)
 
     source.start_divide("LOADING COMMANDS")
     # Check if commands need to be updated
@@ -56,13 +57,20 @@ def loadAllCommands():
     return
 # Load a specific command
 def loadCommand(data):
+    # Check if command should be loaded
+    if not data['compile']:
+        source.log_error(f"Command '{data['keyword']}' was not loaded, suppressed with compile tag")
+        return
+
     global commands
     # Write out the json data
     source.log(f"Loading json into commands with data keyword {clr(data['keyword'], 'green')}")
     commands[data['keyword']] = data
 
+
+
 # Runs a command
-def runCommand(message_data):
+def runCommand(message_data, author_data):
     source.start_divide("RUNNING COMMAND")
     keyword = message_data[0]
     # Check if keyword exists
@@ -76,8 +84,18 @@ def runCommand(message_data):
         source.error_divide("ARGUMENT MISMATCH")
         return False
 
+
     # Get json file
     source.log(f"Keyword {clr(keyword, 'yellow')} found with associated json file {clr(commands[keyword]['keyword'], 'green')}")
+
+    # Check if the user can run the command
+    if commands[keyword]['require_admin'] and not canUseCommand(author_data):
+        stream.send("Invalid permissions, please contact an admin and try again...")
+        source.log_error("User has invalid permissions")
+        source.error_divide("INVALID PERMISSIONS")
+        return False
+
+
 
     # Run command
     file_path = CWD + "/" + commands[keyword]['directory']
@@ -96,6 +114,8 @@ def runCommand(message_data):
     source.end_divide("COMMAND RUN")
     return True
 
+
+
 # Validates command key
 def isCommand(key):
     if key in commands:
@@ -103,16 +123,37 @@ def isCommand(key):
         return True
     source.log(f"Key '{clr(key, 'yellow')}' does not exist")
     return False
+# Validates if a user can run the command
+def canUseCommand(author_data):
+    # Print out names that we are checking
+    source.log(f"Display Name: {author_data.display_name}")
+    source.log(f"Global Name: {author_data.global_name}")
+
+    # Check if the user is logged as an admin
+    # -> For quick implementation right now, simply check a text file for the users global name
+    file_content = file_man.readFile(ADMIN_WHITELIST)
+    if author_data.global_name in file_content:
+        source.log("User found, running command")
+        return True
+
+    # If the user cannot be found then return
+    source.log("User not found, stopping command")
+    return False
+
 
 # Checks if the given arguments matches the amount stored in json
 def isArgsMatch(keyword, count):
     return str(count) in commands[keyword]['args']
 
+
+
 # Process an incoming message
-def processMessage(icon, content):
+def processMessage(icon, message):
     # Make sure all commands are loaded
     loadAllCommands()
 
+    # Establish content
+    content = message.content
     source.start_divide("PROCESSING MESSAGE")
     # Split up message content
     source.log(f"Processing message with icon {clr(icon, 'green')} and content {clr(content, 'yellow')}")
@@ -126,8 +167,11 @@ def processMessage(icon, content):
     source.end_divide("PROCESSED MESSAGE")
 
     # Run command
-    return runCommand(content_data)
+    return runCommand(content_data, message.author)
 
+
+
+# Splits arguments from the sent command
 def split(content):
     source.log(f"Splitting Content {content}")
     default_data = content.split()

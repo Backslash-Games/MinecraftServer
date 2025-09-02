@@ -1,7 +1,5 @@
 {
     "queued": false,
-    "message": "\u001b[31mkill process\u001b[0m",
-    "args": [
-        "tp 0 0 0"
-    ]
+    "message": "Invalid permissions, please contact an admin and try again...",
+    "args": []
 }
