@@ -1,6 +1,8 @@
 {
-    "url": "https://piston-data.mojang.com/v1/objects/6bce4ef400e4efaa63a13d5e6f6b500be969ef81/server.jar",
+    "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.8/0.17.2/1.1.0/server/jar",
+    "type": "file",
     "source": "minecraft",
     "dir": "/server",
-    "file": "/server.jar"
+    "file": "/server.jar",
+    "folder_expected_files": 0
 }

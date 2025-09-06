@@ -1,75 +1,65 @@
-[37m[17:07:24] [0m [95m [MAIN] [0m Installing all resources
-[37m[17:07:24] [0m [33m [JSON_MANAGER] [0m Key '[33mreverse_sort[0m' found [[32mFalse[0m]
-[37m[17:07:24] [0m [33m [JSON_MANAGER] [0m Found json list [33m['01_server.json', '02_eula.json'][0m
-[37m[17:07:24] [0m [33m [JSON_MANAGER] [0m Key '[33mreinstall_all[0m' found [[32mFalse[0m]
-[37m[17:07:24] [0m [36m [WEB_INSTALLER] [0m  
-[37m[17:07:24] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 01_server.json ====================[0m
-[37m[17:07:24] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://piston-data.mojang.com/v1/objects/6bce4ef400e4efaa63a13d5e6f6b500be969ef81/server.jar[0m]
-[37m[17:07:24] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mminecraft[0m]
-[37m[17:07:24] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server[0m]
-[37m[17:07:24] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/server.jar[0m]
-[37m[17:07:24] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server[0m [32mdoes[0m exist... Checking file [33m/server.jar[0m
-[37m[17:07:24] [0m [36m [WEB_INSTALLER] [0m File [33m/home/halfhand870/MinecraftServer/server/server.jar[0m [32mdoes[0m exist... Returning [32mtrue[0m
-[37m[17:07:24] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 01_server.json ====================[0m
-[37m[17:07:24] [0m [36m [WEB_INSTALLER] [0m  
-[37m[17:07:24] [0m [36m [WEB_INSTALLER] [0m  
-[37m[17:07:24] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 02_eula.json ====================[0m
-[37m[17:07:24] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://drive.google.com/file/d/1q_QVK86GXZQZgy5hcpzGRX4TbDCHW2vK/view?usp=drive_link[0m]
-[37m[17:07:24] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mdrive[0m]
-[37m[17:07:24] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server[0m]
-[37m[17:07:24] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/eula.txt[0m]
-[37m[17:07:24] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server[0m [32mdoes[0m exist... Checking file [33m/eula.txt[0m
-[37m[17:07:24] [0m [36m [WEB_INSTALLER] [0m File [33m/home/halfhand870/MinecraftServer/server/eula.txt[0m [32mdoes[0m exist... Returning [32mtrue[0m
-[37m[17:07:24] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 02_eula.json ====================[0m
-[37m[17:07:24] [0m [36m [WEB_INSTALLER] [0m  
-[37m[17:07:24] [0m [95m [MAIN] [0m Initializing Server Process
-[37m[17:07:24] [0m [95m [MAIN] [0m Initializing Server Print Process
-[37m[17:07:24] [0m [95m [MAIN] [0m Initializing Discord Process
-[37m[17:07:24] [0m [95m [MAIN] [0m Starting Server Process
-[37m[17:07:24] [0m [95m [MAIN] [0m Starting Server Print Process
-[37m[17:07:24] [0m [35m [RUN_JAR] [0m Checking if jar '/home/halfhand870/MinecraftServer/server/server.jar' exists
-[37m[17:07:24] [0m [35m [RUN_JAR] [0m Jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m' [32mdoes[0m exist
-[37m[17:07:24] [0m [35m [RUN_JAR] [0m Running jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m'
-[37m[17:07:24] [0m [95m [MAIN] [0m Starting Discord Bot Process
-[37m[17:07:24] [0m [34m [SERVER] [0m Cleared Logs
-[37m[17:07:24] [0m [95m [MAIN] [0m Joining Server Process
-[37m[17:07:27] [0m [32m [DISCORD_BOT] [0m Setting command icon to !
-[37m[17:07:27] [0m [32m [DISCORD_BOT] [0m Bot is ready
-[37m[17:07:30] [0m [34m [SERVER] [0m [17:07:30] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[37m[17:07:32] [0m [34m [SERVER] [0m [17:07:31] [ServerMain/INFO]: Loaded 1407 recipes
-[37m[17:07:32] [0m [34m [SERVER] [0m [17:07:31] [ServerMain/INFO]: Loaded 1520 advancements
-[37m[17:07:32] [0m [34m [SERVER] [0m [17:07:31] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[37m[17:07:32] [0m [34m [SERVER] [0m [17:07:31] [Server thread/INFO]: Loading properties
-[37m[17:07:32] [0m [34m [SERVER] [0m [17:07:31] [Server thread/INFO]: Default game type: SURVIVAL
-[37m[17:07:32] [0m [34m [SERVER] [0m [17:07:31] [Server thread/INFO]: Generating keypair
-[37m[17:07:32] [0m [34m [SERVER] [0m [17:07:31] [Server thread/INFO]: Starting Minecraft server on *:25565
-[37m[17:07:32] [0m [34m [SERVER] [0m [17:07:31] [Server thread/INFO]: Using epoll channel type
-[37m[17:07:32] [0m [34m [SERVER] [0m [17:07:31] [Server thread/INFO]: Preparing level "world"
-[37m[17:07:32] [0m [34m [SERVER] [0m [17:07:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[37m[17:07:33] [0m [34m [SERVER] [0m [17:07:33] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[37m[17:07:33] [0m [34m [SERVER] [0m [17:07:33] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[37m[17:07:33] [0m [34m [SERVER] [0m [17:07:33] [Server thread/INFO]: Time elapsed: 1072 ms
-[37m[17:07:33] [0m [34m [SERVER] [0m [17:07:33] [Server thread/INFO]: Done (1.370s)! For help, type "help"
-[37m[17:08:00] [0m [34m [SERVER] [0m [17:07:59] [User Authenticator #1/INFO]: UUID of player halfhand870 is a98a0668-d13c-41a1-afe0-cbe0eda89de7
-[37m[17:08:00] [0m [34m [SERVER] [0m [17:08:00] [Server thread/INFO]: halfhand870[/127.0.0.1:56805] logged in with entity id 104 at (133.12306288244372, 64.0, -93.52728237647129)
-[37m[17:08:00] [0m [34m [SERVER] [0m [17:08:00] [Server thread/INFO]: halfhand870 joined the game
-[37m[17:08:26] [0m [35m [RUN_JAR] [0m Stopping jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m'
-[37m[17:08:26] [0m [35m [RUN_JAR] [0m [5m[7m[31m!!!!! JAVA FILE STOPPED !!!!![0m
-[37m[17:08:26] [0m [95m [MAIN] [0m Joining Server Print Process
-[37m[17:08:26] [0m [34m [SERVER] [0m [17:08:26] [Server thread/INFO]: [halfhand870: Stopping the server]
-[37m[17:08:26] [0m [34m [SERVER] [0m [17:08:26] [Server thread/INFO]: Stopping server
-[37m[17:08:26] [0m [34m [SERVER] [0m [17:08:26] [Server thread/INFO]: Saving players
-[37m[17:08:26] [0m [34m [SERVER] [0m [17:08:26] [Server thread/INFO]: halfhand870 lost connection: Server closed
-[37m[17:08:26] [0m [34m [SERVER] [0m [17:08:26] [Server thread/INFO]: halfhand870 left the game
-[37m[17:08:26] [0m [34m [SERVER] [0m [17:08:26] [Server thread/INFO]: Saving worlds
-[37m[17:08:26] [0m [34m [SERVER] [0m [17:08:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[37m[17:08:26] [0m [34m [SERVER] [0m [17:08:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[37m[17:08:26] [0m [34m [SERVER] [0m [17:08:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[37m[17:08:26] [0m [34m [SERVER] [0m [17:08:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[37m[17:08:26] [0m [34m [SERVER] [0m [17:08:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[37m[17:08:26] [0m [34m [SERVER] [0m [17:08:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[37m[17:08:26] [0m [34m [SERVER] [0m [17:08:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[37m[17:08:27] [0m [31m [SERVER_MANAGER] [0m [5m[7m[31m!!!!! MANAGER THREAD STOPPED !!!!![0m
-[37m[17:08:27] [0m [95m [MAIN] [0m Joining Discord Bot Process
-[37m[17:09:05] [0m [32m [DISCORD_BOT] [0m Client has logged out
-[37m[17:09:05] [0m [32m [DISCORD_BOT] [0m [5m[7m[31m!!!!! BOT STOPPED !!!!![0m
+[37m[17:15:53] [0m [95m [MAIN] [0m Installing all resources
+[37m[17:15:53] [0m [33m [JSON_MANAGER] [0m Key '[33minstall[0m' found [[32m['01_server.json', '02_eula.json', '03_mod_folder.json', '!04_datapack_folder.json'][0m]
+[37m[17:15:53] [0m [33m [JSON_MANAGER] [0m Found json list [33m['01_server.json', '02_eula.json', '03_mod_folder.json', '04_datapack_folder.json'][0m
+[37m[17:15:53] [0m [33m [JSON_MANAGER] [0m Key '[33mreinstall[0m' found [[32m['01_server.json'][0m]
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m ['01_server.json']
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m 01_server.json found for reinstall
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m  
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 01_server.json ====================[0m
+[37m[17:15:53] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://meta.fabricmc.net/v2/versions/loader/1.21.8/0.17.2/1.1.0/server/jar[0m]
+[37m[17:15:53] [0m [33m [JSON_MANAGER] [0m Key '[33mtype[0m' found [[32mfile[0m]
+[37m[17:15:53] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mminecraft[0m]
+[37m[17:15:53] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server[0m]
+[37m[17:15:53] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/server.jar[0m]
+[37m[17:15:53] [0m [33m [JSON_MANAGER] [0m Key '[33mfolder_expected_files[0m' found [[32m0[0m]
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m Data type is file
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server[0m [32mdoes[0m exist... Checking file [33m/server.jar[0m
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m File /home/halfhand870/MinecraftServer/server/server.jar [31mdoes not[0m exist... Returning [31mfalse[0m
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m Using [94mwget[0m to download... This may take a moment
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m 
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m [31m==================== Finished install of 01_server.json ====================[0m
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m  
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m  
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 02_eula.json ====================[0m
+[37m[17:15:53] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://drive.google.com/file/d/1q_QVK86GXZQZgy5hcpzGRX4TbDCHW2vK/view?usp=drive_link[0m]
+[37m[17:15:53] [0m [33m [JSON_MANAGER] [0m Key '[33mtype[0m' found [[32mfile[0m]
+[37m[17:15:53] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mdrive[0m]
+[37m[17:15:53] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server[0m]
+[37m[17:15:53] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/eula.txt[0m]
+[37m[17:15:53] [0m [33m [JSON_MANAGER] [0m Key '[33mfolder_expected_files[0m' found [[32m0[0m]
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m Data type is file
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server[0m [32mdoes[0m exist... Checking file [33m/eula.txt[0m
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m File [33m/home/halfhand870/MinecraftServer/server/eula.txt[0m [32mdoes[0m exist... Returning [32mtrue[0m
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 02_eula.json ====================[0m
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m  
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m  
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 03_mod_folder.json ====================[0m
+[37m[17:15:53] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://drive.google.com/drive/folders/1PO_Got2Xa8zqzSi_k8bjLVRdEqBvaIQa?usp=drive_link[0m]
+[37m[17:15:53] [0m [33m [JSON_MANAGER] [0m Key '[33mtype[0m' found [[32mfolder[0m]
+[37m[17:15:53] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mdrive_folder[0m]
+[37m[17:15:53] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server/mods[0m]
+[37m[17:15:53] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m[0m]
+[37m[17:15:53] [0m [33m [JSON_MANAGER] [0m Key '[33mfolder_expected_files[0m' found [[32m26[0m]
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m Data type is folder
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server/mods[0m [32mdoes[0m exist... Checking file [33m[0m
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m No file check needed, is folder
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m Counting entries...
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m Found 26 entries in /home/halfhand870/MinecraftServer/server/mods
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server/mods[0m contains the correct number of files 26
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 03_mod_folder.json ====================[0m
+[37m[17:15:53] [0m [36m [WEB_INSTALLER] [0m  
+[37m[17:15:53] [0m [95m [MAIN] [0m Initializing Server Process
+[37m[17:15:53] [0m [95m [MAIN] [0m Initializing Server Print Process
+[37m[17:15:53] [0m [95m [MAIN] [0m Initializing Discord Process
+[37m[17:15:53] [0m [95m [MAIN] [0m Starting Server Process
+[37m[17:15:53] [0m [95m [MAIN] [0m Starting Server Print Process
+[37m[17:15:53] [0m [35m [RUN_JAR] [0m Checking if jar '/home/halfhand870/MinecraftServer/server/server.jar' exists
+[37m[17:15:53] [0m [35m [RUN_JAR] [0m Jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m' [32mdoes[0m exist
+[37m[17:15:53] [0m [35m [RUN_JAR] [0m Running jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m'
+[37m[17:15:53] [0m [95m [MAIN] [0m Starting Discord Bot Process
+[37m[17:15:53] [0m [34m [SERVER] [0m Cleared Logs
+[37m[17:15:53] [0m [95m [MAIN] [0m Joining Server Process
+[37m[17:15:57] [0m [32m [DISCORD_BOT] [0m Setting command icon to !
+[37m[17:15:57] [0m [32m [DISCORD_BOT] [0m Bot is ready
+[37m[17:16:42] [0m [32m [DISCORD_BOT] [0m Client has logged out
+[37m[17:16:42] [0m [32m [DISCORD_BOT] [0m [5m[7m[31m!!!!! BOT STOPPED !!!!![0m

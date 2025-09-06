@@ -3,6 +3,7 @@ import subprocess
 import os
 import sys
 import gdown
+import shutil
 
 from termcolor import colored as clr
 from src.tools import console_formatting as cf
@@ -25,14 +26,25 @@ WEB_RESOURCE_CONFIG = CWD + "/assets/web-resources/config/install_config.json"
 # Downloads all queued resources
 def installAllResources():
     # Get a list of all json files
-    reverse_sort = jm.getJsonValue(WEB_RESOURCE_CONFIG, "reverse_sort")
-    json_list = jm.getJsonList(WEB_RESOURCE_DIRECTORY, True, reverse_sort)
+    install_list = jm.getJsonValue(WEB_RESOURCE_CONFIG, "install")
+    available_list = jm.getJsonList(WEB_RESOURCE_DIRECTORY, True, False)
+
+    json_list = []
+    # Compare install list to json list
+    for val in install_list:
+        if val in available_list:
+            json_list.append(val)
 
     # Run through the list of json files and check if it needs to be installed
-    reinstall_all = jm.getJsonValue(WEB_RESOURCE_CONFIG, "reinstall_all")
+    reinstall_list = jm.getJsonValue(WEB_RESOURCE_CONFIG, "reinstall")
+    source.log(reinstall_list)
     for json in json_list:
+        # Check reinstall
+        check_reinstall = json in reinstall_list
+        if check_reinstall:
+            source.log(f"{json} found for reinstall")
         # Try to install
-        installResource(json, reinstall_all)
+        installResource(json, check_reinstall)
 
     return
 
@@ -60,29 +72,34 @@ def installResource(json, reinstall):
 
     # Pull data
     file_path = WEB_RESOURCE_DIRECTORY + "/" + json
-    check_keys = ['url', 'source', 'dir', 'file']
+    check_keys = ['url', 'type', 'source', 'dir', 'file', 'folder_expected_files']
     data = jm.getJsonData(file_path, check_keys)
-    installed = isInstalled(data)
+    installed = is_installed(data)
 
 
     # Hold constant data
     install_url = data['url']
+    install_type = data['type']
     install_source = data['source']
     install_directory = CWD + data['dir']
     install_file_path = install_directory + data['file']
+    install_file_name = data['file'].replace('/', '')
 
 
-    # Check if the data is installed
+    # Check if the data is installed or needs a re-installation
     if installed and not reinstall:
         source.end_divide(f"Canceled install of {json}")
         return
     elif installed and reinstall:
-        uninstall(install_file_path)
+        if install_type == "file":
+            uninstall(install_file_path)
+        elif install_type == "folder":
+            remove_directory(install_directory)
         source.log(f"Reinstalling {json}")
 
 
     # Run install
-    response = installUsingSource(install_url, install_source, install_directory, install_file_path)
+    response = installUsingSource(install_url, install_source, install_directory, install_file_path, install_file_name)
     if not response:
         source.error_divide(f"{clr("Failed install", 'red')} of {json}")
         return
@@ -95,13 +112,15 @@ def installResource(json, reinstall):
 
 
 # Runs different install methods based on source
-def installUsingSource(url, source, dir, file_path):
+def installUsingSource(url, source, directory, file_path, file_name):
     # Use a tree to check source
     match source:
         case 'minecraft':
-            return installWGet(url, dir)
+            return installWGet(url, directory, file_path)
         case 'drive':
             return installGDown(url, file_path)
+        case 'drive_folder':
+            return install_gdown_folder(url, directory)
 
     source.log(f"No statements with {clr(source, 'yellow')} exist")
     return False
@@ -110,13 +129,13 @@ def installUsingSource(url, source, dir, file_path):
 
 # Install using wget
 # --> Source == 'minecraft'
-def installWGet(url, dir):
+def installWGet(url, directory, file_name):
     source.log(f"Using {clr('wget', 'light_blue')} to download... This may take a moment")
 
     # Install the content
     try:
         # Run the download
-        install_response = subprocess.check_output(["wget", "-P", dir, url], text=True)
+        install_response = subprocess.check_output(["wget", "-P", directory, url, "-O", file_name], text=True)
         source.log(install_response)
 
     # Error if the server cannot be installed due to the sub process
@@ -131,6 +150,13 @@ def installWGet(url, dir):
 def installGDown(url, file_path):
     source.log(f"Using {clr('gdown', 'light_blue')} to download... This may take a moment")
     gdown.download(url, file_path, fuzzy=True)
+    return True
+
+# Install using gdown folder
+# --> Source == 'drive'
+def install_gdown_folder(url, dir):
+    source.log(f"Using {clr('gdown_folder', 'light_blue')} to download... This may take a moment")
+    gdown.download_folder(url, output=dir)
     return True
 
 def uninstall(file_path):
@@ -150,36 +176,75 @@ def uninstall(file_path):
 
     return
 
+def remove_directory(directory):
+    # Make sure path exists
+    if os.path.exists(directory) and os.path.isdir(directory):
+        try:
+            shutil.rmtree(directory)
+            source.log(f"Removed folder and contents at {directory}")
+        except OSError as e:
+            source.log(f"Error at {directory} : {e.strerror}")
+    return
+
 # ========== Checks ==========
 # Checks if the data is already installed
-def isInstalled(data):
+def is_installed(data):
     data_directory = CWD + data['dir']
     data_file_path = data_directory + data['file']
-
+    data_type = data['type']
+    source.log(f"Data type is {data_type}")
 
     # Check directory
     if os.path.isdir(data_directory):
         source.log(f"Directory {clr(data_directory, 'yellow')} {clr('does', 'green')} exist... Checking file {clr(data['file'], 'yellow')}")
+
+        # Check if expected files are correct
+        if data_type == "folder":
+            source.log("No file check needed, is folder")
+            data_expected_files = data['folder_expected_files']
+
+            if data_expected_files == count_contained_files(data_directory):
+                source.log(f"Directory {clr(data_directory, 'yellow')} contains the correct number of files {data_expected_files}")
+                return True
+            else:
+                source.log_error(f"Directory {clr(data_directory, 'yellow')} does not contain the correct number of files {data_expected_files}")
+                return False
     # Otherwise Log
     else:
         source.log(f"Directory {clr(data_directory, 'yellow')} {clr('does not', 'red')} exist... Creating now")
         if not createDirectory(data_directory):
             source.log(f"Directory {clr(data_directory, 'yellow')} could not be created... Returning {clr('false', 'red')}")
-            return
+            return False
 
 
     # Check file path
-    if os.path.exists(data_file_path):
+    if os.path.exists(data_file_path) and data_type == "file":
         source.log(f"File {clr(data_file_path, 'yellow')} {clr('does', 'green')} exist... Returning {clr('true', 'green')}")
         return True
     # Otherwise Log
     else:
-        source.log(f"File {clr(data_file_path, 'yellow')} {clr('does not', 'red')} exist... Returning {clr('false', 'red')}")
+        source.log(f"File {data_file_path} {clr('does not', 'red')} exist... Returning {clr('false', 'red')}")
 
 
     return False
 
+def count_contained_files(directory):
+    # Ensure the given value is a directory
+    if not os.path.exists(directory) or not os.path.isdir(directory):
+        source.log_error(f"Path {directory} is not a directory")
+        return 0
 
+    directory_list = os.listdir(directory)
+    file_count = 0
+
+    source.log(f"Counting entries...")
+    for val in directory_list:
+        # Check if the path is a file
+        if os.path.isfile(f"{directory}/{val}"):
+            file_count += 1
+    source.log(f"Found {file_count} entries in {directory}")
+
+    return file_count
 
 
 
