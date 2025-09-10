@@ -104,6 +104,11 @@ def installResource(json, reinstall):
         source.error_divide(f"{clr("Failed install", 'red')} of {json}")
         return
 
+    # If we are installing a folder and it is successful... log the expected file value
+    if install_type == "folder":
+        installed_length = len(os.listdir(install_directory))
+        source.log(f"Setting expected files to {installed_length}")
+        jm.writeJsonValue(file_path, "folder_expected_files", installed_length)
 
     # Notify that the installation process has stopped
     source.end_divide(f"Finished install of {json}")
@@ -155,6 +160,10 @@ def installGDown(url, file_path):
 # Install using gdown folder
 # --> Source == 'drive'
 def install_gdown_folder(url, dir):
+    # Uninstall previous folder if it exists
+    remove_directory(dir)
+
+    # Install
     source.log(f"Using {clr('gdown_folder', 'light_blue')} to download... This may take a moment")
     gdown.download_folder(url, output=dir)
     return True
@@ -207,7 +216,7 @@ def is_installed(data):
                 source.log(f"Directory {clr(data_directory, 'yellow')} contains the correct number of files {data_expected_files}")
                 return True
             else:
-                source.log_error(f"Directory {clr(data_directory, 'yellow')} does not contain the correct number of files {data_expected_files}")
+                source.log_error(f"Directory {data_directory} does not contain the correct number of files {data_expected_files}")
                 return False
     # Otherwise Log
     else:

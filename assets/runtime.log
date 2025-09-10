@@ -1,290 +1,89 @@
-[37m[17:33:39] [0m [95m [MAIN] [0m Installing all resources
-[37m[17:33:39] [0m [33m [JSON_MANAGER] [0m Key '[33minstall[0m' found [[32m['01_server.json', '02_eula.json', '!03_mod_folder.json', '!04_datapack_folder.json'][0m]
-[37m[17:33:39] [0m [33m [JSON_MANAGER] [0m Found json list [33m['01_server.json', '02_eula.json', '03_mod_folder.json', '04_datapack_folder.json'][0m
-[37m[17:33:39] [0m [33m [JSON_MANAGER] [0m Key '[33mreinstall[0m' found [[32m[][0m]
-[37m[17:33:39] [0m [36m [WEB_INSTALLER] [0m []
-[37m[17:33:39] [0m [36m [WEB_INSTALLER] [0m  
-[37m[17:33:39] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 01_server.json ====================[0m
-[37m[17:33:39] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://meta.fabricmc.net/v2/versions/loader/1.21.8/0.17.2/1.1.0/server/jar[0m]
-[37m[17:33:39] [0m [33m [JSON_MANAGER] [0m Key '[33mtype[0m' found [[32mfile[0m]
-[37m[17:33:39] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mminecraft[0m]
-[37m[17:33:39] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server[0m]
-[37m[17:33:39] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/server.jar[0m]
-[37m[17:33:39] [0m [33m [JSON_MANAGER] [0m Key '[33mfolder_expected_files[0m' found [[32m0[0m]
-[37m[17:33:39] [0m [36m [WEB_INSTALLER] [0m Data type is file
-[37m[17:33:39] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server[0m [32mdoes[0m exist... Checking file [33m/server.jar[0m
-[37m[17:33:39] [0m [36m [WEB_INSTALLER] [0m File [33m/home/halfhand870/MinecraftServer/server/server.jar[0m [32mdoes[0m exist... Returning [32mtrue[0m
-[37m[17:33:39] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 01_server.json ====================[0m
-[37m[17:33:39] [0m [36m [WEB_INSTALLER] [0m  
-[37m[17:33:39] [0m [36m [WEB_INSTALLER] [0m  
-[37m[17:33:39] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 02_eula.json ====================[0m
-[37m[17:33:39] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://drive.google.com/file/d/1q_QVK86GXZQZgy5hcpzGRX4TbDCHW2vK/view?usp=drive_link[0m]
-[37m[17:33:39] [0m [33m [JSON_MANAGER] [0m Key '[33mtype[0m' found [[32mfile[0m]
-[37m[17:33:39] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mdrive[0m]
-[37m[17:33:39] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server[0m]
-[37m[17:33:39] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/eula.txt[0m]
-[37m[17:33:39] [0m [33m [JSON_MANAGER] [0m Key '[33mfolder_expected_files[0m' found [[32m0[0m]
-[37m[17:33:39] [0m [36m [WEB_INSTALLER] [0m Data type is file
-[37m[17:33:39] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server[0m [32mdoes[0m exist... Checking file [33m/eula.txt[0m
-[37m[17:33:39] [0m [36m [WEB_INSTALLER] [0m File [33m/home/halfhand870/MinecraftServer/server/eula.txt[0m [32mdoes[0m exist... Returning [32mtrue[0m
-[37m[17:33:39] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 02_eula.json ====================[0m
-[37m[17:33:39] [0m [36m [WEB_INSTALLER] [0m  
-[37m[17:33:39] [0m [95m [MAIN] [0m Initializing Server Process
-[37m[17:33:39] [0m [95m [MAIN] [0m Initializing Server Print Process
-[37m[17:33:39] [0m [95m [MAIN] [0m Initializing Discord Process
-[37m[17:33:39] [0m [95m [MAIN] [0m Starting Server Process
-[37m[17:33:39] [0m [95m [MAIN] [0m Starting Server Print Process
-[37m[17:33:39] [0m [35m [RUN_JAR] [0m Checking if jar '/home/halfhand870/MinecraftServer/server/server.jar' exists
-[37m[17:33:39] [0m [35m [RUN_JAR] [0m Jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m' [32mdoes[0m exist
-[37m[17:33:39] [0m [35m [RUN_JAR] [0m Running jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m'
-[37m[17:33:39] [0m [95m [MAIN] [0m Starting Discord Bot Process
-[37m[17:33:39] [0m [34m [SERVER] [0m Cleared Logs
-[37m[17:33:39] [0m [95m [MAIN] [0m Joining Server Process
-[37m[17:33:40] [0m [34m [SERVER] [0m [17:33:40] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
-[37m[17:33:41] [0m [34m [SERVER] [0m [17:33:40] [main/INFO]: Loading 91 mods:
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- armorposer 11.0.1
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- audioplayer 1.21.8-1.13.2
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   \-- admiral 0.4.8+1.21.6
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- cloth-config 19.0.147
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   \-- cloth-basic-math 0.6.1
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- clumps 26.0.0.1
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- coordfinder 1.21.8-1.1.0
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   \-- admiral 0.4.8+1.21.6
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- datapack_injector 1.0.0+1.21.8
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- enhancedgroups 1.21.8-1.7.0
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   \-- admiral 0.4.8+1.21.6
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- fabric-api 0.133.0+1.21.8
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-api-base 0.5.0+cd8c0daa2c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-api-lookup-api-v1 1.6.101+946bf4c32c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-biome-api-v1 16.0.11+946bf4c32c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-block-api-v1 1.1.3+946bf4c32c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-block-view-api-v2 1.0.31+946bf4c32c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-command-api-v2 2.3.1+52fff9ec2c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-content-registries-v0 10.1.0+c75de69d2c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-convention-tags-v1 2.1.41+7f945d5b2c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-convention-tags-v2 2.15.6+eb5df52f2c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-crash-report-info-v1 0.3.15+946bf4c32c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-data-attachment-api-v1 1.8.12+38b5f74e2c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-data-generation-api-v1 23.2.6+0b1ef9762c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-dimensions-v1 4.0.20+948fc79a2c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-entity-events-v1 2.1.2+c9e472732c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-events-interaction-v0 4.0.24+946bf4c32c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-game-rule-api-v1 1.0.73+c64c9c5b2c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-item-api-v1 11.5.0+02ce13f42c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-item-group-api-v1 4.2.14+c5f9bbc12c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-key-binding-api-v1 1.0.65+946bf4c32c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-lifecycle-events-v1 2.6.4+db4dfd852c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-loot-api-v2 3.0.56+3f89f5a52c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-loot-api-v3 2.0.3+946bf4c32c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-message-api-v1 6.1.2+946bf4c32c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-model-loading-api-v1 5.2.7+946bf4c32c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-networking-api-v1 5.0.2+946bf4c32c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-object-builder-api-v1 21.1.8+946bf4c32c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-particles-v1 4.1.8+946bf4c32c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-recipe-api-v1 8.1.15+946bf4c32c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-registry-sync-v0 6.1.28+946bf4c32c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-renderer-api-v1 7.0.4+208eed172c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-renderer-indigo 4.0.4+946bf4c32c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-rendering-fluids-v1 3.1.31+fa6cb72b2c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-rendering-v1 12.5.1+fbe231d52c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-resource-conditions-api-v1 5.0.25+98e6d6db2c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-resource-loader-v0 3.1.12+020423442c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-screen-api-v1 2.1.1+277ecf7d2c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-screen-handler-api-v1 1.3.137+946bf4c32c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-serialization-api-v1 1.0.0+fc0e5aba2c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-sound-api-v1 1.0.42+946bf4c32c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-tag-api-v1 1.2.2+946bf4c32c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-transfer-api-v1 6.0.6+946bf4c32c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   \-- fabric-transitive-access-wideners-v1 6.5.0+c847ce762c
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- fabric-language-kotlin 1.13.4+kotlin.2.2.0
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlin_kotlin-reflect 2.2.0
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.0
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.0
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.0
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.28.0
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.2
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.7.0
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.7.0
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.8.1
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.8.1
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.8.1
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- fabricloader 0.17.2
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   \-- mixinextras 0.5.0
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- ferritecore 8.0.0
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- inhabitor 1.21.8-1.0.5
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- java 21
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- ledger 1.3.13
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- com_fasterxml_jackson_datatype_jackson-datatype-jsr310 2.12.2
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- com_fasterxml_jackson_module_jackson-module-kotlin 2.12.2
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- com_moandjiezana_toml_toml4j 0.7.2
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- com_uchuhimo_konf-core 1.1.2
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- com_uchuhimo_konf-toml 1.1.2
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-permissions-api-v0 0.4.1
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- org_apache_commons_commons-text 1.9
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- org_javassist_javassist 3.26.0-GA
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_exposed_exposed-core 0.61.0
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_exposed_exposed-dao 0.61.0
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_exposed_exposed-java-time 0.61.0
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_exposed_exposed-jdbc 0.61.0
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_exposed_exposed-migration 0.61.0
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- org_reflections_reflections 0.9.12
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- org_xerial_sqlite-jdbc 3.50.3.0
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   \-- server_translations_api 2.5.1+1.21.5
-[37m[17:33:41] [0m [34m [SERVER] [0m 	        \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- lithium 0.18.0+mc1.21.8
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- minecraft 1.21.8
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- mr_world_editor 1-v2.2.2
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- peek 1.21.8-1.4.8
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- spark 1.10.142
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   \-- fabric-permissions-api-v0 0.4.1
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- status 1.21.8-1.0.8
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   \-- fabric-key-binding-api-v1 1.0.65+946bf4c3f3
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- viewdistancefix 1.21.8-1.0.2
-[37m[17:33:41] [0m [34m [SERVER] [0m 	- voicechat 1.21.8-2.6.1
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-key-binding-api-v1 1.0.65+946bf4c3f3
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   |-- fabric-rendering-v1 12.4.0+e8d43c76f3
-[37m[17:33:41] [0m [34m [SERVER] [0m 	   \-- voicechat_api 2.6.0
-[37m[17:33:41] [0m [34m [SERVER] [0m [17:33:40] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/halfhand870/MinecraftServer/server/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[37m[17:33:41] [0m [34m [SERVER] [0m [17:33:40] [main/INFO]: Compatibility level set to JAVA_21
-[37m[17:33:41] [0m [34m [SERVER] [0m [17:33:40] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[37m[17:33:41] [0m [34m [SERVER] [0m [17:33:40] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
-[37m[17:33:42] [0m [34m [SERVER] [0m [17:33:41] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[37m[17:33:42] [0m [32m [DISCORD_BOT] [0m Setting command icon to !
-[37m[17:33:42] [0m [32m [DISCORD_BOT] [0m Bot is ready
-[37m[17:33:48] [0m [34m [SERVER] [0m [17:33:47] [main/ERROR]: Failed to load persistent groups
-[37m[17:33:48] [0m [34m [SERVER] [0m [17:33:47] [main/ERROR]: Failed to load auto join groups
-[37m[17:33:48] [0m [34m [SERVER] [0m [17:33:47] [main/INFO]: Compatibility version 1
-[37m[17:33:48] [0m [34m [SERVER] [0m [17:33:47] [main/INFO]: [voicechat] Compatibility version 20
-[37m[17:33:48] [0m [34m [SERVER] [0m [17:33:47] [main/INFO]: [voicechat] Loading plugins
-[37m[17:33:48] [0m [34m [SERVER] [0m [17:33:47] [main/INFO]: [voicechat] Loaded 2 plugin(s)
-[37m[17:33:48] [0m [34m [SERVER] [0m [17:33:47] [main/INFO]: [voicechat] Initializing plugins
-[37m[17:33:48] [0m [34m [SERVER] [0m [17:33:47] [main/INFO]: [voicechat] Initialized 2 plugin(s)
-[37m[17:33:48] [0m [34m [SERVER] [0m [17:33:47] [main/INFO]: [voicechat] Registering events for 'audioplayer'
-[37m[17:33:48] [0m [34m [SERVER] [0m [17:33:47] [main/INFO]: [voicechat] Registering events for 'enhancedgroups'
-[37m[17:33:48] [0m [34m [SERVER] [0m [17:33:47] [main/INFO]: Initializing Ledger 1.3.13
-[37m[17:33:48] [0m [34m [SERVER] [0m [17:33:47] [main/INFO]: No config file, Creating
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack audioplayer, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack fabric, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack fabric-convention-tags-v2, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/RestartRedstone-1.2.zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/Statistic-Books-MC_v1.5.3.zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/afk display v1.1.10 (MC 1.21-1.21.4).zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/anti enderman grief v1.1.10 (MC 1.21-1.21.4).zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/armor_statues_v2.14.0.zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/camera-1.1.zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/cave-cleaner-1.2.zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/coordinates hud v1.2.11 (MC 1.21-1.21.4).zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/custom_roleplay_data_v1.5.zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/durability ping v1.1.10 (MC 1.21-1.21.4).zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/hard-on-start-1.2.zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/mini blocks v1.1.3 (MC 1.21-1.21.8).zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/more mob heads v2.15.0 (MC 1.21-1.21.4).zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/multiplayer sleep v2.6.10 (MC 1.21-1.21.4).zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/name_formatting_station_v2.5.zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/nether portal coords v1.1.10 (MC 1.21-1.21.4).zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/player head drops v1.1.10 (MC 1.21-1.21.4).zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/silence mobs v1.2.7 (MC 1.21-1.21.8).zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/spectator conduit power v1.1.10 (MC 1.21-1.21.4).zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/spectator night vision v1.1.10 (MC 1.21-1.21.4).zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/toggle-weather-1.2.zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/tp-tools-1.2.zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/track raw statistics v1.7.9 (MC 1.21-1.21.8).zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/track statistics v1.1.15 (MC 1.21-1.21.8).zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack file/translatable_v1.7.zip, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack ledger, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack mr_world_editor, loading it automatically
-[37m[17:33:49] [0m [34m [SERVER] [0m [17:33:48] [main/INFO]: Found new data pack server_translations_api, loading it automatically
-[37m[17:33:50] [0m [34m [SERVER] [0m [17:33:50] [Worker-Main-3/ERROR]: Couldn't parse data file 'vanilla:entities/magma_cube' from 'vanilla:loot_table/entities/magma_cube.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:entity_sub_predicate_type]: minecraft:frog; Unknown registry key in ResourceKey[minecraft:root / minecraft:entity_sub_predicate_type]: minecraft:frog; Unknown registry key in ResourceKey[minecraft:root / minecraft:entity_sub_predicate_type]: minecraft:frog': net.minecraft.class_52@da23d5c]
-[37m[17:33:50] [0m [34m [SERVER] [0m [17:33:50] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/magma_cube@minecraft:loot_table}.pools[0].entries[0]: Missing element vanilla:entities/magma_cube of type minecraft:loot_table
-[37m[17:33:50] [0m [34m [SERVER] [0m [17:33:50] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/shulker@minecraft:loot_table}.pools[2].entries[0]: Missing element double_shulker_shells:entities/shulker of type minecraft:loot_table
-[37m[17:33:50] [0m [34m [SERVER] [0m [17:33:50] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/player@minecraft:loot_table}.pools[1].entries[0]: Missing element graves:entities/player of type minecraft:loot_table
-[37m[17:33:50] [0m [34m [SERVER] [0m [17:33:50] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/bat@minecraft:loot_table}.pools[2].entries[0]: Missing element bat_membranes:entities/bat of type minecraft:loot_table
-[37m[17:33:50] [0m [34m [SERVER] [0m [17:33:50] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/villager@minecraft:loot_table}.pools[2].entries[0]: Missing element villager_death:entities/villager of type minecraft:loot_table
-[37m[17:33:50] [0m [34m [SERVER] [0m [17:33:50] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element husks_drop_sand:entities/husk of type minecraft:loot_table
-[37m[17:33:51] [0m [34m [SERVER] [0m [17:33:51] [main/INFO]: Loaded 1614 recipes
-[37m[17:33:51] [0m [34m [SERVER] [0m [17:33:51] [main/ERROR]: Failed to load function sb:setup_objectives
-[37m[17:33:51] [0m [34m [SERVER] [0m java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4335: Unknown criterion 'killed:potion' at position 43: ...ed.potion <--[HERE]
-[37m[17:33:51] [0m [34m [SERVER] [0m 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-[37m[17:33:51] [0m [34m [SERVER] [0m 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-[37m[17:33:51] [0m [34m [SERVER] [0m 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-[37m[17:33:51] [0m [34m [SERVER] [0m 	at knot/net.minecraft.class_4014.method_67576(class_4014.java:52) ~[server-intermediary.jar:?]
-[37m[17:33:51] [0m [34m [SERVER] [0m 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-[37m[17:33:51] [0m [34m [SERVER] [0m 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-[37m[17:33:51] [0m [34m [SERVER] [0m 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-[37m[17:33:51] [0m [34m [SERVER] [0m 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-[37m[17:33:51] [0m [34m [SERVER] [0m 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-[37m[17:33:51] [0m [34m [SERVER] [0m 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[37m[17:33:51] [0m [34m [SERVER] [0m Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4335: Unknown criterion 'killed:potion' at position 43: ...ed.potion <--[HERE]
-[37m[17:33:51] [0m [34m [SERVER] [0m 	at knot/net.minecraft.class_2158.method_9195(class_2158.java:80) ~[server-intermediary.jar:?]
-[37m[17:33:51] [0m [34m [SERVER] [0m 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
-[37m[17:33:51] [0m [34m [SERVER] [0m 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-[37m[17:33:51] [0m [34m [SERVER] [0m 	... 7 more
-[37m[17:33:51] [0m [34m [SERVER] [0m [17:33:51] [main/INFO]: Loaded 1814 advancements
-[37m[17:33:51] [0m [34m [SERVER] [0m [17:33:51] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 65 translation keys
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:51] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.295 ms
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:51] [Server thread/INFO]: Starting background profiler...
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: SQL: CREATE TABLE IF NOT EXISTS players (id INTEGER PRIMARY KEY AUTOINCREMENT, player_id BINARY(16) NOT NULL, player_name VARCHAR(16) NOT NULL, first_join TEXT NOT NULL, last_join TEXT NOT NULL, CONSTRAINT chk_players_signed_integer_id CHECK (id BETWEEN -2147483648 AND 2147483647))
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: SQL: CREATE UNIQUE INDEX players_player_id ON players (player_id)
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: SQL: CREATE TABLE IF NOT EXISTS ActionIdentifiers (id INTEGER PRIMARY KEY AUTOINCREMENT, action_identifier VARCHAR(16) NOT NULL, CONSTRAINT chk_ActionIdentifiers_signed_integer_id CHECK (id BETWEEN -2147483648 AND 2147483647))
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: SQL: CREATE UNIQUE INDEX ActionIdentifiers_action_identifier ON ActionIdentifiers (action_identifier)
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: SQL: CREATE TABLE IF NOT EXISTS worlds (id INTEGER PRIMARY KEY AUTOINCREMENT, identifier VARCHAR(191) NOT NULL, CONSTRAINT chk_worlds_signed_integer_id CHECK (id BETWEEN -2147483648 AND 2147483647))
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: SQL: CREATE UNIQUE INDEX worlds_identifier ON worlds (identifier)
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: SQL: CREATE TABLE IF NOT EXISTS ObjectIdentifiers (id INTEGER PRIMARY KEY AUTOINCREMENT, identifier VARCHAR(191) NOT NULL, CONSTRAINT chk_ObjectIdentifiers_signed_integer_id CHECK (id BETWEEN -2147483648 AND 2147483647))
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: SQL: CREATE UNIQUE INDEX ObjectIdentifiers_identifier ON ObjectIdentifiers (identifier)
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: SQL: CREATE TABLE IF NOT EXISTS sources (id INTEGER PRIMARY KEY AUTOINCREMENT, "name" VARCHAR(30) NOT NULL, CONSTRAINT chk_sources_signed_integer_id CHECK (id BETWEEN -2147483648 AND 2147483647))
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: SQL: CREATE UNIQUE INDEX sources_name ON sources ("name")
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: SQL: CREATE TABLE IF NOT EXISTS actions (id INTEGER PRIMARY KEY AUTOINCREMENT, action_id INT NOT NULL, "time" TEXT NOT NULL, x INT NOT NULL, y INT NOT NULL, z INT NOT NULL, world_id INT NOT NULL, object_id INT NOT NULL, old_object_id INT NOT NULL, block_state TEXT NULL, old_block_state TEXT NULL, "source" INT NOT NULL, player_id INT NULL, extra_data TEXT NULL, rolled_back BOOLEAN NOT NULL, CONSTRAINT fk_actions_action_id__id FOREIGN KEY (action_id) REFERENCES ActionIdentifiers(id) ON DELETE RESTRICT ON UPDATE RESTRICT, CONSTRAINT fk_actions_world_id__id FOREIGN KEY (world_id) REFERENCES worlds(id) ON DELETE RESTRICT ON UPDATE RESTRICT, CONSTRAINT fk_actions_object_id__id FOREIGN KEY (object_id) REFERENCES ObjectIdentifiers(id) ON DELETE RESTRICT ON UPDATE RESTRICT, CONSTRAINT fk_actions_old_object_id__id FOREIGN KEY (old_object_id) REFERENCES ObjectIdentifiers(id) ON DELETE RESTRICT ON UPDATE RESTRICT, CONSTRAINT fk_actions_source__id FOREIGN KEY ("source") REFERENCES sources(id) ON DELETE RESTRICT ON UPDATE RESTRICT, CONSTRAINT fk_actions_player_id__id FOREIGN KEY (player_id) REFERENCES players(id) ON DELETE RESTRICT ON UPDATE RESTRICT, CONSTRAINT chk_actions_signed_integer_id CHECK (id BETWEEN -2147483648 AND 2147483647), CONSTRAINT chk_actions_signed_integer_x CHECK (x BETWEEN -2147483648 AND 2147483647), CONSTRAINT chk_actions_signed_integer_y CHECK (y BETWEEN -2147483648 AND 2147483647), CONSTRAINT chk_actions_signed_integer_z CHECK (z BETWEEN -2147483648 AND 2147483647))
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: SQL: CREATE INDEX actions_action_id ON actions (action_id)
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: SQL: CREATE INDEX actions_object_id ON actions (object_id)
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: SQL: CREATE INDEX actions_old_object_id ON actions (old_object_id)
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: SQL: CREATE INDEX actions_source ON actions ("source")
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: SQL: CREATE INDEX actions_player_id ON actions (player_id)
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: SQL: CREATE INDEX actions_by_location ON actions (x, y, z, world_id)
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: Tables created
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: Loading properties
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [DefaultDispatcher-worker-2/INFO]: Inserting 1670 registry keys into the database...
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: Default game type: SURVIVAL
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: Generating keypair
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: Using epoll channel type
-[37m[17:33:52] [0m [34m [SERVER] [0m [17:33:52] [Server thread/INFO]: Preparing level "world"
-[37m[17:33:54] [0m [34m [SERVER] [0m [17:33:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[37m[17:33:54] [0m [34m [SERVER] [0m [17:33:53] [DefaultDispatcher-worker-3/INFO]: Registry insert complete
-[37m[17:33:54] [0m [34m [SERVER] [0m [17:33:53] [Worker-Main-9/INFO]: Preparing spawn area: 2%
-[37m[17:33:54] [0m [34m [SERVER] [0m [17:33:54] [Worker-Main-10/INFO]: Preparing spawn area: 51%
-[37m[17:33:55] [0m [34m [SERVER] [0m [17:33:54] [Worker-Main-14/INFO]: Preparing spawn area: 51%
-[37m[17:33:55] [0m [34m [SERVER] [0m [17:33:55] [Worker-Main-11/INFO]: Preparing spawn area: 51%
-[37m[17:33:56] [0m [34m [SERVER] [0m [17:33:55] [Worker-Main-4/INFO]: Preparing spawn area: 51%
-[37m[17:33:56] [0m [34m [SERVER] [0m [17:33:56] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[37m[17:33:56] [0m [34m [SERVER] [0m [17:33:56] [Server thread/INFO]: Time elapsed: 2630 ms
-[37m[17:33:56] [0m [34m [SERVER] [0m [17:33:56] [Server thread/INFO]: Done (3.804s)! For help, type "help"
-[37m[17:33:56] [0m [34m [SERVER] [0m [17:33:56] [Server thread/INFO]: Loading audio file volume overrides...
-[37m[17:33:56] [0m [34m [SERVER] [0m [17:33:56] [Server thread/INFO]: Loading audio file name mappings...
-[37m[17:33:56] [0m [34m [SERVER] [0m [17:33:56] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[37m[17:33:56] [0m [34m [SERVER] [0m [17:33:56] [Server thread/INFO]: Added 0 persistent groups
-[37m[17:34:04] [0m [34m [SERVER] [0m [17:34:03] [User Authenticator #1/INFO]: UUID of player halfhand870 is a98a0668-d13c-41a1-afe0-cbe0eda89de7
-[37m[17:34:05] [0m [34m [SERVER] [0m [17:34:04] [Server thread/INFO]: halfhand870[/127.0.0.1:56424] logged in with entity id 1 at (2.5, 64.0, 4.5)
-[37m[17:34:05] [0m [34m [SERVER] [0m [17:34:04] [Server thread/INFO]: Using Fabric Permissions API
-[37m[17:34:05] [0m [34m [SERVER] [0m [17:34:04] [Server thread/INFO]: Using Fabric Permissions API
-[37m[17:34:05] [0m [34m [SERVER] [0m [17:34:04] [Server thread/INFO]: Using Fabric Permissions API
-[37m[17:34:05] [0m [34m [SERVER] [0m [17:34:04] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
-[37m[17:34:05] [0m [34m [SERVER] [0m [17:34:04] [Server thread/INFO]: halfhand870 joined the game
-[37m[17:34:05] [0m [34m [SERVER] [0m [17:34:05] [Server thread/INFO]: [voicechat] Received secret request of halfhand870 (20)
-[37m[17:34:05] [0m [34m [SERVER] [0m [17:34:05] [Server thread/INFO]: [voicechat] Sent secret to halfhand870
-[37m[17:34:06] [0m [34m [SERVER] [0m [17:34:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player a98a0668-d13c-41a1-afe0-cbe0eda89de7
-[37m[17:34:07] [0m [34m [SERVER] [0m [17:34:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player a98a0668-d13c-41a1-afe0-cbe0eda89de7
-[37m[17:34:07] [0m [34m [SERVER] [0m [17:34:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player halfhand870 (a98a0668-d13c-41a1-afe0-cbe0eda89de7) successfully connected to voice chat
-[37m[17:34:23] [0m [34m [SERVER] [0m [17:34:22] [Server thread/INFO]: Made halfhand870 a server operator
-[37m[17:34:26] [0m [34m [SERVER] [0m [17:34:25] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[37m[17:34:26] [0m [34m [SERVER] [0m [17:34:25] [Server thread/INFO]: \<--[HERE]
-[37m[17:34:55] [0m [34m [SERVER] [0m [17:34:54] [Server thread/INFO]: halfhand870 was killed
-[37m[17:34:55] [0m [34m [SERVER] [0m [17:34:54] [Server thread/INFO]: [halfhand870: Killed halfhand870]
-[37m[17:35:14] [0m [34m [SERVER] [0m [17:35:14] [Server thread/INFO]: halfhand870 lost connection: Disconnected
-[37m[17:35:14] [0m [34m [SERVER] [0m [17:35:14] [Server thread/INFO]: halfhand870 left the game
-[37m[17:35:14] [0m [34m [SERVER] [0m [17:35:14] [Server thread/INFO]: [voicechat] Disconnecting client halfhand870
-[37m[17:35:33] [0m [32m [DISCORD_BOT] [0m Client has logged out
-[37m[17:35:33] [0m [32m [DISCORD_BOT] [0m [5m[7m[31m!!!!! BOT STOPPED !!!!![0m
+[37m[10:57:47] [0m [95m [MAIN] [0m Installing all resources
+[37m[10:57:47] [0m [33m [JSON_MANAGER] [0m Key '[33minstall[0m' found [[32m['01_server.json', '02_eula.json', '03_mod_folder.json', '!04_datapack_folder.json'][0m]
+[37m[10:57:47] [0m [33m [JSON_MANAGER] [0m Found json list [33m['01_server.json', '02_eula.json', '03_mod_folder.json', '04_datapack_folder.json'][0m
+[37m[10:57:47] [0m [33m [JSON_MANAGER] [0m Key '[33mreinstall[0m' found [[32m[][0m]
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m []
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m  
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 01_server.json ====================[0m
+[37m[10:57:47] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://meta.fabricmc.net/v2/versions/loader/1.21.8/0.17.2/1.1.0/server/jar[0m]
+[37m[10:57:47] [0m [33m [JSON_MANAGER] [0m Key '[33mtype[0m' found [[32mfile[0m]
+[37m[10:57:47] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mminecraft[0m]
+[37m[10:57:47] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server[0m]
+[37m[10:57:47] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/server.jar[0m]
+[37m[10:57:47] [0m [33m [JSON_MANAGER] [0m Key '[33mfolder_expected_files[0m' found [[32m0[0m]
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m Data type is file
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server[0m [32mdoes[0m exist... Checking file [33m/server.jar[0m
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m File [33m/home/halfhand870/MinecraftServer/server/server.jar[0m [32mdoes[0m exist... Returning [32mtrue[0m
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 01_server.json ====================[0m
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m  
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m  
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 02_eula.json ====================[0m
+[37m[10:57:47] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://drive.google.com/file/d/1q_QVK86GXZQZgy5hcpzGRX4TbDCHW2vK/view?usp=drive_link[0m]
+[37m[10:57:47] [0m [33m [JSON_MANAGER] [0m Key '[33mtype[0m' found [[32mfile[0m]
+[37m[10:57:47] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mdrive[0m]
+[37m[10:57:47] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server[0m]
+[37m[10:57:47] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/eula.txt[0m]
+[37m[10:57:47] [0m [33m [JSON_MANAGER] [0m Key '[33mfolder_expected_files[0m' found [[32m0[0m]
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m Data type is file
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server[0m [32mdoes[0m exist... Checking file [33m/eula.txt[0m
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m File [33m/home/halfhand870/MinecraftServer/server/eula.txt[0m [32mdoes[0m exist... Returning [32mtrue[0m
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 02_eula.json ====================[0m
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m  
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m  
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 03_mod_folder.json ====================[0m
+[37m[10:57:47] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://drive.google.com/drive/folders/1eIf9-XAQoPPAHAlGT64x1RDuUFxI4v7C?usp=drive_link[0m]
+[37m[10:57:47] [0m [33m [JSON_MANAGER] [0m Key '[33mtype[0m' found [[32mfolder[0m]
+[37m[10:57:47] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mdrive_folder[0m]
+[37m[10:57:47] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server/mods[0m]
+[37m[10:57:47] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m[0m]
+[37m[10:57:47] [0m [33m [JSON_MANAGER] [0m Key '[33mfolder_expected_files[0m' found [[32m0[0m]
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m Data type is folder
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server/mods[0m [32mdoes[0m exist... Checking file [33m[0m
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m No file check needed, is folder
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m Counting entries...
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m Found 1 entries in /home/halfhand870/MinecraftServer/server/mods
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m [5m[7m[31mDirectory /home/halfhand870/MinecraftServer/server/mods does not contain the correct number of files 0[0m
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m Removed folder and contents at /home/halfhand870/MinecraftServer/server/mods
+[37m[10:57:47] [0m [36m [WEB_INSTALLER] [0m Using [94mgdown_folder[0m to download... This may take a moment
+[37m[10:57:50] [0m [36m [WEB_INSTALLER] [0m Setting expected files to 1
+[37m[10:57:50] [0m [33m [JSON_MANAGER] [0m Key '[33mfolder_expected_files[0m' found [[32m0[0m]
+[37m[10:57:50] [0m [36m [WEB_INSTALLER] [0m [31m==================== Finished install of 03_mod_folder.json ====================[0m
+[37m[10:57:50] [0m [36m [WEB_INSTALLER] [0m  
+[37m[10:57:50] [0m [95m [MAIN] [0m Initializing Server Process
+[37m[10:57:50] [0m [95m [MAIN] [0m Initializing Server Print Process
+[37m[10:57:50] [0m [95m [MAIN] [0m Initializing Discord Process
+[37m[10:57:50] [0m [95m [MAIN] [0m Starting Server Process
+[37m[10:57:50] [0m [95m [MAIN] [0m Starting Server Print Process
+[37m[10:57:50] [0m [35m [RUN_JAR] [0m Checking if jar '/home/halfhand870/MinecraftServer/server/server.jar' exists
+[37m[10:57:50] [0m [35m [RUN_JAR] [0m Jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m' [32mdoes[0m exist
+[37m[10:57:50] [0m [35m [RUN_JAR] [0m Running jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m'
+[37m[10:57:50] [0m [95m [MAIN] [0m Starting Discord Bot Process
+[37m[10:57:50] [0m [34m [SERVER] [0m Cleared Logs
+[37m[10:57:50] [0m [95m [MAIN] [0m Joining Server Process
+[37m[10:57:51] [0m [34m [SERVER] [0m [10:57:51] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
+[37m[10:57:51] [0m [35m [RUN_JAR] [0m Could not run jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m'
+[37m[10:57:51] [0m [35m [RUN_JAR] [0m Failed with exception 1
+[37m[10:57:51] [0m [35m [RUN_JAR] [0m Stopping jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m'
+[37m[10:57:51] [0m [35m [RUN_JAR] [0m [5m[7m[31m!!!!! JAVA FILE STOPPED !!!!![0m
+[37m[10:57:51] [0m [95m [MAIN] [0m Joining Server Print Process
+[37m[10:57:52] [0m [34m [SERVER] [0m [10:57:51] [main/WARN]: Mod resolution failed
+[37m[10:57:52] [0m [34m [SERVER] [0m [10:57:51] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE elytra-rework 1.0.0 {depends fabric-api @ [*]}, ROOT_FORCELOAD_SINGLE elytra-rework 1.0.0]
+[37m[10:57:52] [0m [34m [SERVER] [0m [10:57:51] [main/INFO]: Reason: [HARD_DEP elytra-rework 1.0.0 {depends fabric-api @ [*]}]
+[37m[10:57:52] [0m [34m [SERVER] [0m [10:57:51] [main/INFO]: Fix: add [add:fabric-api 1 ([(-∞,∞)])], remove [], replace []
+[37m[10:57:52] [0m [34m [SERVER] [0m [10:57:51] [main/ERROR]: Incompatible mods found!
+[37m[10:57:52] [0m [34m [SERVER] [0m net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+[37m[10:57:52] [0m [34m [SERVER] [0m A potential solution has been determined, this may resolve your problem:
+[37m[10:57:52] [0m [34m [SERVER] [0m 	 - Install fabric-api, any version.
+[37m[10:57:52] [0m [34m [SERVER] [0m More details:
+[37m[10:57:52] [0m [34m [SERVER] [0m 	 - Mod 'Elytra Rework' (elytra-rework) 1.0.0 requires any version of fabric-api, which is missing!
+[37m[10:57:52] [0m [34m [SERVER] [0m 	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.17.2.jar:?]
+[37m[10:57:52] [0m [34m [SERVER] [0m 	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:202) ~[fabric-loader-0.17.2.jar:?]
+[37m[10:57:52] [0m [34m [SERVER] [0m 	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142) ~[fabric-loader-0.17.2.jar:?]
+[37m[10:57:52] [0m [34m [SERVER] [0m 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66) [fabric-loader-0.17.2.jar:?]
+[37m[10:57:52] [0m [34m [SERVER] [0m 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.17.2.jar:?]
+[37m[10:57:52] [0m [34m [SERVER] [0m 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.17.2.jar:?]
+[37m[10:57:52] [0m [34m [SERVER] [0m 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [server.jar:1.1.0]
+[37m[10:57:53] [0m [32m [DISCORD_BOT] [0m Setting command icon to !
+[37m[10:57:53] [0m [32m [DISCORD_BOT] [0m Bot is ready
+[37m[11:09:36] [0m [32m [DISCORD_BOT] [0m Client has logged out
+[37m[11:09:36] [0m [32m [DISCORD_BOT] [0m [5m[7m[31m!!!!! BOT STOPPED !!!!![0m
