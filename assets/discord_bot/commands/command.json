@@ -1,7 +1,7 @@
 {
   "keyword": "edit",
   "args": "[1, 2, 3, 4, 5]",
-  "directory": "/assets/scripts/commands/command_modification.py",
+  "directory": "/src/commands/command_modification.py",
   "manual_directory": "/assets/discord_bot/manuals/command.md",
   "compile": true,
   "require_admin": true

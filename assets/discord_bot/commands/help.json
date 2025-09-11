@@ -1,7 +1,7 @@
 {
   "keyword": "help",
   "args": "[0, 1]",
-  "directory": "/assets/scripts/commands/help.py",
+  "directory": "/src/commands/help.py",
   "manual_directory": "/assets/discord_bot/manuals/help.md",
   "compile": true,
   "require_admin": false

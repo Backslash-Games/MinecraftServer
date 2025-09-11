@@ -1,7 +1,7 @@
 {
   "keyword": "run",
   "args": "[1]",
-  "directory": "/assets/scripts/commands/run_command.py",
+  "directory": "/src/commands/run_command.py",
   "manual_directory": "/assets/discord_bot/manuals/run.md",
   "compile": false,
   "require_admin": true

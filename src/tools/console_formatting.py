@@ -27,6 +27,16 @@ class Console:
         self.writeRuntimeLogs(out_content)
         return out_content
     # -> Also writes to a log file in assets
+    def log_warning(self, content):
+        # Check suppression
+        if self.SUPPRESSED:
+            content = "! PASSING SUPPRESSED ! -> " + content
+
+        out_content = f"{self.getSystemTime()} {self.SOURCE_KEY} {clr(content, 'yellow', attrs=["reverse", "blink"])}"
+        print(out_content)
+        self.writeRuntimeLogs(out_content)
+        return out_content
+    # -> Also writes to a log file in assets
     def log_error(self, content):
         # Check suppression
         if self.SUPPRESSED:

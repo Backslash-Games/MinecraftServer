@@ -1,0 +1,8 @@
+{
+    "keyword": "backup",
+    "args": "[0]",
+    "directory": "/src/commands/backup.py",
+    "manual_directory": "/assets/discord_bot/manuals/backup.md",
+    "compile": true,
+    "require_admin": true
+}

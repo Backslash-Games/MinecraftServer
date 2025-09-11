@@ -27,7 +27,7 @@ def on_update():
         return
 
     # Read file and perform operations
-    command_queue = fm.readFile(QUEUE_FILEPATH).split("\n")
+    command_queue = fm.read_file(QUEUE_FILEPATH).split("\n")
     command_queue.remove('')
 
     # Send the command
@@ -38,4 +38,4 @@ def on_update():
 # Add a command to be sent
 def add_command(content):
     # Check if file exists
-    fm.appendFile(QUEUE_FILEPATH, content)
+    fm.append_file(QUEUE_FILEPATH, content)

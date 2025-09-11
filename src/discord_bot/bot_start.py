@@ -26,11 +26,11 @@ COMMAND_ICON = ''
 
 # Method to pull token from the right folder
 def getToken():
-    return file_man.readFile(TOKEN_PATH)
+    return file_man.read_file(TOKEN_PATH)
 
 # Method to pull command icon
 def getCommandIcon():
-    return file_man.readFile(COMMAND_ICON_PATH)
+    return file_man.read_file(COMMAND_ICON_PATH)
 # Method to change command icon
 def updateCommandIcon():
     char = getCommandIcon()

@@ -1,15 +1,14 @@
 import os
 import sys
 
-CWD = os.getcwd()
-sys.path.append(CWD + "/src")
+import src.discord_bot.message_stream as stream
 
-import discord_bot.message_stream as stream
+import src.tools.json_manager as jm
+import src.tools.console_formatting as cf
 
-import tools.json_manager as jm
-import tools.console_formatting as cf
 source = cf.Console("HELP COMMAND", 'magenta')
 
+CWD = os.getcwd()
 COMMAND_LOGS = CWD + "/assets/discord_bot/commands.json"
 
 # Gets the manual for a command

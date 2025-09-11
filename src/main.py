@@ -21,7 +21,7 @@ CWD = os.getcwd()
 
 # When started, install all content using the web-installer
 source.log("Installing all resources")
-installer.installAllResources()
+installer.install_all()
 
 
 

@@ -1,7 +1,7 @@
 {
   "keyword": "list",
   "args": "[0]",
-  "directory": "/assets/scripts/commands/list.py",
+  "directory": "/src/commands/list.py",
   "manual_directory": "/assets/discord_bot/manuals/list.md",
   "compile": true,
   "require_admin": false

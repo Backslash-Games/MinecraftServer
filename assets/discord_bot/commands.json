@@ -1,8 +1,16 @@
 {
+    "backup": {
+        "keyword": "backup",
+        "args": "[0]",
+        "directory": "/src/commands/backup.py",
+        "manual_directory": "/assets/discord_bot/manuals/backup.md",
+        "compile": true,
+        "require_admin": true
+    },
     "edit": {
         "keyword": "edit",
         "args": "[1, 2, 3, 4, 5]",
-        "directory": "/assets/scripts/commands/command_modification.py",
+        "directory": "/src/commands/command_modification.py",
         "manual_directory": "/assets/discord_bot/manuals/command.md",
         "compile": true,
         "require_admin": true
@@ -10,7 +18,7 @@
     "help": {
         "keyword": "help",
         "args": "[0, 1]",
-        "directory": "/assets/scripts/commands/help.py",
+        "directory": "/src/commands/help.py",
         "manual_directory": "/assets/discord_bot/manuals/help.md",
         "compile": true,
         "require_admin": false
@@ -18,7 +26,7 @@
     "kill": {
         "keyword": "kill",
         "args": "[0]",
-        "directory": "/assets/scripts/commands/kill.py",
+        "directory": "/src/commands/kill.py",
         "manual_directory": "/assets/discord_bot/manuals/kill.md",
         "compile": true,
         "require_admin": true
@@ -26,7 +34,7 @@
     "list": {
         "keyword": "list",
         "args": "[0]",
-        "directory": "/assets/scripts/commands/list.py",
+        "directory": "/src/commands/list.py",
         "manual_directory": "/assets/discord_bot/manuals/list.md",
         "compile": true,
         "require_admin": false

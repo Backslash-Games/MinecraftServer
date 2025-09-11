@@ -24,7 +24,7 @@ WEB_RESOURCE_CONFIG = CWD + "/assets/web-resources/config/install_config.json"
 
 # ========== Main Methods ==========
 # Downloads all queued resources
-def installAllResources():
+def install_all():
     # Get a list of all json files
     install_list = jm.getJsonValue(WEB_RESOURCE_CONFIG, "install")
     available_list = jm.getJsonList(WEB_RESOURCE_DIRECTORY, True, False)
@@ -44,14 +44,14 @@ def installAllResources():
         if check_reinstall:
             source.log(f"{json} found for reinstall")
         # Try to install
-        installResource(json, check_reinstall)
+        install(json, check_reinstall)
 
     return
 
 
 
 # Create directory
-def createDirectory(path):
+def create_directory(path):
     # Create the directory
     os.mkdir(path)
 
@@ -65,7 +65,7 @@ def createDirectory(path):
 
 # ========== Install Methods ==========
 # Downloads one resource
-def installResource(json, reinstall):
+def install(json, reinstall):
     # Notify that the installation process has started
     source.start_divide(f"Started install of {json}")
 
@@ -99,7 +99,7 @@ def installResource(json, reinstall):
 
 
     # Run install
-    response = installUsingSource(install_url, install_source, install_directory, install_file_path, install_file_name)
+    response = install_using_source(install_url, install_source, install_directory, install_file_path, install_file_name)
     if not response:
         source.error_divide(f"{clr("Failed install", 'red')} of {json}")
         return
@@ -117,15 +117,15 @@ def installResource(json, reinstall):
 
 
 # Runs different install methods based on source
-def installUsingSource(url, source, directory, file_path, file_name):
+def install_using_source(url, source, directory, file_path, file_name):
     # Use a tree to check source
     match source:
         case 'minecraft':
-            return installWGet(url, directory, file_path)
+            return install_w_get(url, directory, file_path)
         case 'drive':
-            return installGDown(url, file_path)
+            return install_g_down(url, file_path)
         case 'drive_folder':
-            return install_gdown_folder(url, directory)
+            return install_g_down_folder(url, directory)
 
     source.log(f"No statements with {clr(source, 'yellow')} exist")
     return False
@@ -134,7 +134,7 @@ def installUsingSource(url, source, directory, file_path, file_name):
 
 # Install using wget
 # --> Source == 'minecraft'
-def installWGet(url, directory, file_name):
+def install_w_get(url, directory, file_name):
     source.log(f"Using {clr('wget', 'light_blue')} to download... This may take a moment")
 
     # Install the content
@@ -152,14 +152,14 @@ def installWGet(url, directory, file_name):
 
 # Install using gdown
 # --> Source == 'drive'
-def installGDown(url, file_path):
+def install_g_down(url, file_path):
     source.log(f"Using {clr('gdown', 'light_blue')} to download... This may take a moment")
     gdown.download(url, file_path, fuzzy=True)
     return True
 
 # Install using gdown folder
 # --> Source == 'drive'
-def install_gdown_folder(url, dir):
+def install_g_down_folder(url, dir):
     # Uninstall previous folder if it exists
     remove_directory(dir)
 
@@ -221,7 +221,7 @@ def is_installed(data):
     # Otherwise Log
     else:
         source.log(f"Directory {clr(data_directory, 'yellow')} {clr('does not', 'red')} exist... Creating now")
-        if not createDirectory(data_directory):
+        if not create_directory(data_directory):
             source.log(f"Directory {clr(data_directory, 'yellow')} could not be created... Returning {clr('false', 'red')}")
             return False
 
@@ -259,4 +259,4 @@ def count_contained_files(directory):
 
 # Check for debug arguement
 if len(sys.argv) > 1 and sys.argv[1] == '--test':
-    installAllResources()
+    install_all()

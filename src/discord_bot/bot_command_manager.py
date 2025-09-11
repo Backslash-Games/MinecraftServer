@@ -128,7 +128,7 @@ def canUseCommand(author_data):
 
     # Check if the user is logged as an admin
     # -> For quick implementation right now, simply check a text file for the users global name
-    file_content = file_man.readFile(ADMIN_WHITELIST)
+    file_content = file_man.read_file(ADMIN_WHITELIST)
     if author_data.global_name in file_content:
         source.log("User found, running command")
         return True
