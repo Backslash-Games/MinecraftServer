@@ -1,8 +1,11 @@
 import os
+import time
 import multiprocessing
+import subprocess
 
 from termcolor import colored as clr
 
+from src import RESTART_ON_CLOSE
 from src.discord_bot import bot_start as bot
 from src.server_tools import server_manager as server_man
 
@@ -54,15 +57,24 @@ discord_process.start()
 source.log("Joining Server Process")
 server_process.join()
 
+source.log_error("KILLING ALL PROCESSES")
+
 source.log("Joining Server Print Process")
+server_log_process.terminate()
 server_log_process.join()
 
 source.log("Joining Discord Bot Process")
+discord_process.terminate()
 discord_process.join()
 
 
 # Debug output
-i = 50
+i = 20
 while i > 0:
-    source.log(clr("  !!!!!!    All processes have stopped    !!!!!!  ", 'red', attrs=["reverse", "blink"]))
+    source.log(clr(f"  !!!!!!    All processes have stopped... Restarting in {round(i / 4)}    !!!!!!  ", 'red', attrs=["reverse", "blink"]))
     i = i - 1
+    time.sleep(0.25)
+
+# Restart the server
+if RESTART_ON_CLOSE:
+    subprocess.check_output(["reboot"])
