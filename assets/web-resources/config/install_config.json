@@ -1,4 +1,4 @@
 {
-  "install": ["01_server.json", "02_eula.json", "03_mod_folder.json", "04_datapack_folder.json"],
+  "install": ["01_server.json", "02_eula.json", "!03_mod_folder.json", "!04_datapack_folder.json", "05_TEMP_ResourceZip.json"],
   "reinstall": []
 }
