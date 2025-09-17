@@ -1,0 +1,8 @@
+{
+    "keyword": "admin",
+    "args": "[1, 2]",
+    "directory": "/src/commands/admin_management.py",
+    "manual_directory": "/assets/discord_bot/manuals/admin.md",
+    "compile": true,
+    "require_admin": true
+}

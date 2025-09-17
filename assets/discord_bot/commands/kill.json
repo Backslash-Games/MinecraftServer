@@ -3,6 +3,6 @@
   "args": "[0]",
   "directory": "/src/commands/kill.py",
   "manual_directory": "/assets/discord_bot/manuals/kill.md",
-  "compile": true,
+  "compile": false,
   "require_admin": true
 }

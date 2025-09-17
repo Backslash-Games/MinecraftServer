@@ -17,7 +17,7 @@ file_man = fm.FileManager("DISCORD_COMMANDS")
 # Setup paths
 COMMAND_PATH = CWD + "/assets/discord_bot/commands"
 COMMAND_LOG = CWD + "/assets/discord_bot/commands.json"
-ADMIN_WHITELIST = CWD + "/assets/discord_bot/config/admin_whitelist.txt"
+ADMIN_WHITELIST = CWD + "/assets/discord_bot/config/admin_whitelist.json"
 
 global commands
 commands = {}
@@ -128,8 +128,8 @@ def canUseCommand(author_data):
 
     # Check if the user is logged as an admin
     # -> For quick implementation right now, simply check a text file for the users global name
-    file_content = file_man.read_file(ADMIN_WHITELIST)
-    if author_data.global_name in file_content:
+    admin_list = jm.getJsonValue(ADMIN_WHITELIST, "white_list")
+    if author_data.global_name in admin_list:
         source.log("User found, running command")
         return True
 

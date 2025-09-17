@@ -1,255 +1,528 @@
-[37m[11:53:40] [0m [95m [MAIN] [0m Installing all resources
-[37m[11:53:40] [0m [33m [JSON_MANAGER] [0m Key '[33minstall[0m' found [[32m['01_server.json', '02_eula.json', '03_mod_folder.json', '!04_datapack_folder.json'][0m]
-[37m[11:53:40] [0m [33m [JSON_MANAGER] [0m Found json list [33m['01_server.json', '02_eula.json', '03_mod_folder.json', '04_datapack_folder.json'][0m
-[37m[11:53:40] [0m [33m [JSON_MANAGER] [0m Key '[33mreinstall[0m' found [[32m[][0m]
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m []
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m  
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 01_server.json ====================[0m
-[37m[11:53:40] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://meta.fabricmc.net/v2/versions/loader/1.21.8/0.17.2/1.1.0/server/jar[0m]
-[37m[11:53:40] [0m [33m [JSON_MANAGER] [0m Key '[33mtype[0m' found [[32mfile[0m]
-[37m[11:53:40] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mminecraft[0m]
-[37m[11:53:40] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server[0m]
-[37m[11:53:40] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/server.jar[0m]
-[37m[11:53:40] [0m [33m [JSON_MANAGER] [0m Key '[33mfolder_expected_files[0m' found [[32m0[0m]
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m Data type is file
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server[0m [32mdoes[0m exist... Checking file [33m/server.jar[0m
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m File [33m/home/halfhand870/MinecraftServer/server/server.jar[0m [32mdoes[0m exist... Returning [32mtrue[0m
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 01_server.json ====================[0m
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m  
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m  
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 02_eula.json ====================[0m
-[37m[11:53:40] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://drive.google.com/file/d/1q_QVK86GXZQZgy5hcpzGRX4TbDCHW2vK/view?usp=drive_link[0m]
-[37m[11:53:40] [0m [33m [JSON_MANAGER] [0m Key '[33mtype[0m' found [[32mfile[0m]
-[37m[11:53:40] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mdrive[0m]
-[37m[11:53:40] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server[0m]
-[37m[11:53:40] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/eula.txt[0m]
-[37m[11:53:40] [0m [33m [JSON_MANAGER] [0m Key '[33mfolder_expected_files[0m' found [[32m0[0m]
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m Data type is file
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server[0m [32mdoes[0m exist... Checking file [33m/eula.txt[0m
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m File [33m/home/halfhand870/MinecraftServer/server/eula.txt[0m [32mdoes[0m exist... Returning [32mtrue[0m
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 02_eula.json ====================[0m
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m  
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m  
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 03_mod_folder.json ====================[0m
-[37m[11:53:40] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://drive.google.com/drive/folders/1eIf9-XAQoPPAHAlGT64x1RDuUFxI4v7C?usp=drive_link[0m]
-[37m[11:53:40] [0m [33m [JSON_MANAGER] [0m Key '[33mtype[0m' found [[32mfolder[0m]
-[37m[11:53:40] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mdrive_folder[0m]
-[37m[11:53:40] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server/mods[0m]
-[37m[11:53:40] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m[0m]
-[37m[11:53:40] [0m [33m [JSON_MANAGER] [0m Key '[33mfolder_expected_files[0m' found [[32m29[0m]
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m Data type is folder
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server/mods[0m [32mdoes[0m exist... Checking file [33m[0m
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m No file check needed, is folder
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m Counting entries...
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m Found 29 entries in /home/halfhand870/MinecraftServer/server/mods
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server/mods[0m contains the correct number of files 29
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 03_mod_folder.json ====================[0m
-[37m[11:53:40] [0m [36m [WEB_INSTALLER] [0m  
-[37m[11:53:40] [0m [95m [MAIN] [0m Initializing Server Process
-[37m[11:53:40] [0m [95m [MAIN] [0m Initializing Server Print Process
-[37m[11:53:40] [0m [95m [MAIN] [0m Initializing Discord Process
-[37m[11:53:40] [0m [95m [MAIN] [0m Starting Server Process
-[37m[11:53:40] [0m [95m [MAIN] [0m Starting Server Print Process
-[37m[11:53:40] [0m [35m [RUN_JAR] [0m Checking if jar '/home/halfhand870/MinecraftServer/server/server.jar' exists
-[37m[11:53:40] [0m [35m [RUN_JAR] [0m Jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m' [32mdoes[0m exist
-[37m[11:53:40] [0m [35m [RUN_JAR] [0m Running jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m'
-[37m[11:53:40] [0m [95m [MAIN] [0m Starting Discord Bot Process
-[37m[11:53:40] [0m [34m [SERVER] [0m Cleared Logs
-[37m[11:53:40] [0m [95m [MAIN] [0m Joining Server Process
-[37m[11:53:41] [0m [34m [SERVER] [0m [11:53:40] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
-[37m[11:53:42] [0m [34m [SERVER] [0m [11:53:41] [main/INFO]: Loading 92 mods:
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- armorposer 11.0.1
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- audioplayer 1.21.8-1.13.2
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   \-- admiral 0.4.8+1.21.6
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- cloth-config 19.0.147
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   \-- cloth-basic-math 0.6.1
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- clumps 26.0.0.1
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- coordfinder 1.21.8-1.1.0
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   \-- admiral 0.4.8+1.21.6
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- datapack_injector 1.0.0+1.21.8
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- elytra-rework 1.0.0
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- enhancedgroups 1.21.8-1.7.0
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   \-- admiral 0.4.8+1.21.6
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- fabric-api 0.133.0+1.21.8
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-api-base 0.5.0+cd8c0daa2c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-api-lookup-api-v1 1.6.101+946bf4c32c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-biome-api-v1 16.0.11+946bf4c32c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-block-api-v1 1.1.3+946bf4c32c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-block-view-api-v2 1.0.31+946bf4c32c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-command-api-v2 2.3.1+52fff9ec2c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-content-registries-v0 10.1.0+c75de69d2c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-convention-tags-v1 2.1.41+7f945d5b2c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-convention-tags-v2 2.15.6+eb5df52f2c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-crash-report-info-v1 0.3.15+946bf4c32c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-data-attachment-api-v1 1.8.12+38b5f74e2c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-data-generation-api-v1 23.2.6+0b1ef9762c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-dimensions-v1 4.0.20+948fc79a2c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-entity-events-v1 2.1.2+c9e472732c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-events-interaction-v0 4.0.24+946bf4c32c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-game-rule-api-v1 1.0.73+c64c9c5b2c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-item-api-v1 11.5.0+02ce13f42c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-item-group-api-v1 4.2.14+c5f9bbc12c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-key-binding-api-v1 1.0.65+946bf4c32c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-lifecycle-events-v1 2.6.4+db4dfd852c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-loot-api-v2 3.0.56+3f89f5a52c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-loot-api-v3 2.0.3+946bf4c32c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-message-api-v1 6.1.2+946bf4c32c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-model-loading-api-v1 5.2.7+946bf4c32c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-networking-api-v1 5.0.2+946bf4c32c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-object-builder-api-v1 21.1.8+946bf4c32c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-particles-v1 4.1.8+946bf4c32c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-recipe-api-v1 8.1.15+946bf4c32c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-registry-sync-v0 6.1.28+946bf4c32c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-renderer-api-v1 7.0.4+208eed172c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-renderer-indigo 4.0.4+946bf4c32c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-rendering-fluids-v1 3.1.31+fa6cb72b2c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-rendering-v1 12.5.1+fbe231d52c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-resource-conditions-api-v1 5.0.25+98e6d6db2c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-resource-loader-v0 3.1.12+020423442c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-screen-api-v1 2.1.1+277ecf7d2c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-screen-handler-api-v1 1.3.137+946bf4c32c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-serialization-api-v1 1.0.0+fc0e5aba2c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-sound-api-v1 1.0.42+946bf4c32c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-tag-api-v1 1.2.2+946bf4c32c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-transfer-api-v1 6.0.6+946bf4c32c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   \-- fabric-transitive-access-wideners-v1 6.5.0+c847ce762c
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- fabric-language-kotlin 1.13.4+kotlin.2.2.0
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlin_kotlin-reflect 2.2.0
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.0
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.0
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.0
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.28.0
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.2
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.7.0
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.7.0
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.8.1
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.8.1
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.8.1
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- fabricloader 0.17.2
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   \-- mixinextras 0.5.0
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- ferritecore 8.0.0
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- inhabitor 1.21.8-1.0.5
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- java 21
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- ledger 1.3.13
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- com_fasterxml_jackson_datatype_jackson-datatype-jsr310 2.12.2
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- com_fasterxml_jackson_module_jackson-module-kotlin 2.12.2
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- com_moandjiezana_toml_toml4j 0.7.2
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- com_uchuhimo_konf-core 1.1.2
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- com_uchuhimo_konf-toml 1.1.2
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-permissions-api-v0 0.4.1
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- org_apache_commons_commons-text 1.9
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- org_javassist_javassist 3.26.0-GA
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_exposed_exposed-core 0.61.0
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_exposed_exposed-dao 0.61.0
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_exposed_exposed-java-time 0.61.0
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_exposed_exposed-jdbc 0.61.0
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_exposed_exposed-migration 0.61.0
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- org_reflections_reflections 0.9.12
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- org_xerial_sqlite-jdbc 3.50.3.0
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   \-- server_translations_api 2.5.1+1.21.5
-[37m[11:53:42] [0m [34m [SERVER] [0m 	        \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- lithium 0.18.0+mc1.21.8
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- minecraft 1.21.8
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- mr_world_editor 1-v2.2.2
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- peek 1.21.8-1.4.8
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- spark 1.10.142
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   \-- fabric-permissions-api-v0 0.4.1
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- status 1.21.8-1.0.8
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   \-- fabric-key-binding-api-v1 1.0.65+946bf4c3f3
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- viewdistancefix 1.21.8-1.0.2
-[37m[11:53:42] [0m [34m [SERVER] [0m 	- voicechat 1.21.8-2.6.1
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-key-binding-api-v1 1.0.65+946bf4c3f3
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   |-- fabric-rendering-v1 12.4.0+e8d43c76f3
-[37m[11:53:42] [0m [34m [SERVER] [0m 	   \-- voicechat_api 2.6.0
-[37m[11:53:42] [0m [34m [SERVER] [0m [11:53:41] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/halfhand870/MinecraftServer/server/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[37m[11:53:42] [0m [34m [SERVER] [0m [11:53:41] [main/INFO]: Compatibility level set to JAVA_21
-[37m[11:53:42] [0m [34m [SERVER] [0m [11:53:41] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[37m[11:53:42] [0m [34m [SERVER] [0m [11:53:41] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
-[37m[11:53:43] [0m [32m [DISCORD_BOT] [0m Setting command icon to !
-[37m[11:53:43] [0m [32m [DISCORD_BOT] [0m Bot is ready
-[37m[11:53:43] [0m [34m [SERVER] [0m [11:53:42] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[37m[11:53:48] [0m [34m [SERVER] [0m [11:53:47] [main/INFO]: Overriding Elytra
-[37m[11:53:49] [0m [34m [SERVER] [0m [11:53:48] [main/INFO]: Please ensure that datapack 'ElytraRework_JSONCONFIG' is installed
-[37m[11:53:49] [0m [34m [SERVER] [0m [11:53:48] [main/ERROR]: Failed to load persistent groups
-[37m[11:53:49] [0m [34m [SERVER] [0m [11:53:48] [main/ERROR]: Failed to load auto join groups
-[37m[11:53:49] [0m [34m [SERVER] [0m [11:53:48] [main/INFO]: Compatibility version 1
-[37m[11:53:49] [0m [34m [SERVER] [0m [11:53:48] [main/INFO]: [voicechat] Compatibility version 20
-[37m[11:53:49] [0m [34m [SERVER] [0m [11:53:48] [main/INFO]: [voicechat] Loading plugins
-[37m[11:53:49] [0m [34m [SERVER] [0m [11:53:48] [main/INFO]: [voicechat] Loaded 2 plugin(s)
-[37m[11:53:49] [0m [34m [SERVER] [0m [11:53:48] [main/INFO]: [voicechat] Initializing plugins
-[37m[11:53:49] [0m [34m [SERVER] [0m [11:53:48] [main/INFO]: [voicechat] Initialized 2 plugin(s)
-[37m[11:53:49] [0m [34m [SERVER] [0m [11:53:48] [main/INFO]: [voicechat] Registering events for 'audioplayer'
-[37m[11:53:49] [0m [34m [SERVER] [0m [11:53:48] [main/INFO]: [voicechat] Registering events for 'enhancedgroups'
-[37m[11:53:49] [0m [34m [SERVER] [0m [11:53:48] [main/INFO]: Initializing Ledger 1.3.13
-[37m[11:53:50] [0m [34m [SERVER] [0m [11:53:49] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[37m[11:53:52] [0m [34m [SERVER] [0m [11:53:51] [main/INFO]: Loaded 1409 recipes
-[37m[11:53:52] [0m [34m [SERVER] [0m [11:53:51] [main/INFO]: Loaded 1522 advancements
-[37m[11:53:52] [0m [34m [SERVER] [0m [11:53:51] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 65 translation keys
-[37m[11:53:52] [0m [34m [SERVER] [0m [11:53:51] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.781 ms
-[37m[11:53:52] [0m [34m [SERVER] [0m [11:53:51] [Server thread/INFO]: Starting background profiler...
-[37m[11:53:52] [0m [34m [SERVER] [0m [11:53:52] [Server thread/INFO]: Tables created
-[37m[11:53:52] [0m [34m [SERVER] [0m [11:53:52] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[37m[11:53:52] [0m [34m [SERVER] [0m [11:53:52] [Server thread/INFO]: Loading properties
-[37m[11:53:52] [0m [34m [SERVER] [0m [11:53:52] [Server thread/INFO]: Default game type: SURVIVAL
-[37m[11:53:52] [0m [34m [SERVER] [0m [11:53:52] [Server thread/INFO]: Generating keypair
-[37m[11:53:52] [0m [34m [SERVER] [0m [11:53:52] [DefaultDispatcher-worker-3/INFO]: Inserting 1675 registry keys into the database...
-[37m[11:53:52] [0m [34m [SERVER] [0m [11:53:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[37m[11:53:52] [0m [34m [SERVER] [0m [11:53:52] [Server thread/INFO]: Using epoll channel type
-[37m[11:53:53] [0m [34m [SERVER] [0m [11:53:52] [Server thread/INFO]: Preparing level "world"
-[37m[11:53:53] [0m [34m [SERVER] [0m [11:53:52] [Server thread/INFO]: [STDOUT]: Example mixin loaded
-[37m[11:53:53] [0m [34m [SERVER] [0m [11:53:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[37m[11:53:54] [0m [34m [SERVER] [0m [11:53:53] [DefaultDispatcher-worker-4/INFO]: Registry insert complete
-[37m[11:53:54] [0m [34m [SERVER] [0m [11:53:53] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[37m[11:53:54] [0m [34m [SERVER] [0m [11:53:53] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[37m[11:53:54] [0m [34m [SERVER] [0m [11:53:53] [Server thread/INFO]: Time elapsed: 965 ms
-[37m[11:53:54] [0m [34m [SERVER] [0m [11:53:53] [Server thread/INFO]: Done (1.450s)! For help, type "help"
-[37m[11:53:54] [0m [34m [SERVER] [0m [11:53:53] [Server thread/INFO]: Loading audio file volume overrides...
-[37m[11:53:54] [0m [34m [SERVER] [0m [11:53:53] [Server thread/INFO]: Loading audio file name mappings...
-[37m[11:53:54] [0m [34m [SERVER] [0m [11:53:53] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[37m[11:53:54] [0m [34m [SERVER] [0m [11:53:53] [Server thread/INFO]: Added 0 persistent groups
-[37m[11:54:00] [0m [34m [SERVER] [0m [11:53:59] [User Authenticator #1/INFO]: UUID of player halfhand870 is a98a0668-d13c-41a1-afe0-cbe0eda89de7
-[37m[11:54:00] [0m [34m [SERVER] [0m [11:53:59] [Server thread/INFO]: halfhand870[/127.0.0.1:51638] logged in with entity id 36 at (3.2690469652089393, 63.0, 6.394756796475901)
-[37m[11:54:00] [0m [34m [SERVER] [0m [11:53:59] [Server thread/INFO]: Using Fabric Permissions API
-[37m[11:54:00] [0m [34m [SERVER] [0m [11:53:59] [Server thread/INFO]: Using Fabric Permissions API
-[37m[11:54:00] [0m [34m [SERVER] [0m [11:53:59] [Server thread/INFO]: Using Fabric Permissions API
-[37m[11:54:00] [0m [34m [SERVER] [0m [11:53:59] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
-[37m[11:54:00] [0m [34m [SERVER] [0m [11:53:59] [Server thread/INFO]: halfhand870 joined the game
-[37m[11:54:00] [0m [34m [SERVER] [0m [11:54:00] [Server thread/INFO]: [voicechat] Received secret request of halfhand870 (20)
-[37m[11:54:00] [0m [34m [SERVER] [0m [11:54:00] [Server thread/INFO]: [voicechat] Sent secret to halfhand870
-[37m[11:54:00] [0m [34m [SERVER] [0m [11:54:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player a98a0668-d13c-41a1-afe0-cbe0eda89de7
-[37m[11:54:01] [0m [34m [SERVER] [0m [11:54:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player a98a0668-d13c-41a1-afe0-cbe0eda89de7
-[37m[11:54:01] [0m [34m [SERVER] [0m [11:54:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player halfhand870 (a98a0668-d13c-41a1-afe0-cbe0eda89de7) successfully connected to voice chat
-[37m[11:54:11] [0m [34m [SERVER] [0m [11:54:10] [Server thread/INFO]: [halfhand870: Stopping the server]
-[37m[11:54:11] [0m [34m [SERVER] [0m [11:54:10] [Server thread/INFO]: Stopping server
-[37m[11:54:11] [0m [34m [SERVER] [0m [11:54:10] [Server thread/INFO]: Saving players
-[37m[11:54:11] [0m [34m [SERVER] [0m [11:54:10] [Server thread/INFO]: halfhand870 lost connection: Server closed
-[37m[11:54:11] [0m [34m [SERVER] [0m [11:54:10] [Server thread/INFO]: halfhand870 left the game
-[37m[11:54:11] [0m [34m [SERVER] [0m [11:54:10] [Server thread/INFO]: Saving worlds
-[37m[11:54:12] [0m [31m [SERVER_MANAGER] [0m [5m[7m[31m!!!!! MANAGER THREAD STOPPED !!!!![0m
-[37m[11:54:12] [0m [35m [RUN_JAR] [0m Stopping jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m'
-[37m[11:54:12] [0m [35m [RUN_JAR] [0m [5m[7m[31m!!!!! JAVA FILE STOPPED !!!!![0m
-[37m[11:54:12] [0m [95m [MAIN] [0m [5m[7m[31mKILLING ALL PROCESSES[0m
-[37m[11:54:12] [0m [95m [MAIN] [0m Joining Server Print Process
-[37m[11:54:12] [0m [95m [MAIN] [0m Joining Discord Bot Process
-[37m[11:54:12] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped... Restarting in 5    !!!!!!  [0m
-[37m[11:54:12] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped... Restarting in 5    !!!!!!  [0m
-[37m[11:54:13] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped... Restarting in 4    !!!!!!  [0m
-[37m[11:54:13] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped... Restarting in 4    !!!!!!  [0m
-[37m[11:54:13] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped... Restarting in 4    !!!!!!  [0m
-[37m[11:54:13] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped... Restarting in 4    !!!!!!  [0m
-[37m[11:54:14] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped... Restarting in 4    !!!!!!  [0m
-[37m[11:54:14] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped... Restarting in 3    !!!!!!  [0m
-[37m[11:54:14] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped... Restarting in 3    !!!!!!  [0m
-[37m[11:54:14] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped... Restarting in 3    !!!!!!  [0m
-[37m[11:54:15] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped... Restarting in 2    !!!!!!  [0m
-[37m[11:54:15] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped... Restarting in 2    !!!!!!  [0m
-[37m[11:54:15] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped... Restarting in 2    !!!!!!  [0m
-[37m[11:54:15] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped... Restarting in 2    !!!!!!  [0m
-[37m[11:54:16] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped... Restarting in 2    !!!!!!  [0m
-[37m[11:54:16] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped... Restarting in 1    !!!!!!  [0m
-[37m[11:54:16] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped... Restarting in 1    !!!!!!  [0m
-[37m[11:54:16] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped... Restarting in 1    !!!!!!  [0m
-[37m[11:54:17] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped... Restarting in 0    !!!!!!  [0m
-[37m[11:54:17] [0m [95m [MAIN] [0m [5m[7m[31m  !!!!!!    All processes have stopped... Restarting in 0    !!!!!!  [0m
+[37m[13:04:09] [0m [95m [MAIN] [0m Installing all resources
+[37m[13:04:09] [0m [33m [JSON_MANAGER] [0m Key '[33minstall[0m' found [[32m['01_server.json', '02_eula.json', '03_mod_folder.json', '!04_datapack_folder.json'][0m]
+[37m[13:04:09] [0m [33m [JSON_MANAGER] [0m Found json list [33m['01_server.json', '02_eula.json', '03_mod_folder.json', '04_datapack_folder.json'][0m
+[37m[13:04:09] [0m [33m [JSON_MANAGER] [0m Key '[33mreinstall[0m' found [[32m[][0m]
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m []
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m  
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 01_server.json ====================[0m
+[37m[13:04:09] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://meta.fabricmc.net/v2/versions/loader/1.21.8/0.17.2/1.1.0/server/jar[0m]
+[37m[13:04:09] [0m [33m [JSON_MANAGER] [0m Key '[33mtype[0m' found [[32mfile[0m]
+[37m[13:04:09] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mminecraft[0m]
+[37m[13:04:09] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server[0m]
+[37m[13:04:09] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/server.jar[0m]
+[37m[13:04:09] [0m [33m [JSON_MANAGER] [0m Key '[33mfolder_expected_files[0m' found [[32m0[0m]
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m Data type is file
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server[0m [32mdoes[0m exist... Checking file [33m/server.jar[0m
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m File [33m/home/halfhand870/MinecraftServer/server/server.jar[0m [32mdoes[0m exist... Returning [32mtrue[0m
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 01_server.json ====================[0m
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m  
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m  
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 02_eula.json ====================[0m
+[37m[13:04:09] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://drive.google.com/file/d/1q_QVK86GXZQZgy5hcpzGRX4TbDCHW2vK/view?usp=drive_link[0m]
+[37m[13:04:09] [0m [33m [JSON_MANAGER] [0m Key '[33mtype[0m' found [[32mfile[0m]
+[37m[13:04:09] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mdrive[0m]
+[37m[13:04:09] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server[0m]
+[37m[13:04:09] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/eula.txt[0m]
+[37m[13:04:09] [0m [33m [JSON_MANAGER] [0m Key '[33mfolder_expected_files[0m' found [[32m0[0m]
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m Data type is file
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server[0m [32mdoes[0m exist... Checking file [33m/eula.txt[0m
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m File [33m/home/halfhand870/MinecraftServer/server/eula.txt[0m [32mdoes[0m exist... Returning [32mtrue[0m
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 02_eula.json ====================[0m
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m  
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m  
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 03_mod_folder.json ====================[0m
+[37m[13:04:09] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://drive.google.com/drive/folders/1eIf9-XAQoPPAHAlGT64x1RDuUFxI4v7C?usp=drive_link[0m]
+[37m[13:04:09] [0m [33m [JSON_MANAGER] [0m Key '[33mtype[0m' found [[32mfolder[0m]
+[37m[13:04:09] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mdrive_folder[0m]
+[37m[13:04:09] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server/mods[0m]
+[37m[13:04:09] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m[0m]
+[37m[13:04:09] [0m [33m [JSON_MANAGER] [0m Key '[33mfolder_expected_files[0m' found [[32m29[0m]
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m Data type is folder
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server/mods[0m [32mdoes[0m exist... Checking file [33m[0m
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m No file check needed, is folder
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m Counting entries...
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m Found 29 entries in /home/halfhand870/MinecraftServer/server/mods
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server/mods[0m contains the correct number of files 29
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 03_mod_folder.json ====================[0m
+[37m[13:04:09] [0m [36m [WEB_INSTALLER] [0m  
+[37m[13:04:09] [0m [95m [MAIN] [0m Initializing Server Process
+[37m[13:04:09] [0m [95m [MAIN] [0m Initializing Server Print Process
+[37m[13:04:09] [0m [95m [MAIN] [0m Initializing Discord Process
+[37m[13:04:09] [0m [95m [MAIN] [0m Starting Server Process
+[37m[13:04:09] [0m [95m [MAIN] [0m Starting Server Print Process
+[37m[13:04:09] [0m [35m [RUN_JAR] [0m Checking if jar '/home/halfhand870/MinecraftServer/server/server.jar' exists
+[37m[13:04:09] [0m [35m [RUN_JAR] [0m Jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m' [32mdoes[0m exist
+[37m[13:04:09] [0m [35m [RUN_JAR] [0m Running jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m'
+[37m[13:04:09] [0m [95m [MAIN] [0m Starting Discord Bot Process
+[37m[13:04:09] [0m [34m [SERVER] [0m Cleared Logs
+[37m[13:04:09] [0m [95m [MAIN] [0m Joining Server Process
+[37m[13:04:10] [0m [34m [SERVER] [0m [13:04:10] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
+[37m[13:04:11] [0m [34m [SERVER] [0m [13:04:10] [main/INFO]: Loading 92 mods:
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- armorposer 11.0.1
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- audioplayer 1.21.8-1.13.2
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   \-- admiral 0.4.8+1.21.6
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- cloth-config 19.0.147
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   \-- cloth-basic-math 0.6.1
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- clumps 26.0.0.1
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- coordfinder 1.21.8-1.1.0
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   \-- admiral 0.4.8+1.21.6
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- datapack_injector 1.0.0+1.21.8
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- elytra-rework 1.0.0
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- enhancedgroups 1.21.8-1.7.0
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   \-- admiral 0.4.8+1.21.6
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- fabric-api 0.133.0+1.21.8
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-api-base 0.5.0+cd8c0daa2c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-api-lookup-api-v1 1.6.101+946bf4c32c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-biome-api-v1 16.0.11+946bf4c32c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-block-api-v1 1.1.3+946bf4c32c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-block-view-api-v2 1.0.31+946bf4c32c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-command-api-v2 2.3.1+52fff9ec2c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-content-registries-v0 10.1.0+c75de69d2c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-convention-tags-v1 2.1.41+7f945d5b2c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-convention-tags-v2 2.15.6+eb5df52f2c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-crash-report-info-v1 0.3.15+946bf4c32c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-data-attachment-api-v1 1.8.12+38b5f74e2c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-data-generation-api-v1 23.2.6+0b1ef9762c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-dimensions-v1 4.0.20+948fc79a2c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-entity-events-v1 2.1.2+c9e472732c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-events-interaction-v0 4.0.24+946bf4c32c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-game-rule-api-v1 1.0.73+c64c9c5b2c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-item-api-v1 11.5.0+02ce13f42c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-item-group-api-v1 4.2.14+c5f9bbc12c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-key-binding-api-v1 1.0.65+946bf4c32c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-lifecycle-events-v1 2.6.4+db4dfd852c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-loot-api-v2 3.0.56+3f89f5a52c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-loot-api-v3 2.0.3+946bf4c32c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-message-api-v1 6.1.2+946bf4c32c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-model-loading-api-v1 5.2.7+946bf4c32c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-networking-api-v1 5.0.2+946bf4c32c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-object-builder-api-v1 21.1.8+946bf4c32c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-particles-v1 4.1.8+946bf4c32c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-recipe-api-v1 8.1.15+946bf4c32c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-registry-sync-v0 6.1.28+946bf4c32c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-renderer-api-v1 7.0.4+208eed172c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-renderer-indigo 4.0.4+946bf4c32c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-rendering-fluids-v1 3.1.31+fa6cb72b2c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-rendering-v1 12.5.1+fbe231d52c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-resource-conditions-api-v1 5.0.25+98e6d6db2c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-resource-loader-v0 3.1.12+020423442c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-screen-api-v1 2.1.1+277ecf7d2c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-screen-handler-api-v1 1.3.137+946bf4c32c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-serialization-api-v1 1.0.0+fc0e5aba2c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-sound-api-v1 1.0.42+946bf4c32c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-tag-api-v1 1.2.2+946bf4c32c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-transfer-api-v1 6.0.6+946bf4c32c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   \-- fabric-transitive-access-wideners-v1 6.5.0+c847ce762c
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- fabric-language-kotlin 1.13.4+kotlin.2.2.0
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlin_kotlin-reflect 2.2.0
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.0
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.0
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.0
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.28.0
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.2
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.7.0
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.7.0
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.8.1
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.8.1
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.8.1
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- fabricloader 0.17.2
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   \-- mixinextras 0.5.0
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- ferritecore 8.0.0
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- inhabitor 1.21.8-1.0.5
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- java 21
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- ledger 1.3.13
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- com_fasterxml_jackson_datatype_jackson-datatype-jsr310 2.12.2
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- com_fasterxml_jackson_module_jackson-module-kotlin 2.12.2
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- com_moandjiezana_toml_toml4j 0.7.2
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- com_uchuhimo_konf-core 1.1.2
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- com_uchuhimo_konf-toml 1.1.2
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-permissions-api-v0 0.4.1
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- org_apache_commons_commons-text 1.9
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- org_javassist_javassist 3.26.0-GA
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_exposed_exposed-core 0.61.0
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_exposed_exposed-dao 0.61.0
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_exposed_exposed-java-time 0.61.0
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_exposed_exposed-jdbc 0.61.0
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- org_jetbrains_exposed_exposed-migration 0.61.0
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- org_reflections_reflections 0.9.12
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- org_xerial_sqlite-jdbc 3.50.3.0
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   \-- server_translations_api 2.5.1+1.21.5
+[37m[13:04:11] [0m [34m [SERVER] [0m 	        \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- lithium 0.18.0+mc1.21.8
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- minecraft 1.21.8
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- mr_world_editor 1-v2.2.2
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- peek 1.21.8-1.4.8
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- spark 1.10.142
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   \-- fabric-permissions-api-v0 0.4.1
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- status 1.21.8-1.0.8
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   \-- fabric-key-binding-api-v1 1.0.65+946bf4c3f3
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- viewdistancefix 1.21.8-1.0.2
+[37m[13:04:11] [0m [34m [SERVER] [0m 	- voicechat 1.21.8-2.6.1
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-key-binding-api-v1 1.0.65+946bf4c3f3
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   |-- fabric-rendering-v1 12.4.0+e8d43c76f3
+[37m[13:04:11] [0m [34m [SERVER] [0m 	   \-- voicechat_api 2.6.0
+[37m[13:04:11] [0m [34m [SERVER] [0m [13:04:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/halfhand870/MinecraftServer/server/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[37m[13:04:11] [0m [34m [SERVER] [0m [13:04:10] [main/INFO]: Compatibility level set to JAVA_21
+[37m[13:04:11] [0m [34m [SERVER] [0m [13:04:10] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[37m[13:04:11] [0m [34m [SERVER] [0m [13:04:10] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
+[37m[13:04:12] [0m [32m [DISCORD_BOT] [0m Setting command icon to !
+[37m[13:04:12] [0m [32m [DISCORD_BOT] [0m Bot is ready
+[37m[13:04:12] [0m [34m [SERVER] [0m [13:04:11] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[37m[13:04:17] [0m [34m [SERVER] [0m [13:04:17] [main/INFO]: Overriding Elytra
+[37m[13:04:18] [0m [34m [SERVER] [0m [13:04:18] [main/INFO]: Please ensure that datapack 'ElytraRework_JSONCONFIG' is installed
+[37m[13:04:18] [0m [34m [SERVER] [0m [13:04:18] [main/ERROR]: Failed to load persistent groups
+[37m[13:04:18] [0m [34m [SERVER] [0m [13:04:18] [main/ERROR]: Failed to load auto join groups
+[37m[13:04:19] [0m [34m [SERVER] [0m [13:04:18] [main/INFO]: Compatibility version 1
+[37m[13:04:19] [0m [34m [SERVER] [0m [13:04:18] [main/INFO]: [voicechat] Compatibility version 20
+[37m[13:04:19] [0m [34m [SERVER] [0m [13:04:18] [main/INFO]: [voicechat] Loading plugins
+[37m[13:04:19] [0m [34m [SERVER] [0m [13:04:18] [main/INFO]: [voicechat] Loaded 2 plugin(s)
+[37m[13:04:19] [0m [34m [SERVER] [0m [13:04:18] [main/INFO]: [voicechat] Initializing plugins
+[37m[13:04:19] [0m [34m [SERVER] [0m [13:04:18] [main/INFO]: [voicechat] Initialized 2 plugin(s)
+[37m[13:04:19] [0m [34m [SERVER] [0m [13:04:18] [main/INFO]: [voicechat] Registering events for 'audioplayer'
+[37m[13:04:19] [0m [34m [SERVER] [0m [13:04:18] [main/INFO]: [voicechat] Registering events for 'enhancedgroups'
+[37m[13:04:19] [0m [34m [SERVER] [0m [13:04:18] [main/INFO]: Initializing Ledger 1.3.13
+[37m[13:04:19] [0m [34m [SERVER] [0m [13:04:19] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[37m[13:04:21] [0m [34m [SERVER] [0m [13:04:21] [main/INFO]: Loaded 1409 recipes
+[37m[13:04:21] [0m [34m [SERVER] [0m [13:04:21] [main/INFO]: Loaded 1522 advancements
+[37m[13:04:21] [0m [34m [SERVER] [0m [13:04:21] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 65 translation keys
+[37m[13:04:22] [0m [34m [SERVER] [0m [13:04:21] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.752 ms
+[37m[13:04:22] [0m [34m [SERVER] [0m [13:04:21] [Server thread/INFO]: Starting background profiler...
+[37m[13:04:22] [0m [34m [SERVER] [0m [13:04:22] [Server thread/INFO]: Tables created
+[37m[13:04:22] [0m [34m [SERVER] [0m [13:04:22] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[37m[13:04:22] [0m [34m [SERVER] [0m [13:04:22] [Server thread/INFO]: Loading properties
+[37m[13:04:22] [0m [34m [SERVER] [0m [13:04:22] [Server thread/INFO]: Default game type: SURVIVAL
+[37m[13:04:22] [0m [34m [SERVER] [0m [13:04:22] [Server thread/INFO]: Generating keypair
+[37m[13:04:22] [0m [34m [SERVER] [0m [13:04:22] [DefaultDispatcher-worker-3/INFO]: Inserting 1675 registry keys into the database...
+[37m[13:04:22] [0m [34m [SERVER] [0m [13:04:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[37m[13:04:22] [0m [34m [SERVER] [0m [13:04:22] [Server thread/INFO]: Using epoll channel type
+[37m[13:04:22] [0m [34m [SERVER] [0m [13:04:22] [Server thread/INFO]: Preparing level "world"
+[37m[13:04:22] [0m [34m [SERVER] [0m [13:04:22] [Server thread/INFO]: [STDOUT]: Example mixin loaded
+[37m[13:04:23] [0m [34m [SERVER] [0m [13:04:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[37m[13:04:23] [0m [34m [SERVER] [0m [13:04:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[37m[13:04:23] [0m [34m [SERVER] [0m [13:04:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[37m[13:04:23] [0m [32m [DISCORD_BOT] [0m Bot is has received message [36m<Message id=1417919127573758073 channel=<TextChannel id=784187804326428746 name='general' position=0 nsfw=False news=False category_id=784187804326428744> type=<MessageType.default: 0> author=<Member id=178237794638888960 name='halfhand870' global_name='halfhand870' bot=False nick=None guild=<Guild id=784187804326428743 name='bot dev area' shard_id=0 chunked=False member_count=4>> flags=<MessageFlags value=0>>[0m
+[37m[13:04:23] [0m [32m [DISCORD_BOT] [0m  
+[37m[13:04:23] [0m [32m [DISCORD_BOT] [0m [32m==================== !edit update ====================[0m
+[37m[13:04:23] [0m [32m [DISCORD_BOT] [0m Found message with icon, !
+[37m[13:04:23] [0m [32m [DISCORD_BOT] [0m Message sent with content: !edit update
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Found json list [33m['admin.json', 'backup.json', 'command.json', 'event.json', 'help.json', 'kill.json', 'list.json', 'run.json'][0m
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== LOADING COMMANDS ====================[0m
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32madmin[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1, 2][0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/admin_management.py[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32madmin[0m
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mbackup[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/backup.py[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mbackup[0m
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32medit[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1, 2, 3, 4, 5][0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/command_modification.py[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'edit' was not loaded, suppressed with compile tag[0m
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mevent[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/event.py[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'event' was not loaded, suppressed with compile tag[0m
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mhelp[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0, 1][0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/help.py[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mFalse[0m]
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mhelp[0m
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mkill[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/kill.py[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'kill' was not loaded, suppressed with compile tag[0m
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mlist[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/list.py[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mFalse[0m]
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mlist[0m
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mrun[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1][0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/run_command.py[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'run' was not loaded, suppressed with compile tag[0m
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m 4 commands loaded
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== LOADED COMMANDS ====================[0m
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== PROCESSING MESSAGE ====================[0m
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m Processing message with icon [32m![0m and content [33m!edit update[0m
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m Splitting Content !edit update
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m Split content ['!edit', 'update']
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m Split and processing message. Using content data... ['edit', 'update']
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== PROCESSED MESSAGE ====================[0m
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== RUNNING COMMAND ====================[0m
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m Key '[33medit[0m' does not exist
+[37m[13:04:23] [0m [94m [DISCORD_COMMANDS] [0m No keyword [31medit[0m found
+[37m[13:04:23] [0m [32m [DISCORD_BOT] [0m Checking if the message is queued
+[37m[13:04:23] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mFalse[0m]
+[37m[13:04:23] [0m [32m [DISCORD_BOT] [0m [31m==================== !edit update ====================[0m
+[37m[13:04:23] [0m [32m [DISCORD_BOT] [0m  
+[37m[13:04:24] [0m [34m [SERVER] [0m [13:04:23] [DefaultDispatcher-worker-3/INFO]: Registry insert complete
+[37m[13:04:24] [0m [34m [SERVER] [0m [13:04:23] [Server thread/INFO]: Time elapsed: 911 ms
+[37m[13:04:24] [0m [34m [SERVER] [0m [13:04:23] [Server thread/INFO]: Done (1.377s)! For help, type "help"
+[37m[13:04:24] [0m [34m [SERVER] [0m [13:04:23] [Server thread/INFO]: Loading audio file volume overrides...
+[37m[13:04:24] [0m [34m [SERVER] [0m [13:04:23] [Server thread/INFO]: Loading audio file name mappings...
+[37m[13:04:24] [0m [34m [SERVER] [0m [13:04:23] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[37m[13:04:24] [0m [34m [SERVER] [0m [13:04:23] [Server thread/INFO]: Added 0 persistent groups
+[37m[13:04:29] [0m [32m [DISCORD_BOT] [0m Bot is has received message [36m<Message id=1417919151531622410 channel=<TextChannel id=784187804326428746 name='general' position=0 nsfw=False news=False category_id=784187804326428744> type=<MessageType.default: 0> author=<Member id=178237794638888960 name='halfhand870' global_name='halfhand870' bot=False nick=None guild=<Guild id=784187804326428743 name='bot dev area' shard_id=0 chunked=False member_count=4>> flags=<MessageFlags value=0>>[0m
+[37m[13:04:29] [0m [32m [DISCORD_BOT] [0m  
+[37m[13:04:29] [0m [32m [DISCORD_BOT] [0m [32m==================== !list ====================[0m
+[37m[13:04:29] [0m [32m [DISCORD_BOT] [0m Found message with icon, !
+[37m[13:04:29] [0m [32m [DISCORD_BOT] [0m Message sent with content: !list
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Found json list [33m['admin.json', 'backup.json', 'command.json', 'event.json', 'help.json', 'kill.json', 'list.json', 'run.json'][0m
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== LOADING COMMANDS ====================[0m
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32madmin[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1, 2][0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/admin_management.py[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32madmin[0m
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mbackup[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/backup.py[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mbackup[0m
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32medit[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1, 2, 3, 4, 5][0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/command_modification.py[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'edit' was not loaded, suppressed with compile tag[0m
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mevent[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/event.py[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'event' was not loaded, suppressed with compile tag[0m
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mhelp[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0, 1][0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/help.py[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mFalse[0m]
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mhelp[0m
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mkill[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/kill.py[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'kill' was not loaded, suppressed with compile tag[0m
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mlist[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/list.py[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mFalse[0m]
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mlist[0m
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mrun[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1][0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/run_command.py[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'run' was not loaded, suppressed with compile tag[0m
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m 4 commands loaded
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== LOADED COMMANDS ====================[0m
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== PROCESSING MESSAGE ====================[0m
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m Processing message with icon [32m![0m and content [33m!list[0m
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m Splitting Content !list
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m Split content ['!list']
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m Split and processing message. Using content data... ['list']
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== PROCESSED MESSAGE ====================[0m
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== RUNNING COMMAND ====================[0m
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m Key '[33mlist[0m' found
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m Keyword [33mlist[0m found with associated json file [32mlist[0m
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m Pushing args []
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mFalse[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32m# Edit Command Help## Updating Commands```Reloads all commands in the bot.```### Arguments- r.[0] **[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m['edit'][0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m['edit'][0m]
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m Running command [32mlist[0m
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mFalse[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32m# Edit Command Help## Updating Commands```Reloads all commands in the bot.```### Arguments- r.[0] **[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mFalse[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32m# Edit Command Help## Updating Commands```Reloads all commands in the bot.```### Arguments- r.[0] **[0m]
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== COMMAND RUN ====================[0m
+[37m[13:04:29] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[13:04:29] [0m [32m [DISCORD_BOT] [0m Checking if the message is queued
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[13:04:29] [0m [32m [DISCORD_BOT] [0m Getting stored data
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32m- admin- backup- help- list[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32m- admin- backup- help- list[0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[13:04:29] [0m [32m [DISCORD_BOT] [0m Checking if [33mmessage[0m is a valid json key
+[37m[13:04:29] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32m- admin- backup- help- list[0m]
+[37m[13:04:29] [0m [32m [DISCORD_BOT] [0m Sending message to channel
+[37m[13:04:30] [0m [32m [DISCORD_BOT] [0m [31m==================== !list ====================[0m
+[37m[13:04:30] [0m [32m [DISCORD_BOT] [0m  
+[37m[13:04:42] [0m [32m [DISCORD_BOT] [0m Bot is has received message [36m<Message id=1417919207768588319 channel=<TextChannel id=784187804326428746 name='general' position=0 nsfw=False news=False category_id=784187804326428744> type=<MessageType.default: 0> author=<Member id=178237794638888960 name='halfhand870' global_name='halfhand870' bot=False nick=None guild=<Guild id=784187804326428743 name='bot dev area' shard_id=0 chunked=False member_count=4>> flags=<MessageFlags value=0>>[0m
+[37m[13:04:42] [0m [32m [DISCORD_BOT] [0m  
+[37m[13:04:42] [0m [32m [DISCORD_BOT] [0m [32m==================== !backup ====================[0m
+[37m[13:04:42] [0m [32m [DISCORD_BOT] [0m Found message with icon, !
+[37m[13:04:42] [0m [32m [DISCORD_BOT] [0m Message sent with content: !backup
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Found json list [33m['admin.json', 'backup.json', 'command.json', 'event.json', 'help.json', 'kill.json', 'list.json', 'run.json'][0m
+[37m[13:04:42] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[13:04:42] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== LOADING COMMANDS ====================[0m
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32madmin[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1, 2][0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/admin_management.py[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[13:04:42] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32madmin[0m
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mbackup[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/backup.py[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[13:04:42] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mbackup[0m
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32medit[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1, 2, 3, 4, 5][0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/command_modification.py[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[13:04:42] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'edit' was not loaded, suppressed with compile tag[0m
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mevent[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/event.py[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[13:04:42] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'event' was not loaded, suppressed with compile tag[0m
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mhelp[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0, 1][0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/help.py[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mFalse[0m]
+[37m[13:04:42] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mhelp[0m
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mkill[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/kill.py[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[13:04:42] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'kill' was not loaded, suppressed with compile tag[0m
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mlist[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/list.py[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mFalse[0m]
+[37m[13:04:42] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mlist[0m
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mrun[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1][0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/run_command.py[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
+[37m[13:04:42] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[13:04:42] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'run' was not loaded, suppressed with compile tag[0m
+[37m[13:04:42] [0m [94m [DISCORD_COMMANDS] [0m 4 commands loaded
+[37m[13:04:42] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== LOADED COMMANDS ====================[0m
+[37m[13:04:43] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[13:04:43] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[13:04:43] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== PROCESSING MESSAGE ====================[0m
+[37m[13:04:43] [0m [94m [DISCORD_COMMANDS] [0m Processing message with icon [32m![0m and content [33m!backup[0m
+[37m[13:04:43] [0m [94m [DISCORD_COMMANDS] [0m Splitting Content !backup
+[37m[13:04:43] [0m [94m [DISCORD_COMMANDS] [0m Split content ['!backup']
+[37m[13:04:43] [0m [94m [DISCORD_COMMANDS] [0m Split and processing message. Using content data... ['backup']
+[37m[13:04:43] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== PROCESSED MESSAGE ====================[0m
+[37m[13:04:43] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[13:04:43] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[13:04:43] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== RUNNING COMMAND ====================[0m
+[37m[13:04:43] [0m [94m [DISCORD_COMMANDS] [0m Key '[33mbackup[0m' found
+[37m[13:04:43] [0m [94m [DISCORD_COMMANDS] [0m Keyword [33mbackup[0m found with associated json file [32mbackup[0m
+[37m[13:04:43] [0m [94m [DISCORD_COMMANDS] [0m Display Name: halfhand870
+[37m[13:04:43] [0m [94m [DISCORD_COMMANDS] [0m Global Name: halfhand870
+[37m[13:04:43] [0m [33m [JSON_MANAGER] [0m Key '[33mwhite_list[0m' found [[32m['halfhand870'][0m]
+[37m[13:04:43] [0m [94m [DISCORD_COMMANDS] [0m User found, running command
+[37m[13:04:43] [0m [94m [DISCORD_COMMANDS] [0m Pushing args []
+[37m[13:04:43] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mFalse[0m]
+[37m[13:04:43] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32m- admin- backup- help- list[0m]
+[37m[13:04:43] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[13:04:43] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[13:04:43] [0m [94m [DISCORD_COMMANDS] [0m Running command [32mbackup[0m
+[37m[13:04:43] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Setting path to [33m'/server/world'[0m
+[37m[13:04:43] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Getting directory root [33m'/home/halfhand870/MinecraftServer/server/world'[0m
+[37m[13:04:43] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Backing up [33m'/home/halfhand870/MinecraftServer/server/world'[0m passing to static method
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Backing up [33m'/home/halfhand870/MinecraftServer/server/world'[0m
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Returning above directory as [33m'/home/halfhand870/MinecraftServer/server'[0m
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Creating backup at /home/halfhand870/MinecraftServer/server/.backup
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Successfully created backup. /home/halfhand870/MinecraftServer/backup_d20250917t130443.zip
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Moved backup to directory /home/halfhand870/MinecraftServer/server/.backup/backup_d20250917t130443.zip... Backup was successful!
+[37m[13:04:43] [0m [33m [BACKUP] [0m Backup finished with response **/home/halfhand870/MinecraftServer/server/.backup/backup_d20250917t130443.zip**
+[37m[13:04:43] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mFalse[0m]
+[37m[13:04:43] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32m- admin- backup- help- list[0m]
+[37m[13:04:43] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[13:04:43] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mFalse[0m]
+[37m[13:04:43] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32m- admin- backup- help- list[0m]
+[37m[13:04:43] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Setting path to [33m'/server/.backup'[0m
+[37m[13:04:43] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Getting directory root [33m'/home/halfhand870/MinecraftServer/server/.backup'[0m
+[37m[13:04:43] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Grabbing contents of [33m'/home/halfhand870/MinecraftServer/server/.backup'[0m
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Processing string: d20250911t182139
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Removed Readable formatting: 20250911182139
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Processing done: [2025, 9, 11, 18, 21, 39]
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Processing string: d20250911t182140
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Removed Readable formatting: 20250911182140
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Processing done: [2025, 9, 11, 18, 21, 40]
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Processing string: d20250911t182141
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Removed Readable formatting: 20250911182141
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Processing done: [2025, 9, 11, 18, 21, 41]
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Processing string: d20250911t182142
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Removed Readable formatting: 20250911182142
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Processing done: [2025, 9, 11, 18, 21, 42]
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Processing string: d20250911t182149
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Removed Readable formatting: 20250911182149
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Processing done: [2025, 9, 11, 18, 21, 49]
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Processing string: d20250917t130443
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Removed Readable formatting: 20250917130443
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m Processing done: [2025, 9, 17, 13, 4, 43]
+[37m[13:04:43] [0m [33m [BACKUP] [0m 2025-09-11 18:21:39
+[37m[13:04:43] [0m [33m [BACKUP] [0m backup_d20250911t182139.zip
+[37m[13:04:43] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Getting directory root [33m'/home/halfhand870/MinecraftServer/server/.backup'[0m
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m File at path '[33m/home/halfhand870/MinecraftServer/server/.backup/backup_d20250911t182139.zip[0m' [32mexists[0m
+[37m[13:04:43] [0m [31m [STATIC::TOOLS] [0m [5m[7m[33mDELETING FILE /home/halfhand870/MinecraftServer/server/.backup/backup_d20250911t182139.zip[0m
+[37m[13:04:43] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Getting directory root [33m'/home/halfhand870/MinecraftServer/server/.backup'[0m
+[37m[13:04:43] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Grabbing contents of [33m'/home/halfhand870/MinecraftServer/server/.backup'[0m
+[37m[13:04:43] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== COMMAND RUN ====================[0m
+[37m[13:04:43] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[13:04:43] [0m [32m [DISCORD_BOT] [0m Checking if the message is queued
+[37m[13:04:43] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[13:04:43] [0m [32m [DISCORD_BOT] [0m Getting stored data
+[37m[13:04:43] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[13:04:43] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32mBackup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/backup_d2025[0m]
+[37m[13:04:43] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[13:04:43] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[13:04:43] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32mBackup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/backup_d2025[0m]
+[37m[13:04:43] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[13:04:43] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[13:04:43] [0m [32m [DISCORD_BOT] [0m Checking if [33mmessage[0m is a valid json key
+[37m[13:04:43] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32mBackup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/backup_d2025[0m]
+[37m[13:04:43] [0m [32m [DISCORD_BOT] [0m Sending message to channel
+[37m[13:04:43] [0m [32m [DISCORD_BOT] [0m [31m==================== !backup ====================[0m
+[37m[13:04:43] [0m [32m [DISCORD_BOT] [0m  
+[37m[13:05:24] [0m [34m [SERVER] [0m [13:05:23] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[37m[13:54:42] [0m [32m [DISCORD_BOT] [0m Client has logged out
+[37m[13:54:42] [0m [32m [DISCORD_BOT] [0m [5m[7m[31m!!!!! BOT STOPPED !!!!![0m
