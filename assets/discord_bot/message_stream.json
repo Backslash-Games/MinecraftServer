@@ -1,5 +1,5 @@
 {
     "queued": false,
-    "message": "Backup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/backup_d20250917t130443.zip**",
+    "message": "\n- help\n- backup\n- admin\n- list",
     "args": []
 }
