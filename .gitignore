@@ -6,3 +6,4 @@ assets/discord_bot/commands.json
 assets/storage/backup_storage.json
 assets/runtime.log
 server/
+__pycache__/
