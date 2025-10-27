@@ -9,13 +9,14 @@ source = cf.Console("MESSAGE_STREAM", "green")
 
 MESSAGE_STREAM_PATH = CWD + "/assets/discord_bot/message_stream.json"
 
-CHECK_KEYS = ['queued', 'message', 'args']
+CHECK_KEYS = ['queued', 'message', 'file', 'args']
 
 # Queue message to send
-def send(message):
+def send(message, file_path = ""):
     jm.validateJsonFile(MESSAGE_STREAM_PATH, CHECK_KEYS)
     jm.writeJsonValue(MESSAGE_STREAM_PATH, "queued", True)
     jm.writeJsonValue(MESSAGE_STREAM_PATH, "message", message)
+    jm.writeJsonValue(MESSAGE_STREAM_PATH, "file", file_path)
 
 # Define arguments
 def set_args(cmd_args):

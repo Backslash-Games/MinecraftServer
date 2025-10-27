@@ -1,4 +1,4 @@
-from . import console_formatting, file_manager, json_manager, jar_manager
+from . import console_formatting, file_manager, json_manager, jar_manager, properties_manager
 
 # Establish static source
 static_source = console_formatting.Console("STATIC::TOOLS", 'red')

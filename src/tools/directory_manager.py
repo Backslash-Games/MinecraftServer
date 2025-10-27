@@ -29,10 +29,10 @@ class DirectoryManager:
 
 
     # Backups current directory
-    def backup(self):
+    def backup(self, id):
         path = self.get_directory_root()
         self.source.log(f"Backing up {DirectoryManager.string_format(path)} passing to static method")
-        return DirectoryManager.backup_target(path)
+        return DirectoryManager.backup_target(path, id)
 
 
     # Sets the directory
@@ -91,7 +91,7 @@ class DirectoryManager:
 
     @staticmethod
     # Backups a directory
-    def backup_target(directory):
+    def backup_target(directory, id):
         # Start Read
         static_source.log(f"Backing up {DirectoryManager.string_format(directory)}")
 
@@ -116,7 +116,7 @@ class DirectoryManager:
         # Backup Logic
         # -> Get current backup name
         time_string = tf.Time.get_format_now()
-        backup_name = f"backup_{time_string}"
+        backup_name = f"{id}.backup_{time_string}"
         # -> Backup world
         try:
             static_source.log(f"Creating backup at {backup_directory}")

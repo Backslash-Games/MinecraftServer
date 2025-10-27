@@ -87,9 +87,21 @@ def runBot():
                 source.log("Getting stored data")
                 data = stream.getStoredData()
                 source.log(f"Checking if {clr("message", 'yellow')} is a valid json key")
+
+                # Send Message
                 if jm.isJsonKey("message", data):
                     source.log("Sending message to channel")
                     await message.channel.send(data["message"])
+                else:
+                    source.log(clr(f"CHECK TO MAKE SURE MESSAGE_STREAM.JSON IS SET PROPERLY", 'red'))
+
+                # Send File
+                if jm.isJsonKey("file", data) and data["file"] != "":
+                    source.log("Sending file to channel")
+                    file = discord.File(data["file"], filename="backup.zip")
+                    await message.channel.send(file=file)
+                elif jm.isJsonKey("file", data) and data["file"] == "":
+                    source.log(clr(f"No file found, continuing", 'green'))
                 else:
                     source.log(clr(f"CHECK TO MAKE SURE MESSAGE_STREAM.JSON IS SET PROPERLY", 'red'))
 
