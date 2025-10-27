@@ -47,9 +47,18 @@ def trim_earliest(directory, contents):
         time_format_list.append(trimmed_file)
     target_time = tf.Time.get_earliest(time_format_list)
     source.log(target_time)
-    backup_file_name = f"{level_name}.backup_{tf.Time.to_time_format(target_time)}.zip"
-    source.log(backup_file_name)
-    fm.FileManager.delete_file(directory.get_directory_root(), backup_file_name)
+    for file in contents:
+        # Check to see if we can find the proper tag
+        backup_file_name = f"backup_{tf.Time.to_time_format(target_time)}.zip"
+        backup_file_name_index = file.find(backup_file_name)
+        source.log(f"Looking for: {backup_file_name}... indexed at {backup_file_name_index}")
+
+        # If found delete file and return
+        if backup_file_name_index != -1:
+            fm.FileManager.delete_file(directory.get_directory_root(), file)
+            return
+
+    source.log_error(f"No file found with target time {tf.Time.to_time_format(target_time)}")
 
 if TRIM_BACKUP_DIRECTORY:
     # Trim directory until there are only x entries

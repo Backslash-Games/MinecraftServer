@@ -3,6 +3,7 @@ from termcolor import colored as clr
 
 # ========== TOOL SETUP ==========
 from . import console_formatting as cf
+from ..server_tools.log.console_print import source
 
 CWD = os.getcwd()
 # MAIN GOAL - Quickly pull and push information to files stored in /assets
@@ -77,3 +78,37 @@ class FileManager:
 
         os.remove(target)
         static_source.log_warning(f"DELETING FILE {target}")
+
+    @staticmethod
+    # Gets the file size
+    def get_file_size(path, file_name):
+        static_source = cf.Console("STATIC::TOOLS", 'red')
+        static_source.set_suppression(False)
+
+        # Get the target
+        target = f"{path}/{file_name}"
+
+        # Check if the file exists
+        if os.path.exists(path):
+            static_source.log(f"File at path '{clr(target, 'yellow')}' {clr("exists", 'green')}")
+        else:
+            static_source.log_error(f"Couldn't find file at path {target}")
+            return 0
+
+        target_bytes = os.path.getsize(target)
+        static_source.log(f"File at path '{clr(target, 'yellow')}' is size {clr(target_bytes, 'green')}")
+        return target_bytes
+
+    @staticmethod
+    # Splits file name and path
+    def split_file_path(file_path):
+        # Set source
+        static_source = cf.Console("STATIC::TOOLS", 'red')
+        static_source.set_suppression(False)
+        # Do calculations
+        split_index = file_path.rfind("/") + 1;
+        path = file_path[0:split_index - 1]
+        file_name = file_path[split_index:]
+        # Write to log
+        static_source.log(f"Split file path into PATH: {path} and FILE NAME: {file_name}")
+        return [path, file_name]

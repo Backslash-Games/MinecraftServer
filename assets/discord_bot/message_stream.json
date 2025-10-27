@@ -1,6 +1,6 @@
 {
     "queued": false,
-    "message": "Returning logs",
-    "file": "/home/halfhand870/MinecraftServer/assets/runtime.log",
+    "message": "Backup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/big_file_test.backup_d20251027t153207.zip**",
+    "file": "/home/halfhand870/MinecraftServer/server/.backup/big_file_test.backup_d20251027t153207.zip",
     "args": []
 }

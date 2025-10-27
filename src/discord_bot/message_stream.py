@@ -14,9 +14,9 @@ CHECK_KEYS = ['queued', 'message', 'file', 'args']
 # Queue message to send
 def send(message, file_path = ""):
     jm.validateJsonFile(MESSAGE_STREAM_PATH, CHECK_KEYS)
-    jm.writeJsonValue(MESSAGE_STREAM_PATH, "queued", True)
     jm.writeJsonValue(MESSAGE_STREAM_PATH, "message", message)
     jm.writeJsonValue(MESSAGE_STREAM_PATH, "file", file_path)
+    setQueued(True)
 
 # Define arguments
 def set_args(cmd_args):
@@ -24,17 +24,20 @@ def set_args(cmd_args):
     jm.writeJsonValue(MESSAGE_STREAM_PATH, "args", cmd_args)
 # Get arguments
 def get_args():
-    return jm.getJsonValue(MESSAGE_STREAM_PATH, CHECK_KEYS[2])
+    return jm.getJsonValue(MESSAGE_STREAM_PATH, CHECK_KEYS[3])
 
 # Checks if the stream is queued
 def isQueued():
     return jm.getJsonValue(MESSAGE_STREAM_PATH, CHECK_KEYS[0])
+# Sets the state of queued
+def setQueued(state):
+    jm.writeJsonValue(MESSAGE_STREAM_PATH, "queued", state)
 
 # Get queued data
 def getStoredData():
     jm.validateJsonFile(MESSAGE_STREAM_PATH, CHECK_KEYS)
     response = jm.getJsonData(MESSAGE_STREAM_PATH, CHECK_KEYS)
-    jm.writeJsonValue(MESSAGE_STREAM_PATH, "queued", False)
+    setQueued(False)
     return response
 
 # Validates data file

@@ -1,297 +1,380 @@
-[37m[12:57:41] [0m [95m [MAIN] [0m Installing all resources
-[37m[12:57:41] [0m [33m [JSON_MANAGER] [0m Key '[33minstall[0m' found [[32m['01_server.json', '02_eula.json', '!03_mod_folder.json', '!04_datapack_folder.json', '!05_TEMP_Reso[0m]
-[37m[12:57:41] [0m [33m [JSON_MANAGER] [0m Found json list [33m['01_server.json', '02_eula.json', '03_mod_folder.json', '04_datapack_folder.json', '05_TEMP_ResourceZip.json'][0m
-[37m[12:57:41] [0m [33m [JSON_MANAGER] [0m Key '[33mreinstall[0m' found [[32m[][0m]
-[37m[12:57:41] [0m [36m [WEB_INSTALLER] [0m []
-[37m[12:57:41] [0m [36m [WEB_INSTALLER] [0m  
-[37m[12:57:41] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 01_server.json ====================[0m
-[37m[12:57:41] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://meta.fabricmc.net/v2/versions/loader/1.21.8/0.17.2/1.1.0/server/jar[0m]
-[37m[12:57:41] [0m [33m [JSON_MANAGER] [0m Key '[33mtype[0m' found [[32mfile[0m]
-[37m[12:57:41] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mminecraft[0m]
-[37m[12:57:41] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server[0m]
-[37m[12:57:41] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/server.jar[0m]
-[37m[12:57:41] [0m [33m [JSON_MANAGER] [0m Key '[33mfolder_expected_files[0m' found [[32m0[0m]
-[37m[12:57:41] [0m [36m [WEB_INSTALLER] [0m Data type is file
-[37m[12:57:41] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server[0m [32mdoes[0m exist... Checking file [33m/server.jar[0m
-[37m[12:57:41] [0m [36m [WEB_INSTALLER] [0m File [33m/home/halfhand870/MinecraftServer/server/server.jar[0m [32mdoes[0m exist... Returning [32mtrue[0m
-[37m[12:57:41] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 01_server.json ====================[0m
-[37m[12:57:41] [0m [36m [WEB_INSTALLER] [0m  
-[37m[12:57:41] [0m [36m [WEB_INSTALLER] [0m  
-[37m[12:57:41] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 02_eula.json ====================[0m
-[37m[12:57:41] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://drive.google.com/file/d/1q_QVK86GXZQZgy5hcpzGRX4TbDCHW2vK/view?usp=drive_link[0m]
-[37m[12:57:41] [0m [33m [JSON_MANAGER] [0m Key '[33mtype[0m' found [[32mfile[0m]
-[37m[12:57:41] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mdrive[0m]
-[37m[12:57:41] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server[0m]
-[37m[12:57:41] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/eula.txt[0m]
-[37m[12:57:41] [0m [33m [JSON_MANAGER] [0m Key '[33mfolder_expected_files[0m' found [[32m0[0m]
-[37m[12:57:41] [0m [36m [WEB_INSTALLER] [0m Data type is file
-[37m[12:57:41] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server[0m [32mdoes[0m exist... Checking file [33m/eula.txt[0m
-[37m[12:57:41] [0m [36m [WEB_INSTALLER] [0m File [33m/home/halfhand870/MinecraftServer/server/eula.txt[0m [32mdoes[0m exist... Returning [32mtrue[0m
-[37m[12:57:41] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 02_eula.json ====================[0m
-[37m[12:57:41] [0m [36m [WEB_INSTALLER] [0m  
-[37m[12:57:41] [0m [95m [MAIN] [0m Initializing Server Process
-[37m[12:57:41] [0m [95m [MAIN] [0m Initializing Server Print Process
-[37m[12:57:41] [0m [95m [MAIN] [0m Initializing Discord Process
-[37m[12:57:41] [0m [95m [MAIN] [0m Starting Server Process
-[37m[12:57:41] [0m [95m [MAIN] [0m Starting Server Print Process
-[37m[12:57:41] [0m [35m [RUN_JAR] [0m Checking if jar '/home/halfhand870/MinecraftServer/server/server.jar' exists
-[37m[12:57:41] [0m [35m [RUN_JAR] [0m Jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m' [32mdoes[0m exist
-[37m[12:57:41] [0m [35m [RUN_JAR] [0m Running jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m'
-[37m[12:57:41] [0m [95m [MAIN] [0m Starting Discord Bot Process
-[37m[12:57:41] [0m [34m [SERVER] [0m Cleared Logs
-[37m[12:57:41] [0m [95m [MAIN] [0m Joining Server Process
-[37m[12:57:42] [0m [34m [SERVER] [0m [12:57:42] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
-[37m[12:57:43] [0m [34m [SERVER] [0m [12:57:43] [main/INFO]: Loading 4 mods:
-[37m[12:57:43] [0m [34m [SERVER] [0m 	- fabricloader 0.17.2
-[37m[12:57:43] [0m [34m [SERVER] [0m 	   \-- mixinextras 0.5.0
-[37m[12:57:43] [0m [34m [SERVER] [0m 	- java 21
-[37m[12:57:43] [0m [34m [SERVER] [0m 	- minecraft 1.21.8
-[37m[12:57:43] [0m [34m [SERVER] [0m [12:57:43] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/halfhand870/MinecraftServer/server/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[37m[12:57:44] [0m [32m [DISCORD_BOT] [0m Setting command icon to !
-[37m[12:57:44] [0m [32m [DISCORD_BOT] [0m Bot is ready
-[37m[12:57:45] [0m [32m [DISCORD_BOT] [0m Bot is has received message [36m<Message id=1432412972386357310 channel=<DMChannel id=1412280974607253624 recipient=None> type=<MessageType.default: 0> author=<User id=178237794638888960 name='halfhand870' global_name='halfhand870' bot=False> flags=<MessageFlags value=0>>[0m
-[37m[12:57:45] [0m [32m [DISCORD_BOT] [0m  
-[37m[12:57:45] [0m [32m [DISCORD_BOT] [0m [32m==================== !list ====================[0m
-[37m[12:57:45] [0m [32m [DISCORD_BOT] [0m Found message with icon, !
-[37m[12:57:45] [0m [32m [DISCORD_BOT] [0m Message sent with content: !list
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Found json list [33m['admin.json', 'backup.json', 'command.json', 'event.json', 'help.json', 'kill.json', 'list.json', 'log.json', 'run.json'][0m
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m  
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== LOADING COMMANDS ====================[0m
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32madmin[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1, 2][0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/admin_management.py[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32madmin[0m
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mbackup[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/backup.py[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mbackup[0m
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32medit[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1, 2, 3, 4, 5][0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/command_modification.py[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'edit' was not loaded, suppressed with compile tag[0m
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mevent[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/event.py[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'event' was not loaded, suppressed with compile tag[0m
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mhelp[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0, 1][0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/help.py[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mFalse[0m]
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mhelp[0m
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mkill[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/kill.py[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'kill' was not loaded, suppressed with compile tag[0m
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mlist[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/list.py[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mFalse[0m]
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mlist[0m
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mlog[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/log.py[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mlog[0m
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mrun[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1][0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/run_command.py[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'run' was not loaded, suppressed with compile tag[0m
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m 5 commands loaded
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== LOADED COMMANDS ====================[0m
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m  
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m  
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== PROCESSING MESSAGE ====================[0m
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m Processing message with icon [32m![0m and content [33m!list[0m
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m Splitting Content !list
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m Split content ['!list']
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m Split and processing message. Using content data... ['list']
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== PROCESSED MESSAGE ====================[0m
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m  
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m  
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== RUNNING COMMAND ====================[0m
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m Key '[33mlist[0m' found
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m Keyword [33mlist[0m found with associated json file [32mlist[0m
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m Pushing args []
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mFalse[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32mBackup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/different_wo[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/home/halfhand870/MinecraftServer/server/.backup/different_world_name.backup_d20251027t125451.zip[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m Running command [32mlist[0m
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mFalse[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32mBackup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/different_wo[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/home/halfhand870/MinecraftServer/server/.backup/different_world_name.backup_d20251027t125451.zip[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mFalse[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32mBackup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/different_wo[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/home/halfhand870/MinecraftServer/server/.backup/different_world_name.backup_d20251027t125451.zip[0m]
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== COMMAND RUN ====================[0m
-[37m[12:57:45] [0m [94m [DISCORD_COMMANDS] [0m  
-[37m[12:57:45] [0m [32m [DISCORD_BOT] [0m Checking if the message is queued
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
-[37m[12:57:45] [0m [32m [DISCORD_BOT] [0m Getting stored data
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32m- admin- backup- help- list- log[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32m- admin- backup- help- list- log[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m[0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
-[37m[12:57:45] [0m [32m [DISCORD_BOT] [0m Checking if [33mmessage[0m is a valid json key
-[37m[12:57:45] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32m- admin- backup- help- list- log[0m]
-[37m[12:57:45] [0m [32m [DISCORD_BOT] [0m Sending message to channel
-[37m[12:57:46] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m[0m]
-[37m[12:57:46] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m[0m]
-[37m[12:57:46] [0m [32m [DISCORD_BOT] [0m [32mNo file found, continuing[0m
-[37m[12:57:46] [0m [32m [DISCORD_BOT] [0m [31m==================== !list ====================[0m
-[37m[12:57:46] [0m [32m [DISCORD_BOT] [0m  
-[37m[12:57:47] [0m [34m [SERVER] [0m [12:57:47] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[37m[12:57:48] [0m [34m [SERVER] [0m [12:57:48] [main/INFO]: Loaded 1407 recipes
-[37m[12:57:48] [0m [34m [SERVER] [0m [12:57:48] [main/INFO]: Loaded 1520 advancements
-[37m[12:57:48] [0m [34m [SERVER] [0m [12:57:48] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[37m[12:57:48] [0m [34m [SERVER] [0m [12:57:48] [Server thread/INFO]: Loading properties
-[37m[12:57:48] [0m [34m [SERVER] [0m [12:57:48] [Server thread/INFO]: Default game type: SURVIVAL
-[37m[12:57:48] [0m [34m [SERVER] [0m [12:57:48] [Server thread/INFO]: Generating keypair
-[37m[12:57:48] [0m [34m [SERVER] [0m [12:57:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[37m[12:57:49] [0m [34m [SERVER] [0m [12:57:49] [Server thread/INFO]: Using epoll channel type
-[37m[12:57:50] [0m [34m [SERVER] [0m [12:57:49] [Server thread/INFO]: Preparing level "different_world_name"
-[37m[12:57:50] [0m [34m [SERVER] [0m [12:57:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[37m[12:57:51] [0m [34m [SERVER] [0m [12:57:50] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[37m[12:57:51] [0m [34m [SERVER] [0m [12:57:50] [Worker-Main-7/INFO]: Preparing spawn area: 4%
-[37m[12:57:51] [0m [34m [SERVER] [0m [12:57:50] [Server thread/INFO]: Time elapsed: 590 ms
-[37m[12:57:51] [0m [34m [SERVER] [0m [12:57:50] [Server thread/INFO]: Done (1.047s)! For help, type "help"
-[37m[12:57:51] [0m [32m [DISCORD_BOT] [0m Bot is has received message [36m<Message id=1432412997741051965 channel=<DMChannel id=1412280974607253624 recipient=None> type=<MessageType.default: 0> author=<User id=178237794638888960 name='halfhand870' global_name='halfhand870' bot=False> flags=<MessageFlags value=0>>[0m
-[37m[12:57:51] [0m [32m [DISCORD_BOT] [0m  
-[37m[12:57:51] [0m [32m [DISCORD_BOT] [0m [32m==================== !log ====================[0m
-[37m[12:57:51] [0m [32m [DISCORD_BOT] [0m Found message with icon, !
-[37m[12:57:51] [0m [32m [DISCORD_BOT] [0m Message sent with content: !log
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Found json list [33m['admin.json', 'backup.json', 'command.json', 'event.json', 'help.json', 'kill.json', 'list.json', 'log.json', 'run.json'][0m
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m  
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== LOADING COMMANDS ====================[0m
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32madmin[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1, 2][0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/admin_management.py[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32madmin[0m
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mbackup[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/backup.py[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mbackup[0m
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32medit[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1, 2, 3, 4, 5][0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/command_modification.py[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'edit' was not loaded, suppressed with compile tag[0m
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mevent[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/event.py[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'event' was not loaded, suppressed with compile tag[0m
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mhelp[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0, 1][0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/help.py[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mFalse[0m]
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mhelp[0m
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mkill[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/kill.py[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'kill' was not loaded, suppressed with compile tag[0m
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mlist[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/list.py[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mFalse[0m]
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mlist[0m
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mlog[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/log.py[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mlog[0m
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mrun[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1][0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/run_command.py[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'run' was not loaded, suppressed with compile tag[0m
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m 5 commands loaded
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== LOADED COMMANDS ====================[0m
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m  
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m  
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== PROCESSING MESSAGE ====================[0m
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m Processing message with icon [32m![0m and content [33m!log[0m
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m Splitting Content !log
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m Split content ['!log']
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m Split and processing message. Using content data... ['log']
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== PROCESSED MESSAGE ====================[0m
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m  
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m  
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== RUNNING COMMAND ====================[0m
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m Key '[33mlog[0m' found
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m Keyword [33mlog[0m found with associated json file [32mlog[0m
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m Display Name: halfhand870
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m Global Name: halfhand870
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mwhite_list[0m' found [[32m['halfhand870'][0m]
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m User found, running command
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m Pushing args []
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mFalse[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32m- admin- backup- help- list- log[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m Running command [32mlog[0m
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mFalse[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32m- admin- backup- help- list- log[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mFalse[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32m- admin- backup- help- list- log[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m[0m]
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== COMMAND RUN ====================[0m
-[37m[12:57:51] [0m [94m [DISCORD_COMMANDS] [0m  
-[37m[12:57:51] [0m [32m [DISCORD_BOT] [0m Checking if the message is queued
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
-[37m[12:57:51] [0m [32m [DISCORD_BOT] [0m Getting stored data
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32mReturning logs[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/home/halfhand870/MinecraftServer/assets/runtime.log[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32mReturning logs[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/home/halfhand870/MinecraftServer/assets/runtime.log[0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
-[37m[12:57:51] [0m [32m [DISCORD_BOT] [0m Checking if [33mmessage[0m is a valid json key
-[37m[12:57:51] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32mReturning logs[0m]
-[37m[12:57:51] [0m [32m [DISCORD_BOT] [0m Sending message to channel
-[37m[12:57:52] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/home/halfhand870/MinecraftServer/assets/runtime.log[0m]
-[37m[12:57:52] [0m [32m [DISCORD_BOT] [0m Sending file to channel
-[37m[12:57:52] [0m [32m [DISCORD_BOT] [0m [31m==================== !log ====================[0m
-[37m[12:57:52] [0m [32m [DISCORD_BOT] [0m  
-[37m[12:58:14] [0m [32m [DISCORD_BOT] [0m Client has logged out
-[37m[12:58:14] [0m [32m [DISCORD_BOT] [0m [5m[7m[31m!!!!! BOT STOPPED !!!!![0m
+[37m[15:31:36] [0m [95m [MAIN] [0m Installing all resources
+[37m[15:31:36] [0m [33m [JSON_MANAGER] [0m Key '[33minstall[0m' found [[32m['01_server.json', '02_eula.json', '!03_mod_folder.json', '!04_datapack_folder.json', '!05_TEMP_Reso[0m]
+[37m[15:31:36] [0m [33m [JSON_MANAGER] [0m Found json list [33m['01_server.json', '02_eula.json', '03_mod_folder.json', '04_datapack_folder.json', '05_TEMP_ResourceZip.json'][0m
+[37m[15:31:36] [0m [33m [JSON_MANAGER] [0m Key '[33mreinstall[0m' found [[32m[][0m]
+[37m[15:31:36] [0m [36m [WEB_INSTALLER] [0m []
+[37m[15:31:36] [0m [36m [WEB_INSTALLER] [0m  
+[37m[15:31:36] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 01_server.json ====================[0m
+[37m[15:31:36] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://meta.fabricmc.net/v2/versions/loader/1.21.8/0.17.2/1.1.0/server/jar[0m]
+[37m[15:31:36] [0m [33m [JSON_MANAGER] [0m Key '[33mtype[0m' found [[32mfile[0m]
+[37m[15:31:36] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mminecraft[0m]
+[37m[15:31:36] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server[0m]
+[37m[15:31:36] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/server.jar[0m]
+[37m[15:31:36] [0m [33m [JSON_MANAGER] [0m Key '[33mfolder_expected_files[0m' found [[32m0[0m]
+[37m[15:31:36] [0m [36m [WEB_INSTALLER] [0m Data type is file
+[37m[15:31:36] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server[0m [32mdoes[0m exist... Checking file [33m/server.jar[0m
+[37m[15:31:36] [0m [36m [WEB_INSTALLER] [0m File [33m/home/halfhand870/MinecraftServer/server/server.jar[0m [32mdoes[0m exist... Returning [32mtrue[0m
+[37m[15:31:36] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 01_server.json ====================[0m
+[37m[15:31:36] [0m [36m [WEB_INSTALLER] [0m  
+[37m[15:31:36] [0m [36m [WEB_INSTALLER] [0m  
+[37m[15:31:36] [0m [36m [WEB_INSTALLER] [0m [32m==================== Started install of 02_eula.json ====================[0m
+[37m[15:31:36] [0m [33m [JSON_MANAGER] [0m Key '[33murl[0m' found [[32mhttps://drive.google.com/file/d/1q_QVK86GXZQZgy5hcpzGRX4TbDCHW2vK/view?usp=drive_link[0m]
+[37m[15:31:36] [0m [33m [JSON_MANAGER] [0m Key '[33mtype[0m' found [[32mfile[0m]
+[37m[15:31:36] [0m [33m [JSON_MANAGER] [0m Key '[33msource[0m' found [[32mdrive[0m]
+[37m[15:31:36] [0m [33m [JSON_MANAGER] [0m Key '[33mdir[0m' found [[32m/server[0m]
+[37m[15:31:36] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/eula.txt[0m]
+[37m[15:31:36] [0m [33m [JSON_MANAGER] [0m Key '[33mfolder_expected_files[0m' found [[32m0[0m]
+[37m[15:31:36] [0m [36m [WEB_INSTALLER] [0m Data type is file
+[37m[15:31:36] [0m [36m [WEB_INSTALLER] [0m Directory [33m/home/halfhand870/MinecraftServer/server[0m [32mdoes[0m exist... Checking file [33m/eula.txt[0m
+[37m[15:31:36] [0m [36m [WEB_INSTALLER] [0m File [33m/home/halfhand870/MinecraftServer/server/eula.txt[0m [32mdoes[0m exist... Returning [32mtrue[0m
+[37m[15:31:36] [0m [36m [WEB_INSTALLER] [0m [31m==================== Canceled install of 02_eula.json ====================[0m
+[37m[15:31:36] [0m [36m [WEB_INSTALLER] [0m  
+[37m[15:31:36] [0m [95m [MAIN] [0m Initializing Server Process
+[37m[15:31:36] [0m [95m [MAIN] [0m Initializing Server Print Process
+[37m[15:31:36] [0m [95m [MAIN] [0m Initializing Discord Process
+[37m[15:31:36] [0m [95m [MAIN] [0m Starting Server Process
+[37m[15:31:36] [0m [95m [MAIN] [0m Starting Server Print Process
+[37m[15:31:36] [0m [35m [RUN_JAR] [0m Checking if jar '/home/halfhand870/MinecraftServer/server/server.jar' exists
+[37m[15:31:36] [0m [35m [RUN_JAR] [0m Jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m' [32mdoes[0m exist
+[37m[15:31:36] [0m [35m [RUN_JAR] [0m Running jar '[33m/home/halfhand870/MinecraftServer/server/server.jar[0m'
+[37m[15:31:36] [0m [95m [MAIN] [0m Starting Discord Bot Process
+[37m[15:31:36] [0m [34m [SERVER] [0m Cleared Logs
+[37m[15:31:36] [0m [95m [MAIN] [0m Joining Server Process
+[37m[15:31:37] [0m [34m [SERVER] [0m [15:31:37] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
+[37m[15:31:38] [0m [34m [SERVER] [0m [15:31:37] [main/INFO]: Loading 4 mods:
+[37m[15:31:38] [0m [34m [SERVER] [0m 	- fabricloader 0.17.2
+[37m[15:31:38] [0m [34m [SERVER] [0m 	   \-- mixinextras 0.5.0
+[37m[15:31:38] [0m [34m [SERVER] [0m 	- java 21
+[37m[15:31:38] [0m [34m [SERVER] [0m 	- minecraft 1.21.8
+[37m[15:31:38] [0m [34m [SERVER] [0m [15:31:37] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/halfhand870/MinecraftServer/server/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[37m[15:31:39] [0m [32m [DISCORD_BOT] [0m Setting command icon to !
+[37m[15:31:39] [0m [32m [DISCORD_BOT] [0m Bot is ready
+[37m[15:31:42] [0m [34m [SERVER] [0m [15:31:42] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[37m[15:31:44] [0m [34m [SERVER] [0m [15:31:43] [main/INFO]: Loaded 1407 recipes
+[37m[15:31:44] [0m [34m [SERVER] [0m [15:31:43] [main/INFO]: Loaded 1520 advancements
+[37m[15:31:44] [0m [34m [SERVER] [0m [15:31:44] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[37m[15:31:44] [0m [34m [SERVER] [0m [15:31:44] [Server thread/INFO]: Loading properties
+[37m[15:31:44] [0m [34m [SERVER] [0m [15:31:44] [Server thread/INFO]: Default game type: SURVIVAL
+[37m[15:31:44] [0m [34m [SERVER] [0m [15:31:44] [Server thread/INFO]: Generating keypair
+[37m[15:31:44] [0m [34m [SERVER] [0m [15:31:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[37m[15:31:44] [0m [34m [SERVER] [0m [15:31:44] [Server thread/INFO]: Using epoll channel type
+[37m[15:31:44] [0m [34m [SERVER] [0m [15:31:44] [Server thread/INFO]: Preparing level "world"
+[37m[15:31:45] [0m [34m [SERVER] [0m [15:31:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[37m[15:31:45] [0m [34m [SERVER] [0m [15:31:45] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[37m[15:31:45] [0m [34m [SERVER] [0m [15:31:45] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[37m[15:31:45] [0m [34m [SERVER] [0m [15:31:45] [Server thread/INFO]: Time elapsed: 693 ms
+[37m[15:31:45] [0m [34m [SERVER] [0m [15:31:45] [Server thread/INFO]: Done (1.286s)! For help, type "help"
+[37m[15:31:53] [0m [32m [DISCORD_BOT] [0m Bot is has received message [36m<Message id=1432451757484675122 channel=<DMChannel id=1412280974607253624 recipient=None> type=<MessageType.default: 0> author=<User id=178237794638888960 name='halfhand870' global_name='halfhand870' bot=False> flags=<MessageFlags value=0>>[0m
+[37m[15:31:53] [0m [32m [DISCORD_BOT] [0m  
+[37m[15:31:53] [0m [32m [DISCORD_BOT] [0m [32m==================== !backup ====================[0m
+[37m[15:31:53] [0m [32m [DISCORD_BOT] [0m Found message with icon, !
+[37m[15:31:53] [0m [32m [DISCORD_BOT] [0m Message sent with content: !backup
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Found json list [33m['admin.json', 'backup.json', 'command.json', 'event.json', 'help.json', 'kill.json', 'list.json', 'log.json', 'message_stream.json', 'run.json'][0m
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== LOADING COMMANDS ====================[0m
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32madmin[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1, 2][0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/admin_management.py[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32madmin[0m
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mbackup[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/backup.py[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mbackup[0m
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32medit[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1, 2, 3, 4, 5][0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/command_modification.py[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'edit' was not loaded, suppressed with compile tag[0m
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mevent[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/event.py[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'event' was not loaded, suppressed with compile tag[0m
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mhelp[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0, 1][0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/help.py[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mFalse[0m]
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mhelp[0m
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mkill[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/kill.py[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'kill' was not loaded, suppressed with compile tag[0m
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mlist[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/list.py[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mFalse[0m]
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mlist[0m
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mlog[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/log.py[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mlog[0m
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mmessage_stream[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1][0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/message_stream_command.py[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mmessage_stream[0m
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mrun[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1][0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/run_command.py[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'run' was not loaded, suppressed with compile tag[0m
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m 6 commands loaded
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== LOADED COMMANDS ====================[0m
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== PROCESSING MESSAGE ====================[0m
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m Processing message with icon [32m![0m and content [33m!backup[0m
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m Splitting Content !backup
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m Split content ['!backup']
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m Split and processing message. Using content data... ['backup']
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== PROCESSED MESSAGE ====================[0m
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== RUNNING COMMAND ====================[0m
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m Key '[33mbackup[0m' found
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m Keyword [33mbackup[0m found with associated json file [32mbackup[0m
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m Display Name: halfhand870
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m Global Name: halfhand870
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mwhite_list[0m' found [[32m['halfhand870'][0m]
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m User found, running command
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m Pushing args []
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32mBackup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/world.backup[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/home/halfhand870/MinecraftServer/server/.backup/world.backup_d20251027t153136.zip[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m Running command [32mbackup[0m
+[37m[15:31:53] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Setting path to [33m'/server/world'[0m
+[37m[15:31:53] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Getting directory root [33m'/home/halfhand870/MinecraftServer/server/world'[0m
+[37m[15:31:53] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Backing up [33m'/home/halfhand870/MinecraftServer/server/world'[0m passing to static method
+[37m[15:31:53] [0m [31m [STATIC::TOOLS] [0m Backing up [33m'/home/halfhand870/MinecraftServer/server/world'[0m
+[37m[15:31:53] [0m [31m [STATIC::TOOLS] [0m Returning above directory as [33m'/home/halfhand870/MinecraftServer/server'[0m
+[37m[15:31:53] [0m [31m [STATIC::TOOLS] [0m Creating backup at /home/halfhand870/MinecraftServer/server/.backup
+[37m[15:31:53] [0m [31m [STATIC::TOOLS] [0m Successfully created backup. /home/halfhand870/MinecraftServer/world.backup_d20251027t153153.zip
+[37m[15:31:53] [0m [31m [STATIC::TOOLS] [0m Moved backup to directory /home/halfhand870/MinecraftServer/server/.backup/world.backup_d20251027t153153.zip... Backup was successful!
+[37m[15:31:53] [0m [33m [BACKUP] [0m Backup finished with response **/home/halfhand870/MinecraftServer/server/.backup/world.backup_d20251027t153153.zip**
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32mBackup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/world.backup[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/home/halfhand870/MinecraftServer/server/.backup/world.backup_d20251027t153136.zip[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32mBackup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/world.backup[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/home/halfhand870/MinecraftServer/server/.backup/world.backup_d20251027t153136.zip[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[15:31:53] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Setting path to [33m'/server/.backup'[0m
+[37m[15:31:53] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Getting directory root [33m'/home/halfhand870/MinecraftServer/server/.backup'[0m
+[37m[15:31:53] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Grabbing contents of [33m'/home/halfhand870/MinecraftServer/server/.backup'[0m
+[37m[15:31:53] [0m [33m [BACKUP] [0m d20251027t153136
+[37m[15:31:53] [0m [33m [BACKUP] [0m d20251027t153153
+[37m[15:31:53] [0m [31m [STATIC::TOOLS] [0m Processing string: d20251027t153136
+[37m[15:31:53] [0m [31m [STATIC::TOOLS] [0m Removed Readable formatting: 20251027153136
+[37m[15:31:53] [0m [31m [STATIC::TOOLS] [0m Processing done: [2025, 10, 27, 15, 31, 36]
+[37m[15:31:53] [0m [31m [STATIC::TOOLS] [0m Processing string: d20251027t153153
+[37m[15:31:53] [0m [31m [STATIC::TOOLS] [0m Removed Readable formatting: 20251027153153
+[37m[15:31:53] [0m [31m [STATIC::TOOLS] [0m Processing done: [2025, 10, 27, 15, 31, 53]
+[37m[15:31:53] [0m [33m [BACKUP] [0m 2025-10-27 15:31:36
+[37m[15:31:53] [0m [33m [BACKUP] [0m Looking for: backup_d20251027t153136.zip... indexed at 6
+[37m[15:31:53] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Getting directory root [33m'/home/halfhand870/MinecraftServer/server/.backup'[0m
+[37m[15:31:53] [0m [31m [STATIC::TOOLS] [0m File at path '[33m/home/halfhand870/MinecraftServer/server/.backup/world.backup_d20251027t153136.zip[0m' [32mexists[0m
+[37m[15:31:53] [0m [31m [STATIC::TOOLS] [0m [5m[7m[33mDELETING FILE /home/halfhand870/MinecraftServer/server/.backup/world.backup_d20251027t153136.zip[0m
+[37m[15:31:53] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Getting directory root [33m'/home/halfhand870/MinecraftServer/server/.backup'[0m
+[37m[15:31:53] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Grabbing contents of [33m'/home/halfhand870/MinecraftServer/server/.backup'[0m
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== COMMAND RUN ====================[0m
+[37m[15:31:53] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[15:31:53] [0m [32m [DISCORD_BOT] [0m Checking if the message is queued
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[15:31:53] [0m [32m [DISCORD_BOT] [0m Getting stored data
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32mBackup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/world.backup[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/home/halfhand870/MinecraftServer/server/.backup/world.backup_d20251027t153153.zip[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32mBackup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/world.backup[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/home/halfhand870/MinecraftServer/server/.backup/world.backup_d20251027t153153.zip[0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[15:31:53] [0m [32m [DISCORD_BOT] [0m Checking if [33mmessage[0m is a valid json key
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32mBackup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/world.backup[0m]
+[37m[15:31:53] [0m [32m [DISCORD_BOT] [0m Sending message to channel
+[37m[15:31:53] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/home/halfhand870/MinecraftServer/server/.backup/world.backup_d20251027t153153.zip[0m]
+[37m[15:31:53] [0m [32m [DISCORD_BOT] [0m Sending file to channel
+[37m[15:31:53] [0m [31m [STATIC::TOOLS] [0m Split file path into PATH: /home/halfhand870/MinecraftServer/server/.backup and FILE NAME: world.backup_d20251027t153153.zip
+[37m[15:31:53] [0m [31m [STATIC::TOOLS] [0m File at path '[33m/home/halfhand870/MinecraftServer/server/.backup/world.backup_d20251027t153153.zip[0m' [32mexists[0m
+[37m[15:31:53] [0m [31m [STATIC::TOOLS] [0m File at path '[33m/home/halfhand870/MinecraftServer/server/.backup/world.backup_d20251027t153153.zip[0m' is size [32m7109768[0m
+[37m[15:31:59] [0m [32m [DISCORD_BOT] [0m [31m==================== !backup ====================[0m
+[37m[15:31:59] [0m [32m [DISCORD_BOT] [0m  
+[37m[15:32:07] [0m [32m [DISCORD_BOT] [0m Bot is has received message [36m<Message id=1432451819107520604 channel=<DMChannel id=1412280974607253624 recipient=None> type=<MessageType.default: 0> author=<User id=178237794638888960 name='halfhand870' global_name='halfhand870' bot=False> flags=<MessageFlags value=0>>[0m
+[37m[15:32:07] [0m [32m [DISCORD_BOT] [0m  
+[37m[15:32:07] [0m [32m [DISCORD_BOT] [0m [32m==================== !backup ====================[0m
+[37m[15:32:07] [0m [32m [DISCORD_BOT] [0m Found message with icon, !
+[37m[15:32:07] [0m [32m [DISCORD_BOT] [0m Message sent with content: !backup
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Found json list [33m['admin.json', 'backup.json', 'command.json', 'event.json', 'help.json', 'kill.json', 'list.json', 'log.json', 'message_stream.json', 'run.json'][0m
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== LOADING COMMANDS ====================[0m
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32madmin[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1, 2][0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/admin_management.py[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32madmin[0m
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mbackup[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/backup.py[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mbackup[0m
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32medit[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1, 2, 3, 4, 5][0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/command_modification.py[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'edit' was not loaded, suppressed with compile tag[0m
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mevent[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/event.py[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'event' was not loaded, suppressed with compile tag[0m
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mhelp[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0, 1][0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/help.py[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mFalse[0m]
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mhelp[0m
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mkill[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/kill.py[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'kill' was not loaded, suppressed with compile tag[0m
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mlist[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/list.py[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mFalse[0m]
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mlist[0m
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mlog[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[0][0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/log.py[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mlog[0m
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mmessage_stream[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1][0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/message_stream_command.py[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mTrue[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m Loading json into commands with data keyword [32mmessage_stream[0m
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mkeyword[0m' found [[32mrun[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[1][0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mdirectory[0m' found [[32m/src/commands/run_command.py[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mcompile[0m' found [[32mFalse[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mrequire_admin[0m' found [[32mTrue[0m]
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m [5m[7m[31mCommand 'run' was not loaded, suppressed with compile tag[0m
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m 6 commands loaded
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== LOADED COMMANDS ====================[0m
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== PROCESSING MESSAGE ====================[0m
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m Processing message with icon [32m![0m and content [33m!backup[0m
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m Splitting Content !backup
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m Split content ['!backup']
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m Split and processing message. Using content data... ['backup']
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== PROCESSED MESSAGE ====================[0m
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m [32m==================== RUNNING COMMAND ====================[0m
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m Key '[33mbackup[0m' found
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m Keyword [33mbackup[0m found with associated json file [32mbackup[0m
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m Display Name: halfhand870
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m Global Name: halfhand870
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mwhite_list[0m' found [[32m['halfhand870'][0m]
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m User found, running command
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m Pushing args []
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mFalse[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32mBackup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/world.backup[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/home/halfhand870/MinecraftServer/server/.backup/world.backup_d20251027t153153.zip[0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[15:32:07] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[15:32:07] [0m [94m [DISCORD_COMMANDS] [0m Running command [32mbackup[0m
+[37m[15:32:07] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Setting path to [33m'/server/big_file_test'[0m
+[37m[15:32:07] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Getting directory root [33m'/home/halfhand870/MinecraftServer/server/big_file_test'[0m
+[37m[15:32:07] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Backing up [33m'/home/halfhand870/MinecraftServer/server/big_file_test'[0m passing to static method
+[37m[15:32:07] [0m [31m [STATIC::TOOLS] [0m Backing up [33m'/home/halfhand870/MinecraftServer/server/big_file_test'[0m
+[37m[15:32:07] [0m [31m [STATIC::TOOLS] [0m Returning above directory as [33m'/home/halfhand870/MinecraftServer/server'[0m
+[37m[15:32:07] [0m [31m [STATIC::TOOLS] [0m Creating backup at /home/halfhand870/MinecraftServer/server/.backup
+[37m[15:32:45] [0m [34m [SERVER] [0m [15:32:45] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[37m[15:33:51] [0m [31m [STATIC::TOOLS] [0m Successfully created backup. /home/halfhand870/MinecraftServer/big_file_test.backup_d20251027t153207.zip
+[37m[15:33:51] [0m [31m [STATIC::TOOLS] [0m Moved backup to directory /home/halfhand870/MinecraftServer/server/.backup/big_file_test.backup_d20251027t153207.zip... Backup was successful!
+[37m[15:33:51] [0m [33m [BACKUP] [0m Backup finished with response **/home/halfhand870/MinecraftServer/server/.backup/big_file_test.backup_d20251027t153207.zip**
+[37m[15:33:51] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mFalse[0m]
+[37m[15:33:51] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32mBackup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/world.backup[0m]
+[37m[15:33:51] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/home/halfhand870/MinecraftServer/server/.backup/world.backup_d20251027t153153.zip[0m]
+[37m[15:33:51] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[15:33:51] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32mBackup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/world.backup[0m]
+[37m[15:33:51] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/home/halfhand870/MinecraftServer/server/.backup/world.backup_d20251027t153153.zip[0m]
+[37m[15:33:51] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mFalse[0m]
+[37m[15:33:51] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Setting path to [33m'/server/.backup'[0m
+[37m[15:33:51] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Getting directory root [33m'/home/halfhand870/MinecraftServer/server/.backup'[0m
+[37m[15:33:51] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Grabbing contents of [33m'/home/halfhand870/MinecraftServer/server/.backup'[0m
+[37m[15:33:51] [0m [33m [BACKUP] [0m d20251027t153207
+[37m[15:33:51] [0m [33m [BACKUP] [0m d20251027t153153
+[37m[15:33:51] [0m [31m [STATIC::TOOLS] [0m Processing string: d20251027t153207
+[37m[15:33:51] [0m [31m [STATIC::TOOLS] [0m Removed Readable formatting: 20251027153207
+[37m[15:33:51] [0m [31m [STATIC::TOOLS] [0m Processing done: [2025, 10, 27, 15, 32, 7]
+[37m[15:33:51] [0m [31m [STATIC::TOOLS] [0m Processing string: d20251027t153153
+[37m[15:33:51] [0m [31m [STATIC::TOOLS] [0m Removed Readable formatting: 20251027153153
+[37m[15:33:51] [0m [31m [STATIC::TOOLS] [0m Processing done: [2025, 10, 27, 15, 31, 53]
+[37m[15:33:51] [0m [33m [BACKUP] [0m 2025-10-27 15:31:53
+[37m[15:33:51] [0m [33m [BACKUP] [0m Looking for: backup_d20251027t153153.zip... indexed at -1
+[37m[15:33:51] [0m [33m [BACKUP] [0m Looking for: backup_d20251027t153153.zip... indexed at 6
+[37m[15:33:51] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Getting directory root [33m'/home/halfhand870/MinecraftServer/server/.backup'[0m
+[37m[15:33:51] [0m [31m [STATIC::TOOLS] [0m File at path '[33m/home/halfhand870/MinecraftServer/server/.backup/world.backup_d20251027t153153.zip[0m' [32mexists[0m
+[37m[15:33:51] [0m [31m [STATIC::TOOLS] [0m [5m[7m[33mDELETING FILE /home/halfhand870/MinecraftServer/server/.backup/world.backup_d20251027t153153.zip[0m
+[37m[15:33:51] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Getting directory root [33m'/home/halfhand870/MinecraftServer/server/.backup'[0m
+[37m[15:33:51] [0m [33m [DIRECTORY_MANAGER/[33mBACKUP[0m[0m[33m] [0m Grabbing contents of [33m'/home/halfhand870/MinecraftServer/server/.backup'[0m
+[37m[15:33:51] [0m [94m [DISCORD_COMMANDS] [0m [31m==================== COMMAND RUN ====================[0m
+[37m[15:33:51] [0m [94m [DISCORD_COMMANDS] [0m  
+[37m[15:33:51] [0m [32m [DISCORD_BOT] [0m Checking if the message is queued
+[37m[15:33:51] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[15:33:51] [0m [32m [DISCORD_BOT] [0m Getting stored data
+[37m[15:33:51] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[15:33:51] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32mBackup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/big_file_tes[0m]
+[37m[15:33:51] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/home/halfhand870/MinecraftServer/server/.backup/big_file_test.backup_d20251027t153207.zip[0m]
+[37m[15:33:51] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[15:33:51] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[15:33:51] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32mBackup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/big_file_tes[0m]
+[37m[15:33:51] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/home/halfhand870/MinecraftServer/server/.backup/big_file_test.backup_d20251027t153207.zip[0m]
+[37m[15:33:51] [0m [33m [JSON_MANAGER] [0m Key '[33margs[0m' found [[32m[][0m]
+[37m[15:33:51] [0m [33m [JSON_MANAGER] [0m Key '[33mqueued[0m' found [[32mTrue[0m]
+[37m[15:33:51] [0m [32m [DISCORD_BOT] [0m Checking if [33mmessage[0m is a valid json key
+[37m[15:33:51] [0m [33m [JSON_MANAGER] [0m Key '[33mmessage[0m' found [[32mBackup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/big_file_tes[0m]
+[37m[15:33:51] [0m [32m [DISCORD_BOT] [0m Sending message to channel
+[37m[15:33:51] [0m [33m [JSON_MANAGER] [0m Key '[33mfile[0m' found [[32m/home/halfhand870/MinecraftServer/server/.backup/big_file_test.backup_d20251027t153207.zip[0m]
+[37m[15:33:51] [0m [32m [DISCORD_BOT] [0m Sending file to channel
+[37m[15:33:51] [0m [31m [STATIC::TOOLS] [0m Split file path into PATH: /home/halfhand870/MinecraftServer/server/.backup and FILE NAME: big_file_test.backup_d20251027t153207.zip
+[37m[15:33:51] [0m [31m [STATIC::TOOLS] [0m File at path '[33m/home/halfhand870/MinecraftServer/server/.backup/big_file_test.backup_d20251027t153207.zip[0m' [32mexists[0m
+[37m[15:33:51] [0m [31m [STATIC::TOOLS] [0m File at path '[33m/home/halfhand870/MinecraftServer/server/.backup/big_file_test.backup_d20251027t153207.zip[0m' is size [32m3738166994[0m
+[37m[15:33:52] [0m [31m [STORAGE BACKUP] [0m Backing up big_file_test.backup_d20251027t153207.zip on storage
+[37m[15:33:52] [0m [33m [JSON_MANAGER] [0m Key '[33mpath[0m' found [[32m/home/halfhand870/VirtualBackup[0m]
+[37m[15:33:52] [0m [31m [STORAGE BACKUP] [0m Found backup path /home/halfhand870/VirtualBackup
+[37m[15:34:19] [0m [31m [STORAGE BACKUP] [0m Successfully backed up file
+[37m[15:34:19] [0m [32m [DISCORD_BOT] [0m [31m==================== !backup ====================[0m
+[37m[15:34:19] [0m [32m [DISCORD_BOT] [0m  
+[37m[15:34:21] [0m [32m [DISCORD_BOT] [0m Setting command icon to !
+[37m[15:34:21] [0m [32m [DISCORD_BOT] [0m Bot is ready
+[37m[15:42:03] [0m [32m [DISCORD_BOT] [0m Client has logged out
+[37m[15:42:03] [0m [32m [DISCORD_BOT] [0m [5m[7m[31m!!!!! BOT STOPPED !!!!![0m

@@ -7,6 +7,8 @@ from src.tools import console_formatting as cf
 from src.tools import file_manager as fm
 from src.tools import json_manager as jm
 
+from src.tools.storage import storage_backup as sb
+
 from src.discord_bot import bot_command_manager as commands
 from src.discord_bot import message_stream as stream
 
@@ -18,6 +20,8 @@ CWD = os.getcwd()
 source = cf.Console("DISCORD_BOT", "green")
 # File management
 file_man = fm.FileManager("DISCORD_BOOT")
+
+FILE_SIZE_LIMIT = 8000000
 
 TOKEN_PATH = CWD + "/assets/discord_bot/config/token.txt"
 
@@ -98,9 +102,18 @@ def runBot():
                 # Send File
                 if jm.isJsonKey("file", data) and data["file"] != "":
                     source.log("Sending file to channel")
-                    file_name_index = data["file"].rfind("/") + 1
-                    file = discord.File(data["file"], filename=data["file"][file_name_index:])
-                    await message.channel.send(file=file)
+                    # Check up on the file size
+                    file_info = fm.FileManager.split_file_path(data["file"])
+                    file_size = fm.FileManager.get_file_size(file_info[0], file_info[1])
+                    # Send the file - If it is smaller than max size
+                    if FILE_SIZE_LIMIT > file_size:
+                        file = discord.File(data["file"], filename=file_info[1])
+                        await message.channel.send(file=file)
+                    # Otherwise dont send the file
+                    else:
+                        await message.channel.send(f"File {data["file"]} could not be sent. Too big! Size: {file_size} bytes / {FILE_SIZE_LIMIT} bytes")
+                        await message.channel.send(f"Attempting to push data to backup drive.")
+                        await message.channel.send(sb.Storage_Backup.backup_file(file_info[0], file_info[1]))
                 elif jm.isJsonKey("file", data) and data["file"] == "":
                     source.log(clr(f"No file found, continuing", 'green'))
                 else:

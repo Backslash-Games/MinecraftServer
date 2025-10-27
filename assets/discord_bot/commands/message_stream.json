@@ -1,0 +1,8 @@
+{
+    "keyword": "message_stream",
+    "args": "[1]",
+    "directory": "/src/commands/message_stream_command.py",
+    "manual_directory": "/assets/discord_bot/manuals/message_stream_command.md",
+    "compile": true,
+    "require_admin": true
+}
