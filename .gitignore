@@ -3,6 +3,7 @@ assets/discord_bot/config/token.txt
 assets/discord_bot/config/admin_whitelist.json
 assets/discord_bot/message_stream.json
 assets/discord_bot/commands.json
+assets/discord_bot/images/
 assets/storage/backup_storage.json
 assets/runtime.log
 server/

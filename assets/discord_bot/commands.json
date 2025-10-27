@@ -1,11 +1,11 @@
 {
-    "admin": {
-        "keyword": "admin",
-        "args": "[1, 2]",
-        "directory": "/src/commands/admin_management.py",
-        "manual_directory": "/assets/discord_bot/manuals/admin.md",
+    "help": {
+        "keyword": "help",
+        "args": "[0, 1]",
+        "directory": "/src/commands/help.py",
+        "manual_directory": "/assets/discord_bot/manuals/help.md",
         "compile": true,
-        "require_admin": true
+        "require_admin": false
     },
     "backup": {
         "keyword": "backup",
@@ -15,13 +15,21 @@
         "compile": true,
         "require_admin": true
     },
-    "help": {
-        "keyword": "help",
-        "args": "[0, 1]",
-        "directory": "/src/commands/help.py",
-        "manual_directory": "/assets/discord_bot/manuals/help.md",
+    "message_stream": {
+        "keyword": "message_stream",
+        "args": "[1]",
+        "directory": "/src/commands/message_stream_command.py",
+        "manual_directory": "/assets/discord_bot/manuals/message_stream_command.md",
         "compile": true,
-        "require_admin": false
+        "require_admin": true
+    },
+    "admin": {
+        "keyword": "admin",
+        "args": "[1, 2]",
+        "directory": "/src/commands/admin_management.py",
+        "manual_directory": "/assets/discord_bot/manuals/admin.md",
+        "compile": true,
+        "require_admin": true
     },
     "list": {
         "keyword": "list",
@@ -36,14 +44,6 @@
         "args": "[0]",
         "directory": "/src/commands/log.py",
         "manual_directory": "/assets/discord_bot/manuals/log.md",
-        "compile": true,
-        "require_admin": true
-    },
-    "message_stream": {
-        "keyword": "message_stream",
-        "args": "[1]",
-        "directory": "/src/commands/message_stream_command.py",
-        "manual_directory": "/assets/discord_bot/manuals/message_stream_command.md",
         "compile": true,
         "require_admin": true
     }
