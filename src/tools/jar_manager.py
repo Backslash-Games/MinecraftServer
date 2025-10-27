@@ -37,7 +37,7 @@ def runJar(dir, file_name):
         old_dir = os.getcwd()
         os.chdir(jar_path)
         # response = subprocess.check_output(["java", "-Duser.dir=" + jar_path, "-jar", jar_file], text=True)
-        java_process = subprocess.check_output(["java", "-jar", jar_file], text=True)
+        java_process = subprocess.check_output(["java", "-Xmx13g", "-Xms13g", "-jar", jar_file], text=True)
 
         # source.log(f"Popen data\n{clr(java_process, 'light_blue')}")
 
