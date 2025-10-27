@@ -98,7 +98,8 @@ def runBot():
                 # Send File
                 if jm.isJsonKey("file", data) and data["file"] != "":
                     source.log("Sending file to channel")
-                    file = discord.File(data["file"], filename="backup.zip")
+                    file_name_index = data["file"].rfind("/") + 1
+                    file = discord.File(data["file"], filename=data["file"][file_name_index:])
                     await message.channel.send(file=file)
                 elif jm.isJsonKey("file", data) and data["file"] == "":
                     source.log(clr(f"No file found, continuing", 'green'))

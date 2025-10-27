@@ -1,6 +1,6 @@
 {
     "queued": false,
-    "message": "\n- admin\n- backup\n- help\n- list",
-    "file": "",
+    "message": "Returning logs",
+    "file": "/home/halfhand870/MinecraftServer/assets/runtime.log",
     "args": []
 }

@@ -1,0 +1,8 @@
+{
+    "keyword": "log",
+    "args": "[0]",
+    "directory": "/src/commands/log.py",
+    "manual_directory": "/assets/discord_bot/manuals/log.md",
+    "compile": true,
+    "require_admin": true
+}
