@@ -1,4 +1,6 @@
 .depreciated/
 assets/discord_bot/config/token.txt
 assets/discord_bot/config/admin_whitelist.json
+assets/discrod_bot/message_stream.json
+assets/runtime.log
 server/
