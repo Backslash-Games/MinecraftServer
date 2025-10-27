@@ -3,8 +3,8 @@
 # Import basic
 import os
 import shutil
+import sys
 
-from src.commands.backup import temp_fm
 # Import tools
 from src.tools import json_manager as jm
 from src.tools import directory_manager as dm
