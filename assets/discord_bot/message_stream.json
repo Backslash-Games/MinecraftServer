@@ -1,5 +1,5 @@
 {
     "queued": false,
-    "message": "\n- help\n- backup\n- admin\n- list",
+    "message": "Backup method finished with response **/home/sof_admin/MinecraftServer/server/.backup/backup_d20251025t171303.zip**",
     "args": []
 }
