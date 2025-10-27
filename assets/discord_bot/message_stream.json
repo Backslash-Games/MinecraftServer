@@ -1,6 +1,6 @@
 {
-    "queued": true,
-    "message": "Backup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/world.backup_d20251027t170337.zip**",
-    "file": "/home/halfhand870/MinecraftServer/server/.backup/world.backup_d20251027t170337.zip",
+    "queued": false,
+    "message": "Backup method finished with response **/home/halfhand870/MinecraftServer/server/.backup/world_backup_d20251027t172117.zip**",
+    "file": "/home/halfhand870/MinecraftServer/server/.backup/world_backup_d20251027t172117.zip",
     "args": []
 }

@@ -116,7 +116,7 @@ class DirectoryManager:
         # Backup Logic
         # -> Get current backup name
         time_string = tf.Time.get_format_now()
-        backup_name = f"{id}.backup_{time_string}"
+        backup_name = f"{id}_backup_{time_string}"
         # -> Backup world
         try:
             static_source.log(f"Creating backup at {backup_directory}")
